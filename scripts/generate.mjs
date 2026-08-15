@@ -81,11 +81,8 @@ async function main() {
       messages: [
         {
           role: "user",
-          content: `Gere o fechamento de mercado de hoje, ${today}. Use dados reais do último pregão disponível, pesquisando na internet (se hoje for fim de semana ou feriado, use o último dia útil).`,
+          content: `Gere o fechamento de mercado de hoje, ${today}. Use dados reais do último pregão disponível, pesquisando na internet (se hoje for fim de semana ou feriado, use o último dia útil). Responda somente com o JSON pedido, sem nenhum texto de raciocínio antes ou depois.`,
         },
-        // "Prefill": força a resposta final a começar direto com "{",
-        // sem nenhum texto de raciocínio antes do JSON.
-        { role: "assistant", content: "{" },
       ],
     }),
   });
@@ -97,9 +94,7 @@ async function main() {
 
   const json = await resp.json();
   const textBlocks = json.content.filter((c) => c.type === "text").map((c) => c.text);
-  // Reanexa a chave "{" que foi usada como prefill (o modelo continua a partir
-  // dela, mas a API não a repete na resposta).
-  const fullText = "{" + textBlocks.join("\n").trim();
+  const fullText = textBlocks.join("\n").trim();
   const noFences = fullText.replace(/```json|```/g, "").trim();
 
   // Extrai só o trecho entre a primeira "{" e a última "}", ignorando
