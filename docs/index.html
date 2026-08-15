@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fechamento de Mercado — hoje</title>
+<meta name="description" content="Fechamento diário do mercado financeiro, explicado em linguagem simples." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #0F1B2D;
+    --panel: #16283F;
+    --border: #1E2E45;
+    --accent: #D9A441;
+    --text: #F2EDE4;
+    --muted: #93A1B4;
+    --up: #6FA287;
+    --down: #C4694A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .serif { font-family: 'Fraunces', serif; }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  header {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 56px 24px 40px;
+  }
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: clamp(28px, 5vw, 48px);
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 18px 0 0;
+  }
+  .session-bar {
+    position: relative;
+    height: 6px;
+    border-radius: 3px;
+    margin-top: 32px;
+    background: linear-gradient(90deg, #2A3B52 0%, var(--accent) 50%, #2A3B52 100%);
+    opacity: 0.85;
+  }
+  .session-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+    display: grid;
+    gap: 14px;
+  }
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+    background: var(--panel);
+  }
+  .card-top {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .idx {
+    font-size: 11px;
+    color: var(--accent);
+  }
+  .card h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+  }
+  ul.bullets {
+    margin: 12px 0 0;
+    padding-left: 18px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  ul.bullets li { margin-bottom: 4px; }
+  .explanation {
+    margin: 10px 0 0;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .na-pratica {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--border);
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .na-pratica b { color: var(--accent); font-weight: 600; }
+  .empty, .stale {
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    padding: 40px 24px;
+    text-align: center;
+    color: var(--muted);
+  }
+  footer {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px 60px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <span class="eyebrow" id="date-label">carregando data...</span>
+    <h1 class="serif" id="headline">Fechamento de mercado, explicado para o seu dia a dia.</h1>
+    <div class="session-bar"></div>
+    <div class="session-labels">
+      <span class="mono">abertura · 10h</span>
+      <span class="mono">fechamento · 17h30</span>
+    </div>
+  </header>
+
+  <main id="sections">
+    <div class="empty">Carregando o fechamento de hoje...</div>
+  </main>
+
+  <footer>
+    Atualizado automaticamente todo dia útil após o fechamento do mercado.
+  </footer>
+
+  <script>
+    async function load() {
+      const container = document.getElementById("sections");
+      try {
+        const res = await fetch("./content.json?t=" + Date.now());
+        if (!res.ok) throw new Error("content.json não encontrado");
+        const data = await res.json();
+
+        document.getElementById("headline").textContent = data.headline || "Fechamento de mercado de hoje";
+        const dateObj = data.date ? new Date(data.date + "T12:00:00") : new Date();
+        document.getElementById("date-label").textContent = dateObj.toLocaleDateString("pt-BR", {
+          weekday: "long", day: "2-digit", month: "long", year: "numeric"
+        });
+
+        container.innerHTML = "";
+        (data.sections || []).forEach((s) => {
+          const card = document.createElement("div");
+          card.className = "card";
+
+          const top = document.createElement("div");
+          top.className = "card-top";
+          top.innerHTML = `<span class="idx mono">${String(s.id).padStart(2, "0")}</span><h3 class="serif">${s.title}</h3>`;
+          card.appendChild(top);
+
+          if (s.bullets && s.bullets.length) {
+            const ul = document.createElement("ul");
+            ul.className = "bullets";
+            s.bullets.forEach((b) => {
+              const li = document.createElement("li");
+              li.textContent = b;
+              ul.appendChild(li);
+            });
+            card.appendChild(ul);
+          }
+
+          if (s.explanation) {
+            const p = document.createElement("p");
+            p.className = "explanation";
+            p.textContent = s.explanation;
+            card.appendChild(p);
+          }
+
+          if (s.summary) {
+            const p = document.createElement("p");
+            p.className = "explanation";
+            p.textContent = s.summary;
+            card.appendChild(p);
+          }
+
+          if (s.na_pratica) {
+            const p = document.createElement("p");
+            p.className = "na-pratica";
+            p.innerHTML = `<b>Na prática:</b> ${s.na_pratica}`;
+            card.appendChild(p);
+          }
+
+          container.appendChild(card);
+        });
+      } catch (e) {
+        container.innerHTML = '<div class="stale">Ainda não há um fechamento gerado. O primeiro será publicado após a próxima execução automática.</div>';
+        console.error(e);
+      }
+    }
+    load();
+  </script>
+</body>
+</html>
