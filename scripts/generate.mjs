@@ -75,14 +75,17 @@ async function main() {
     },
     body: JSON.stringify({
       model: "claude-sonnet-4-6",
-      max_tokens: 4000,
+      max_tokens: 8000,
       system: SYSTEM_PROMPT,
       tools: [{ type: "web_search_20250305", name: "web_search" }],
       messages: [
         {
           role: "user",
-          content: `Gere o fechamento de mercado de hoje, ${today}. Use dados reais de fechamento do pregão de hoje, pesquisando na internet.`,
+          content: `Gere o fechamento de mercado de hoje, ${today}. Use dados reais do último pregão disponível, pesquisando na internet (se hoje for fim de semana ou feriado, use o último dia útil).`,
         },
+        // "Prefill": força a resposta final a começar direto com "{",
+        // sem nenhum texto de raciocínio antes do JSON.
+        { role: "assistant", content: "{" },
       ],
     }),
   });
@@ -94,15 +97,28 @@ async function main() {
 
   const json = await resp.json();
   const textBlocks = json.content.filter((c) => c.type === "text").map((c) => c.text);
-  const fullText = textBlocks.join("\n").trim();
-  const cleaned = fullText.replace(/```json|```/g, "").trim();
+  // Reanexa a chave "{" que foi usada como prefill (o modelo continua a partir
+  // dela, mas a API não a repete na resposta).
+  const fullText = "{" + textBlocks.join("\n").trim();
+  const noFences = fullText.replace(/```json|```/g, "").trim();
+
+  // Extrai só o trecho entre a primeira "{" e a última "}", ignorando
+  // qualquer texto de raciocínio que eventualmente sobre antes/depois.
+  const start = noFences.indexOf("{");
+  const end = noFences.lastIndexOf("}");
+  if (start === -1 || end === -1 || end < start) {
+    console.error("Resposta do modelo não contém um JSON reconhecível:");
+    console.error(noFences);
+    throw new Error("JSON não encontrado na resposta");
+  }
+  const jsonStr = noFences.slice(start, end + 1);
 
   let parsed;
   try {
-    parsed = JSON.parse(cleaned);
+    parsed = JSON.parse(jsonStr);
   } catch (e) {
     console.error("Não foi possível parsear o JSON retornado pelo modelo:");
-    console.error(fullText);
+    console.error(jsonStr);
     throw e;
   }
 
