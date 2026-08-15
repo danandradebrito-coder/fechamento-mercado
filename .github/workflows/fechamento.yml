@@ -1,0 +1,36 @@
+name: Gerar fechamento diário
+
+on:
+  schedule:
+    # 20:35 UTC = 17:35 no horário de Brasília (UTC-3), de segunda a sexta.
+    # Ajuste o horário se quiser gerar mais cedo/tarde.
+    - cron: "35 20 * * 1-5"
+  workflow_dispatch: {} # permite rodar manualmente pela aba "Actions" no GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-e-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Gerar fechamento de hoje
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate.mjs
+
+      - name: Publicar (commit do content.json atualizado)
+        run: |
+          git config user.name "fechamento-bot"
+          git config user.email "actions@github.com"
+          git add docs/content.json
+          git diff --cached --quiet || git commit -m "Atualiza fechamento de mercado - $(date -u +'%Y-%m-%d')"
+          git push
