@@ -1,1 +1,8 @@
-
+{
+  "name": "fechamento-mercado",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "jsonrepair": "^3.9.0"
+  }
+}
