@@ -1,0 +1,35 @@
+name: Gerar fechamento semanal
+
+on:
+  schedule:
+    # 22:00 UTC = 19h no horário de Brasília (UTC-3), toda sexta-feira.
+    - cron: "0 22 * * 5"
+  workflow_dispatch: {} # permite rodar manualmente pela aba "Actions"
+
+permissions:
+  contents: write
+
+jobs:
+  gerar-e-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Gerar fechamento da semana
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-semanal.mjs
+
+      - name: Publicar (commit do content-semanal.json atualizado)
+        run: |
+          git config user.name "fechamento-bot"
+          git config user.email "actions@github.com"
+          git add docs/content-semanal.json
+          git diff --cached --quiet || git commit -m "Atualiza fechamento semanal - $(date -u +'%Y-%m-%d')"
+          git push
