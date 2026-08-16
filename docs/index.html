@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Fechamento de Mercado — hoje</title>
-<meta name="description" content="Fechamento diário do mercado financeiro, explicado em linguagem simples." />
+<title>Fechamento de Mercado</title>
+<meta name="description" content="Fechamento diário e semanal do mercado financeiro, explicado em linguagem simples." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
@@ -31,6 +31,30 @@
     max-width: 880px;
     margin: 0 auto;
     padding: 56px 24px 40px;
+  }
+  .tabs {
+    display: inline-flex;
+    gap: 4px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 4px;
+    margin-bottom: 28px;
+  }
+  .tab-btn {
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .tab-btn.active {
+    background: var(--accent);
+    color: var(--bg);
   }
   .eyebrow {
     font-size: 12px;
@@ -76,6 +100,7 @@
     display: flex;
     align-items: baseline;
     gap: 10px;
+    margin-bottom: 14px;
   }
   .idx {
     font-size: 11px;
@@ -86,26 +111,45 @@
     font-weight: 600;
     margin: 0;
   }
+  .card-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .col-label {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
   ul.bullets {
-    margin: 12px 0 0;
+    margin: 0;
     padding-left: 18px;
     font-size: 14px;
     line-height: 1.6;
   }
   ul.bullets li { margin-bottom: 4px; }
   .explanation {
-    margin: 10px 0 0;
-    font-size: 15px;
+    margin: 0;
+    font-size: 14px;
     line-height: 1.6;
+    padding-left: 18px;
+    border-left: 1px solid var(--border);
   }
   .na-pratica {
-    margin-top: 12px;
+    grid-column: 1 / -1;
+    margin-top: 4px;
     padding-top: 12px;
     border-top: 1px dashed var(--border);
     font-size: 13px;
     color: var(--muted);
   }
   .na-pratica b { color: var(--accent); font-weight: 600; }
+  .summary-only {
+    font-size: 15px;
+    line-height: 1.6;
+  }
   .empty, .stale {
     border: 1px dashed var(--border);
     border-radius: 12px;
@@ -120,91 +164,184 @@
     color: var(--muted);
     font-size: 12px;
   }
+  @media (max-width: 640px) {
+    .card-body { grid-template-columns: 1fr; gap: 14px; }
+    .explanation { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 12px; }
+  }
 </style>
 </head>
 <body>
   <header>
-    <span class="eyebrow" id="date-label">carregando data...</span>
-    <h1 class="serif" id="headline">Fechamento de mercado, explicado para o seu dia a dia.</h1>
-    <div class="session-bar"></div>
-    <div class="session-labels">
-      <span class="mono">abertura · 10h</span>
-      <span class="mono">fechamento · 17h30</span>
+    <div class="tabs">
+      <button class="tab-btn active" id="tab-diario" onclick="switchTab('diario')">Diário</button>
+      <button class="tab-btn" id="tab-semanal" onclick="switchTab('semanal')">Semanal</button>
+    </div>
+
+    <div>
+      <span class="eyebrow" id="date-label">carregando data...</span>
+      <h1 class="serif" id="headline">Fechamento de mercado, explicado para o seu dia a dia.</h1>
+    </div>
+
+    <div id="session-bar-wrap">
+      <div class="session-bar"></div>
+      <div class="session-labels">
+        <span class="mono">abertura · 10h</span>
+        <span class="mono">fechamento · 17h30</span>
+      </div>
     </div>
   </header>
 
   <main id="sections">
-    <div class="empty">Carregando o fechamento de hoje...</div>
+    <div class="empty">Carregando...</div>
   </main>
 
   <footer>
-    Atualizado automaticamente todo dia útil após o fechamento do mercado.
+    Fechamento diário atualizado automaticamente todo dia útil às 17h35.
+    Fechamento semanal atualizado toda sexta-feira às 19h. (Horário de Brasília)
   </footer>
 
   <script>
-    async function load() {
-      const container = document.getElementById("sections");
-      try {
-        const res = await fetch("./content.json?t=" + Date.now());
-        if (!res.ok) throw new Error("content.json não encontrado");
-        const data = await res.json();
+    let currentTab = "diario";
+    const cache = {};
 
-        document.getElementById("headline").textContent = data.headline || "Fechamento de mercado de hoje";
-        const dateObj = data.date ? new Date(data.date + "T12:00:00") : new Date();
-        document.getElementById("date-label").textContent = dateObj.toLocaleDateString("pt-BR", {
-          weekday: "long", day: "2-digit", month: "long", year: "numeric"
+    const FILES = {
+      diario: "./content.json",
+      semanal: "./content-semanal.json",
+    };
+
+    function switchTab(tab) {
+      currentTab = tab;
+      document.getElementById("tab-diario").classList.toggle("active", tab === "diario");
+      document.getElementById("tab-semanal").classList.toggle("active", tab === "semanal");
+      document.getElementById("session-bar-wrap").style.display = tab === "diario" ? "block" : "none";
+      render();
+    }
+
+    async function loadData(tab) {
+      if (cache[tab]) return cache[tab];
+      const res = await fetch(FILES[tab] + "?t=" + Date.now());
+      if (!res.ok) throw new Error("arquivo não encontrado: " + FILES[tab]);
+      const data = await res.json();
+      cache[tab] = data;
+      return data;
+    }
+
+    function buildSectionCard(s) {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      const top = document.createElement("div");
+      top.className = "card-top";
+      top.innerHTML = `<span class="idx mono">${String(s.id).padStart(2, "0")}</span><h3 class="serif">${s.title}</h3>`;
+      card.appendChild(top);
+
+      const body = document.createElement("div");
+      body.className = "card-body";
+
+      if (s.bullets && s.bullets.length) {
+        const leftCol = document.createElement("div");
+        const leftLabel = document.createElement("p");
+        leftLabel.className = "col-label mono";
+        leftLabel.textContent = "Dados";
+        leftCol.appendChild(leftLabel);
+        const ul = document.createElement("ul");
+        ul.className = "bullets";
+        s.bullets.forEach((b) => {
+          const li = document.createElement("li");
+          li.textContent = b;
+          ul.appendChild(li);
         });
+        leftCol.appendChild(ul);
+        body.appendChild(leftCol);
+
+        if (s.explanation) {
+          const rightCol = document.createElement("div");
+          const rightLabel = document.createElement("p");
+          rightLabel.className = "col-label mono";
+          rightLabel.textContent = "O que motivou";
+          rightCol.appendChild(rightLabel);
+          const p = document.createElement("p");
+          p.className = "explanation";
+          p.textContent = s.explanation;
+          rightCol.appendChild(p);
+          body.appendChild(rightCol);
+        }
+      } else if (s.agenda_passada || s.agenda_futura) {
+        const leftCol = document.createElement("div");
+        const leftLabel = document.createElement("p");
+        leftLabel.className = "col-label mono";
+        leftLabel.textContent = "O que já aconteceu";
+        leftCol.appendChild(leftLabel);
+        const ulL = document.createElement("ul");
+        ulL.className = "bullets";
+        (s.agenda_passada || []).forEach((b) => {
+          const li = document.createElement("li");
+          li.textContent = b;
+          ulL.appendChild(li);
+        });
+        leftCol.appendChild(ulL);
+        body.appendChild(leftCol);
+
+        const rightCol = document.createElement("div");
+        const rightLabel = document.createElement("p");
+        rightLabel.className = "col-label mono";
+        rightLabel.textContent = "O que vem por aí";
+        rightCol.appendChild(rightLabel);
+        const ulR = document.createElement("ul");
+        ulR.className = "bullets";
+        (s.agenda_futura || []).forEach((b) => {
+          const li = document.createElement("li");
+          li.textContent = b;
+          ulR.appendChild(li);
+        });
+        rightCol.appendChild(ulR);
+        body.appendChild(rightCol);
+      } else if (s.summary) {
+        const p = document.createElement("p");
+        p.className = "summary-only";
+        p.textContent = s.summary;
+        body.appendChild(p);
+      }
+
+      card.appendChild(body);
+
+      if (s.na_pratica) {
+        const p = document.createElement("p");
+        p.className = "na-pratica";
+        p.innerHTML = `<b>Na prática:</b> ${s.na_pratica}`;
+        card.appendChild(p);
+      }
+
+      return card;
+    }
+
+    async function render() {
+      const container = document.getElementById("sections");
+      container.innerHTML = '<div class="empty">Carregando...</div>';
+      try {
+        const data = await loadData(currentTab);
+
+        document.getElementById("headline").textContent = data.headline || "Fechamento de mercado";
+        if (currentTab === "diario") {
+          const dateObj = data.date ? new Date(data.date + "T12:00:00") : new Date();
+          document.getElementById("date-label").textContent = dateObj.toLocaleDateString("pt-BR", {
+            weekday: "long", day: "2-digit", month: "long", year: "numeric"
+          });
+        } else {
+          document.getElementById("date-label").textContent = data.week_label
+            ? "Semana de " + data.week_label
+            : "Fechamento semanal";
+        }
 
         container.innerHTML = "";
-        (data.sections || []).forEach((s) => {
-          const card = document.createElement("div");
-          card.className = "card";
-
-          const top = document.createElement("div");
-          top.className = "card-top";
-          top.innerHTML = `<span class="idx mono">${String(s.id).padStart(2, "0")}</span><h3 class="serif">${s.title}</h3>`;
-          card.appendChild(top);
-
-          if (s.bullets && s.bullets.length) {
-            const ul = document.createElement("ul");
-            ul.className = "bullets";
-            s.bullets.forEach((b) => {
-              const li = document.createElement("li");
-              li.textContent = b;
-              ul.appendChild(li);
-            });
-            card.appendChild(ul);
-          }
-
-          if (s.explanation) {
-            const p = document.createElement("p");
-            p.className = "explanation";
-            p.textContent = s.explanation;
-            card.appendChild(p);
-          }
-
-          if (s.summary) {
-            const p = document.createElement("p");
-            p.className = "explanation";
-            p.textContent = s.summary;
-            card.appendChild(p);
-          }
-
-          if (s.na_pratica) {
-            const p = document.createElement("p");
-            p.className = "na-pratica";
-            p.innerHTML = `<b>Na prática:</b> ${s.na_pratica}`;
-            card.appendChild(p);
-          }
-
-          container.appendChild(card);
-        });
+        (data.sections || []).forEach((s) => container.appendChild(buildSectionCard(s)));
       } catch (e) {
-        container.innerHTML = '<div class="stale">Ainda não há um fechamento gerado. O primeiro será publicado após a próxima execução automática.</div>';
+        container.innerHTML = '<div class="stale">Ainda não há um fechamento gerado para esta aba. Ele será publicado na próxima execução automática.</div>';
         console.error(e);
       }
     }
-    load();
+
+    render();
   </script>
 </body>
 </html>
