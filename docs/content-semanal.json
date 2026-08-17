@@ -1,0 +1,166 @@
+{
+  "date": "2026-08-17",
+  "week_label": "11 a 15 de agosto de 2026",
+  "headline": "Ibovespa acumula 9 quedas seguidas, dólar rompe R$ 5,20 e petróleo sobe ~6% no impasse EUA-Irã",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Juros Brasil — DI Futuro (B3)",
+      "bullets": [
+        "DI1F27 (jan/2027): ~14,20% na sexta — +15 bps na semana",
+        "DI1F28 (jan/2028): ~13,90% na sexta — +18 bps na semana",
+        "DI1F29 (jan/2029): ~13,70% na sexta — +20 bps na semana",
+        "DI1F30 (jan/2030): ~13,55% na sexta — +22 bps na semana",
+        "DI1F32 (jan/2032): ~13,45% na sexta — +25 bps na semana",
+        "DI1F33 (jan/2033): ~13,40% na sexta — +26 bps na semana",
+        "DI1F34 (jan/2034): ~13,38% na sexta — +27 bps na semana",
+        "DI1F36 (jan/2036): ~13,35% na sexta — +28 bps na semana",
+        "Curva abriu (taxas subiram) ao longo de toda a semana, com os contratos longos subindo mais — movimento chamado de 'steepening' (inclinação da curva)",
+        "Selic atual: 14,00% a.a. — Copom cortou 0,25 pp na última reunião (julho/2026); mercado precifica mais um corte de 0,25 pp para 13,75% ainda em 2026"
+      ],
+      "explanation": "O DI Futuro é como um termômetro: mostra o quanto o mercado acha que os juros vão estar no futuro. Quando as taxas sobem (como esta semana), quer dizer que o mercado ficou mais preocupado — seja com inflação, câmbio ou risco político. O 'steepening' significa que as taxas dos contratos mais longos (2032-2036) subiram mais do que as dos contratos curtos. É como se o mercado dissesse: 'no curto prazo até sei mais ou menos o que vai acontecer, mas no longo prazo tem muita incerteza'. Nesta semana os vetores foram: (1) petróleo voltando para perto de US$ 90 com impasse no Estreito de Ormuz — o que preocupa com inflação global; (2) IPCA de julho saindo a +0,07%, levemente acima do esperado de +0,03%; (3) saída de estrangeiros da bolsa e percepção de risco eleitoral elevando o prêmio de risco Brasil.",
+      "na_pratica": "Prefixado (ex: Tesouro Prefixado, LTN): quem já tem sofre desvalorização marcada a mercado, mas quem comprar agora trava taxas maiores — boa oportunidade para quem carrega até o vencimento. Pós-fixado (CDI/Selic, ex: LFT, CDB DI): se beneficia diretamente: Selic em 14% rende bem, sem risco de preço. Indexado à inflação (NTN-B/Tesouro IPCA+): a abertura dos juros longos derrubou os preços dos títulos mais longos — quem carrega até o vencimento recebe IPCA + 7%+ ao ano, mas pode ver saldo oscilar no curto prazo."
+    },
+    {
+      "id": 2,
+      "title": "CDI",
+      "bullets": [
+        "Selic vigente: 14,00% a.a. (após corte de 0,25 pp na reunião do Copom de julho/2026)",
+        "CDI diário equivalente: ~0,053% ao dia; rentabilidade acumulada na semana (5 dias úteis): ~0,27%",
+        "Focus (10/08): projeção de IPCA 2026 recuou de 5,03% para 5,02%; Selic fim de 2026 projetada em 13,75% — indicando mais um corte de 0,25 pp esperado",
+        "Ata do Copom (divulgada terça-feira 11/08): corte foi 'cauteloso', com o comitê reconhecendo desinflação em curso mas mantendo atenção às expectativas desancoradas para 2027"
+      ],
+      "explanation": "O CDI é a taxa que os bancos usam para emprestar dinheiro entre si da noite para o dia. Na prática, ele anda junto com a Selic e é o 'padrão ouro' da renda fixa conservadora: CDBs, fundos DI, LCIs e LCAs geralmente rendem uma porcentagem do CDI. Com a Selic em 14% ao ano, cada R$ 1.000 investidos em algo que pague 100% do CDI rende cerca de R$ 2,70 por semana — sem surpresas, sem volatilidade.",
+      "na_pratica": ""
+    },
+    {
+      "id": 3,
+      "title": "Ibovespa",
+      "bullets": [
+        "Fechamento sexta (15/08): 166.934,20 pontos — queda de 0,10% no dia",
+        "Variação semanal acumulada: -3,23% (9ª queda consecutiva — maior série desde 2023)",
+        "Variação no mês (agosto): -6,22%",
+        "Variação no ano (YTD): +3,61%",
+        "Volume financeiro no dia: R$ 30,08 bilhões (referente ao vencimento de opções sobre ações na sexta-feira)",
+        "Top 5 altas da semana: MINERVA (BEEF3) +5,26%; HAPVIDA (HAPV3) +4,99%; EMBRAER (EMBR3) +2,43%; ITAÚ UNIBANCO (ITUB4) +1,80%; PETROBRAS PN (PETR4) +0,45%",
+        "Top 5 baixas da semana: BRASKEM (BRKM5) -7,68%; YDUQS (YDUQ3) -5,18%; CPFL ENERGIA (CPFE3) -4,49%; LOJAS RENNER (LREN3) -2,61%; VALE (VALE3) -0,83%",
+        "Setorial IFNC (financeiro): -9% no mês — bancos pressionados pela saída de estrangeiros e rebaixamento de analistas",
+        "Setorial IMOB (imobiliário): -2,55% na quinzena — construtoras sensíveis à abertura dos juros longos",
+        "Setorial ICON (consumo cíclico): queda — varejo sofre com custo de capital alto e preocupações eleitorais",
+        "Setorial INDX (industrial): praticamente estável na semana — desempenho defensivo relativo",
+        "Setorial IEEX (energia elétrica): queda expressiva — petróleo alto e tarifas pressionando",
+        "Setorial IMAT (materiais básicos): queda moderada — minério de ferro sem grande impulso",
+        "Setorial UTIL (utilidades): -9% no mês — sensível à abertura dos juros longos e petróleo"
+      ],
+      "explanation": "Foi a pior sequência de quedas do Ibovespa em mais de 3 anos. A bolsa caiu 9 dias seguidos, puxada por três forças: (1) saída de investidores estrangeiros — uma espécie de 'voto de desconfiança' com as eleições de outubro no radar; (2) juros longos subindo por causa do petróleo caro (que ameaça inflação); (3) resultados de empresas como BTG Pactual e Sabesp frustrando o mercado. Dia de destaque positivo: terça-feira, com o S&P 500 renovando máxima após CPI americano benigno — mas o alívio foi passageiro no Brasil. Na sexta o índice reduziu as perdas no final do pregão, mas não reverteu o sinal.",
+      "na_pratica": "Quem investe em ações diretamente ou em fundos de ações viveu uma semana difícil. O Ibovespa está 16% abaixo do recorde histórico de abril de 2026, mas ainda 22% acima de um ano atrás. Para quem tem horizonte longo, quedas como essa historicamente criam oportunidades — mas a incerteza eleitoral pode manter a volatilidade alta até outubro."
+    },
+    {
+      "id": 4,
+      "title": "IFIX",
+      "bullets": [
+        "IFIX (Índice de Fundos Imobiliários) recuou 2,25% na semana (encerrada em 14/08)",
+        "FIIs de papel (recebíveis imobiliários): -1,72% na semana",
+        "FIIs de tijolo (shoppings, galpões, lajes): -2,23% na semana",
+        "YTD (acumulado 2026): -2,45%"
+      ],
+      "explanation": "O IFIX é o termômetro dos Fundos de Investimento Imobiliário (FIIs) — pense neles como uma forma de investir em imóveis pela bolsa, recebendo 'aluguel' todo mês sem precisar comprar um apartamento. Quando os juros longos sobem (como aconteceu esta semana), os FIIs ficam menos atrativos em comparação com a renda fixa, que rende mais sem risco. É como se o 'aluguel' do fundo competisse com o 'rendimento garantido' dos títulos públicos — e essa semana o título público ganhou o duelo.",
+      "na_pratica": ""
+    },
+    {
+      "id": 5,
+      "title": "Renda Fixa — Títulos Públicos",
+      "bullets": [
+        "NTN-B (Tesouro IPCA+) curta [2028]: taxa subiu ~15 bps na semana — pressão do IPCA levemente acima do esperado",
+        "NTN-B (Tesouro IPCA+) média [2031]: taxa subiu ~22 bps — abertura relevante impactando preço dos papéis",
+        "NTN-B (Tesouro IPCA+) longa [2035]: taxa subiu ~28 bps — maior abertura, atinge IPCA + ~7,1% a.a.",
+        "LTN (Tesouro Prefixado) [jan/2027]: taxa ao redor de 14,20% — abertura de ~15 bps na semana",
+        "LFT (Tesouro Selic) [2029]: praticamente estável, andando colado à Selic de 14% a.a."
+      ],
+      "explanation": "Três tipos de título público, três comportamentos diferentes: (1) LFT (Tesouro Selic): rende a Selic, sem oscilação de preço. É como deixar em poupança turbinada — seguro e previsível. Bom para reserva de emergência. (2) LTN (Tesouro Prefixado): você trava uma taxa hoje (ex: 14,20% ao ano). Se os juros subirem depois, o título 'perde' valor no mercado — mas se carregar até o fim, recebe exatamente o que contratou. (3) NTN-B (Tesouro IPCA+): paga inflação mais um juro real (ex: IPCA + 7%). Protege do aumento de preços. Esta semana, com a curva abrindo, as NTN-Bs longas ficaram 'mais baratas' — quem comprar agora trava taxas históricas, mas o saldo pode oscilar antes do vencimento.",
+      "na_pratica": "Semana favorável para comprar NTN-B longa — taxas reais perto de IPCA+7% a.a. são historicamente elevadas e protegem bem do cenário de inflação incerta. LFT continua sendo o porto seguro para quem quer liquidez. Prefixado: mais arriscado no curto prazo, mas atrativo para quem acredita que os juros vão cair mais rápido do que o mercado precifica."
+    },
+    {
+      "id": 6,
+      "title": "Câmbio",
+      "bullets": [
+        "Dólar/Real (PTAX sexta, 15/08): R$ 5,2135 — alta de +0,52% no dia; alta de +2,68% na semana",
+        "Fechamento 14/08 (quinta, dia de maior volume): R$ 5,2199 — maior patamar desde 30 de março de 2026",
+        "DXY (índice do dólar frente a cesta de moedas fortes): ~99,65 pts, queda de ~0,3% no dia e ~0,15% no mês — o dólar enfraqueceu globalmente, mas o real não acompanhou o movimento",
+        "Acumulado YTD do dólar vs real: dólar -7,39% (real ainda valorizado no ano, mas cedendo em agosto)"
+      ],
+      "explanation": "O dólar subiu contra o real mesmo com o dólar fraco lá fora — isso é um sinal de problema interno. O PTAX é a taxa oficial do Banco Central, usada em contratos comerciais. O real sofreu por três motivos específicos do Brasil: (1) saída de investidores estrangeiros da bolsa (vendem ações em reais e compram dólares de volta); (2) o governo anunciou início de mecanismo de reciprocidade contra tarifas americanas, aumentando o risco de retaliações comerciais; (3) incerteza eleitoral — com eleições em outubro, investidores pedem 'prêmio' para ficar em ativos brasileiros. O Banco Central anunciou dois leilões de venda de dólares para a segunda-feira (17/08) para tentar conter a volatilidade.",
+      "na_pratica": "Viagens ao exterior ficaram mais caras esta semana (câmbio subiu ~2,7%). Produtos importados tendem a ficar mais caros nos próximos meses. Para quem tem investimentos internacionais (dólar, fundos cambiais, BDRs), foi uma boa semana — valorizaram em reais. Dólar acima de R$ 5,20 pressiona inflação doméstica, especialmente combustíveis."
+    },
+    {
+      "id": 7,
+      "title": "Mercados EUA",
+      "bullets": [
+        "S&P 500: fechou sexta em 7.785,76 pts (-0,17% no dia); +0,4% na semana — 3ª semana consecutiva de alta; tocou recorde histórico intraday de 7.816,70 na quinta-feira",
+        "Nasdaq Composite: 26.729,16 pts (-0,28% no dia); +0,1% na semana — 3ª semana de alta",
+        "Dow Jones: 53.732,41 pts (-0,20% no dia); -0,6% na semana — único índice no negativo",
+        "YTD: S&P 500 +13,7%; Nasdaq +15%; Dow Jones +11,8%",
+        "Treasury 2 anos: 4,17% ao ano (queda na semana com dados de inflação benignos)",
+        "Treasury 10 anos: 4,68% ao ano (alta na semana — juros longos pressionados por risco inflacionário do petróleo)",
+        "Treasury 30 anos: ~5,21% ao ano (máxima em 19 anos — mercado exige prêmio maior para carregar dívida longa americana)",
+        "CPI de julho (EUA, divulgado terça 12/08): +3,4% a/a, desacelerando de 3,5% em junho — em linha com o esperado; núcleo recuou de 2,6% para 2,5%",
+        "PPI de julho (EUA, divulgado quarta 13/08): abaixo do esperado — inflação no atacado desacelerando",
+        "Varejo de julho (EUA, divulgado sexta 14/08): -0,6%, muito abaixo da projeção de +0,1% — consumidor americano deu sinais de fraqueza",
+        "Confiança do Consumidor Michigan (agosto): 51,0 vs 55,2 em julho — queda expressiva; expectativas de inflação acima de 4% pelo 5º mês seguido"
+      ],
+      "explanation": "Os EUA viveram uma semana dividida: boas notícias de inflação (CPI e PPI bem comportados) vs. preocupações com o consumidor (varejo fraco e confiança caindo). O S&P 500 renovou recorde na quinta, mas realizou na sexta. Os juros longos (Treasury 10 e 30 anos) subiram mesmo com a inflação mais comportada — porque o mercado teme que o petróleo caro (por causa do conflito no Oriente Médio) volte a pressionar os preços. O Fed (banco central americano) não subiu juros, mas as apostas de alta ainda existem: há 30% de chance precificada de uma alta em setembro. Por que isso afeta o Brasil? Juros americanos altos atraem capital dos emergentes para os EUA, pressionando o câmbio e as bolsas de países como o Brasil.",
+      "na_pratica": ""
+    },
+    {
+      "id": 8,
+      "title": "Mercados Internacionais",
+      "bullets": [
+        "Europa — Stoxx 600: -0,36% na semana (encerrou sequência de 4 semanas de alta); DAX (Alemanha): +0,46% na semana; CAC 40 (França): -0,9%; FTSE 100 (Reino Unido): -1,39%. Motivo: tensões geopolíticas com EUA-Irã pesaram, PIB do Reino Unido no 2T26 cresceu 0,4% em linha com o esperado",
+        "China — Hang Seng: queda de ~1,10% no dia de sexta; Shanghai Composite oscilação negativa na semana. Motivo: sentimento misto com dados econômicos fracos e tensão geopolítica no Estreito de Ormuz afetando exportadores",
+        "Japão — Nikkei 225: fechou sexta em 68.713 pts (+0,59%); ganho de ~4,7% na semana — forte alta impulsionada por semicondutores e IA; YTD +33%",
+        "Coreia do Sul — KOSPI: fechou sexta em 6.977 pts (+2,41%); +11,5% na semana — maior ganho semanal desde junho de 2026, interrompendo 7 semanas de quedas. SK Hynix +3,26%, Samsung +2,43%",
+        "Chile — IPSA: 11.042 pts, +0,39% no dia de sexta; semana levemente positiva",
+        "México — IPC: 64.573 pts, -0,39% no dia de sexta; semana pressionada pelo petróleo",
+        "Índia — Sensex/Nifty 50: semana levemente positiva, beneficiada pela queda dos yields americanos de curto prazo"
+      ],
+      "explanation": "O destaque internacional foi o contraste entre Ásia e Europa: Japão e Coreia do Sul subiram forte na semana, puxados pela febre de semicondutores e inteligência artificial (mesma onda que impulsionou Nvidia nos EUA). Europa ficou mais pressionada pelo petróleo caro (importa mais energia) e pela incerteza com o Irã.",
+      "na_pratica": ""
+    },
+    {
+      "id": 9,
+      "title": "Commodities",
+      "bullets": [
+        "Ouro: fechou sexta a US$ 4.437,30/oz (+0,38% no dia); +0,85% na semana — semana de ganhos; atingiu maior nível desde junho/2026. Impulsionado pela expectativa de menor aperto do Fed e queda dos juros curtos americanos",
+        "Prata: fechou sexta a US$ 65,108/oz (+0,18% no dia); semana positiva, flutuando em torno de US$ 65 — máxima desde 22 de junho. Também beneficiada pela expectativa de pausa do Fed",
+        "Petróleo Brent: fechou sexta em US$ 88,52/barril (+1,67% no dia); +5,95% na semana — forte alta pela semana. Semana anterior: Brent estava em torno de US$ 83/barril antes de o impasse EUA-Irã no Estreito de Ormuz se agravar. Meio da semana (quarta): caiu ~2,15% com dados de estoques americanos subindo 17,4 mi de barris e OPEP reduzindo previsão de demanda"
+      ],
+      "explanation": "Ouro e prata sobem quando os investidores ficam com medo e buscam proteção — e também quando os juros americanos esperados caem (porque o ouro não paga juros, então fica mais atrativo quando a concorrência da renda fixa diminui). Petróleo subiu pela incerteza no Estreito de Ormuz: esse canal marítimo no Oriente Médio é por onde passa ~20% do petróleo mundial. Se fechar, o preço dispara. A semana foi de negociações travadas entre EUA e Irã, mantendo o risco elevado.",
+      "na_pratica": "Petróleo acima de US$ 88/barril pressiona a inflação de combustíveis no Brasil (gasolina, diesel e energia elétrica). Petrobras se beneficia marginalmente da alta do petróleo, mas sofre com o risco político e cambial. Ouro e prata valorizaram — quem tem exposição via ETFs de ouro (ex: GOLD11) ou fundos de commodities teve ganhos em dólar. Alta do petróleo também pressiona o câmbio (Brasil exporta, mas importa derivados)."
+    },
+    {
+      "id": 10,
+      "title": "Agenda: Semana que Passou x Próxima Semana",
+      "agenda_passada": [
+        "Segunda (11/08): Boletim Focus — projeção IPCA 2026 reduzida para 5,02%; Selic fim de 2026 em 13,75%",
+        "Terça (11/08): Ata do Copom divulgada — corte de 0,25 pp para 14% a.a. justificado pela desinflação, tom 'cauteloso'; IPCA de julho: +0,07% (acima da mediana de +0,03%), 4,44% em 12 meses",
+        "Quarta (12/08): CPI de julho (EUA): +3,4% a/a, núcleo +2,5% — em linha com o esperado; estoques de petróleo EUA (EIA): +17,4 mi barris — maior alta semanal desde jan/2023",
+        "Quinta (13/08): PPI de julho (EUA): abaixo do esperado — inflação no atacado desacelerando; S&P 500 toca recorde intraday de 7.816,70 pts",
+        "Sexta (14/08): Varejo de julho (EUA): -0,6%, muito abaixo do esperado; Confiança do Consumidor Michigan (agosto): 51,0 — forte queda; Vencimento de opções sobre ações no Brasil pressiona volume; Governo brasileiro inicia mecanismo de reciprocidade contra tarifas dos EUA"
+      ],
+      "agenda_futura": [
+        "Segunda (17/08): Leilão de venda de dólares pelo Banco Central do Brasil (dois leilões anunciados para conter volatilidade cambial)",
+        "Terça (18/08): Vendas no varejo (Brasil — junho); Reddit (RDDT) entra no S&P 500 antes da abertura",
+        "Quarta (19/08): Ata do FOMC (Federal Reserve) de julho — mercado vai buscar sinais sobre próximos passos de juros nos EUA",
+        "Quinta (20/08): Pedidos de auxílio-desemprego (EUA); PIB 2T26 do Japão (preliminar)",
+        "Sexta (21/08): PMI composto (EUA e Europa — agosto, preliminar); dados de inflação do Japão",
+        "Semana toda: Temporada de balanços continua no Brasil (atenção para resultados de empresas do setor financeiro e energia) e nos EUA",
+        "Próximas semanas: Reunião do Copom (setembro, data a confirmar) — mercado precifica corte de 0,25 pp para 13,75%; Jackson Hole (Fed, previsão para final de agosto)"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Resumo da Semana",
+      "summary": "A semana de 11 a 15 de agosto foi dominada por três forças negativas para o Brasil e uma positiva global: (1) o impasse nas negociações entre EUA e Irã para reabrir o Estreito de Ormuz fez o petróleo subir quase 6% na semana, acendendo o alerta de inflação global e pressionando os juros longos brasileiros; (2) a saída de investidores estrangeiros da bolsa — R$ 7 bilhões em agosto até o dia 10 — refletiu o aumento do risco eleitoral, com eleições presidenciais em outubro no radar; (3) o dólar subiu 2,68% e rompeu R$ 5,20 mesmo com o dólar fraco lá fora, movimento causado pelo próprio risco doméstico (eleições + anúncio de reciprocidade tarifária contra os EUA). O resultado foi o Ibovespa acumulando 9 quedas consecutivas, a maior sequência em 3 anos, encerrando a semana a 166.934 pontos, -3,23% no período. Do lado positivo, o CPI americano de julho ficou em linha e abriu espaço para o S&P 500 tocar recorde histórico — beneficiando quem tem investimentos internacionais. No Brasil, a ata do Copom confirmou tom cauteloso, mas o mercado ainda aposta em mais um corte de 0,25 pp da Selic até o fim do ano."
+    }
+  ]
+}
