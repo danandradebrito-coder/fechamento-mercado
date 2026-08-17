@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Instalar dependências
+        run: npm install
+
       - name: Gerar fechamento da semana
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
