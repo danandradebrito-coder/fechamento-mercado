@@ -6,6 +6,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { jsonrepair } from "jsonrepair";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, "..", "docs", "content.json");
@@ -112,9 +113,15 @@ async function main() {
   try {
     parsed = JSON.parse(jsonStr);
   } catch (e) {
-    console.error("Não foi possível parsear o JSON retornado pelo modelo:");
-    console.error(jsonStr);
-    throw e;
+    console.warn("JSON não veio perfeito, tentando consertar automaticamente...");
+    try {
+      parsed = JSON.parse(jsonrepair(jsonStr));
+      console.warn("Conserto automático funcionou.");
+    } catch (e2) {
+      console.error("Não foi possível parsear nem consertar o JSON retornado pelo modelo:");
+      console.error(jsonStr);
+      throw e2;
+    }
   }
 
   await fs.mkdir(path.dirname(OUT_PATH), { recursive: true });
