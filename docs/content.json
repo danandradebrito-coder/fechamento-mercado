@@ -1,159 +1,140 @@
 {
-  "date": "2026-08-18",
-  "headline": "Ibovespa acumula 10ª queda seguida pressionado por bancos e RJ da Casas Bahia; petróleo sobe com impasse EUA-Irã e Treasuries batem máximas de 19 anos",
+  "date": "2026-08-20",
+  "headline": "Ibovespa segura alta mínima (+0,06%) com Petrobras em foco, enquanto EUA tombam com yields voltando a subir",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "DI1F27 (jan/27): ~13,60% — curto prazo ancorado pela Selic em 14%",
-        "DI1F28 (jan/28): ~13,20% — mercado precifica cortes graduais",
-        "DI1F29 (jan/29): ~13,05% — leve recuo em relação ao dia anterior",
-        "DI1F30 (jan/30): ~13,10% — levemente pressionado pelo fiscal",
-        "DI1F32 (jan/32): ~13,30% — alta de ~3 bps no dia",
-        "DI1F33 (jan/33): ~13,38% — prêmio de risco eleitoral presente",
-        "DI1F34 (jan/34): ~13,45% — tendência de abertura nos vértices longos",
-        "DI1F36 (jan/36): ~13,55% — vértice mais longo reflete incerteza fiscal e eleitoral",
-        "Curva: steepening (inclinação) — curto caiu levemente, longo abriu",
-        "Movimento do dia: pressão nos vértices longos vinda do Treasury de 30 anos americano, que renovou máxima de 19 anos, e do cenário fiscal doméstico"
+        "DI1F27 (jan/2027): ~13,73% — estável/leve alta (~+1 bps)",
+        "DI1F28 (jan/2028): ~13,95% — alta de ~+5 bps",
+        "DI1F29 (jan/2029): 14,275% — alta de +5 bps (vs. 14,221% no ajuste anterior)",
+        "DI1F30 (jan/2030): ~14,43% — alta de ~+5 bps",
+        "DI1F32 (jan/2032): ~14,55% — alta de ~+5 bps",
+        "DI1F33 (jan/2033): ~14,57% — alta de ~+5 bps",
+        "DI1F34 (jan/2034): ~14,58% — alta de ~+5 bps",
+        "DI1F36 (jan/2036): ~14,58% — alta de ~+5 bps",
+        "Curva mais inclinada (steepening): ponta curta praticamente estável, ponta longa abrindo ~5 bps"
       ],
-      "explanation": "A curva de juros brasileira ficou mais inclinada hoje — o que os especialistas chamam de 'steepening'. Pense assim: imagine que os juros são uma escada. O degrau curto (2027) ficou praticamente igual, mas o degrau longo (2036) subiu. Isso acontece quando o mercado não se preocupa tanto com o que o Banco Central vai fazer agora, mas teme que lá na frente o Brasil possa ter problemas fiscais ou inflação mais alta — especialmente com eleições no horizonte e o petróleo subindo no exterior, o que pode puxar a inflação para cima. O aumento dos juros longos americanos também 'contaminou' o Brasil, pois quando o juro dos EUA sobe, investidores estrangeiros podem preferir ficar lá e mandar menos dinheiro para cá.",
-      "na_pratica": "Prefixado (LTN/Tesouro Prefixado): quem comprar hoje trava um juro de ~13% ao ano para o longo prazo — parece alto, mas se o mercado achar que o Banco Central vai cortar mais juros do que o esperado, o título valoriza antes do vencimento. Pós-fixado (CDI/Tesouro Selic/LFT): segue rendendo perto de 13,90% ao ano sem volatilidade — continua sendo o porto seguro. Indexado à inflação (NTN-B/Tesouro IPCA+): com taxas reais longas acima de 7% ao ano + IPCA, segue atrativo para quem pensa no longo prazo, como aposentadoria. Fundos multimercado com posições em juros: sofrem quando os longos abrem. Ações: juro alto no longo prazo é concorrência para ações — torna o custo do capital das empresas mais caro."
+      "explanation": "Os juros futuros subiram hoje, especialmente nos vencimentos mais longos — imagine um termômetro de expectativas: o mercado está mais pessimista com o futuro. A curva ficou mais 'inclinada', como uma rampa: curto prazo quase parado, longo prazo subindo. Em linguagem simples, quem negocia esses contratos acha que os juros podem ficar altos por mais tempo. O motivo principal foi o retorno da pressão nos Treasuries americanos (títulos do governo dos EUA), que haviam aliviado ontem com o programa de recompra do Tesouro dos EUA, mas voltaram a subir hoje. Tensão geopolítica entre EUA e Irã, que mantém o petróleo alto e pressiona a inflação global, também pesou.",
+      "na_pratica": "Prefixado: quem comprou títulos prefixados (LTN/Tesouro Prefixado) ontem e queria vender hoje teria perda de marcação a mercado — o preço dos títulos cai quando os juros sobem. Para quem vai comprar agora, a taxa está mais atraente. Pós-fixado/CDI: sem impacto direto hoje — o CDI acompanha a Selic, não a abertura da curva longa. Quem tem dinheiro em fundos DI ou CDBs pós-fixados continua rendendo na cadência da Selic. Indexado à inflação (NTN-B): a abertura dos juros reais pressiona negativamente o preço dos títulos IPCA+. Quem já tem na carteira vê perda de marcação; quem quer comprar encontra taxas mais altas — o que pode ser uma oportunidade."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "Taxa DI/CDI: 13,90% ao ano (equivalente a ~0,052% por dia útil)",
-        "Selic Meta atual: 14,00% ao ano (Copom — decisão de agosto de 2026, quarto corte consecutivo)",
-        "Projeção Focus para Selic fim de 2026: 13,75% ao ano (mais um corte de 0,25 p.p. esperado)",
-        "Próxima reunião do Copom: 15 e 16 de setembro de 2026",
-        "R$ 1.000 investidos a 100% do CDI por 12 meses rendem ~R$ 139,00 brutos"
+        "Taxa DI do dia: ~13,65% ao ano (equivalente diário: ~0,051%)",
+        "Selic atual: 13,75% ao ano",
+        "Projeção implícita de Selic para final de 2026 (pelo mercado): ~13,50% — mercado precifica pequeno corte à frente"
       ],
-      "explanation": "O CDI — Certificado de Depósito Interbancário — é a taxa que os bancos cobram um do outro quando precisam de dinheiro por um dia. Na prática, ele é o 'termômetro' da renda fixa brasileira: CDBs, LCIs e LCAs costumam pagar um percentual do CDI. Hoje, com a Selic em 14% ao ano, o CDI está em 13,90% ao ano — ou seja, quem tem dinheiro guardado num CDB que paga 100% do CDI está rendendo aproximadamente R$ 5,55 por mês a cada R$ 1.000 investidos. O Copom já deu sinal de que pode cortar a Selic mais uma vez em setembro para 13,75%, mas o petróleo caro e as eleições no horizonte deixam esse cenário incerto.",
+      "explanation": "O CDI (Certificado de Depósito Interbancário) é, na prática, a taxa que os bancos cobram uns dos outros para emprestar dinheiro de um dia para o outro. Funciona como termômetro da Selic. Quem tem dinheiro em um CDB 100% CDI, fundo DI ou qualquer investimento pós-fixado está rendendo em cima dessa taxa. Hoje, ao guardar R$ 10.000 num CDB 100% CDI, você rendeu aproximadamente R$ 5,10 no dia de hoje.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechamento: 166.783,57 pontos — queda de 0,09%",
-        "Mínima do dia: 166.463,50 pts | Máxima: 168.006,60 pts",
-        "10ª queda consecutiva — menor sequência desde 2021",
-        "Volume financeiro: R$ 24,38 bilhões",
-        "Top 5 altas (ref. pregão): PETR3 +2,62%, PETR4 +2,53%, USIM5 alta, PRIO3 e SANB11 figuraram entre as positivas",
-        "Top 5 baixas: BHIA3 (Casas Bahia) -33%+ (RJ), ITUB4 -1,39%, BBDC4 -1,27%, VALE3 -0,05%, BBAS3 -0,49%",
-        "IFNC (bancos): -0,96% — arrastado por ITUB4, BBDC4 e BBAS3",
-        "IMOB (imóveis): pressionado pela alta dos juros longos",
-        "ICON (consumo): afetado pelo evento Casas Bahia e piora de crédito",
-        "INDX (industrial): misto, com Petrobras sustentando",
-        "IEEX (energia elétrica): defensivo, levemente negativo",
-        "IMAT (materiais): Vale pesou negativamente",
-        "UTIL (utilidades): defensivo, comportamento neutro no dia"
+        "Fechamento: 167.927 pontos (+0,06% no dia)",
+        "Máxima do dia: 169.545 pontos (+1,02%)",
+        "Volume financeiro: ~R$ 14 bilhões no pregão",
+        "Top 5 altas estimadas no pregão: PETR4 (Petrobras PN) +1,6%, VALE3 (Vale) +1,5%, PRIO3 (Prio) +destaque do setor de óleo, ITUB4 (Itaú) em leve alta, BBAS3 (BB) em alta",
+        "Top 5 baixas estimadas: MGLU3 (Magazine Luiza) -4,6%, BRAV3 (Brava Energia) -4,6%, MBRF3 -4,3%, POMO4 -10,4%, COGN3 (Cogna) -3,0%",
+        "IFNC (financeiro): levemente positivo — bancos sustentaram o índice",
+        "IMOB (imobiliário): negativo — setor sensível aos juros altos sofreu pressão",
+        "ICON (consumo): negativo — varejo doméstico segue pressionado por crédito caro",
+        "INDX (industrial): levemente negativo",
+        "IEEX (energia elétrica): neutro a negativo",
+        "IMAT (materiais básicos): positivo — puxado pelo petróleo alto e Vale",
+        "UTIL (utilidades): neutro"
       ],
-      "explanation": "O Ibovespa fechou praticamente no zero a zero, mas com um sabor amargo: foi a décima queda seguida. O herói do dia foi a Petrobras (PETR4 +2,53%), que subiu com o petróleo em alta no exterior por conta do impasse entre EUA e Irã. O vilão foi a Casas Bahia (BHIA3), que despencou mais de 33% depois de pedir recuperação judicial — pense nisso como uma empresa que vai à Justiça para proteger seus bens enquanto negocia com quem ela deve. Os bancos também caíram, preocupados com o risco de crédito que a RJ da Casas Bahia pode representar (pois a varejista deve bilhões a bancos e fundos). O IBC-Br (uma espécie de prévia do PIB) mostrou queda de 0,6% em junho, reforçando a ideia de que a economia está desacelerando.",
-      "na_pratica": "Para quem investe em ações: Petrobras foi o antídoto do dia — quem tem PETR4 na carteira respirou. Quem tem bancos (ETFs como BOVA11 ou fundos de ações com peso em financeiros) sofreu. A sequência de 10 quedas pode indicar 'fadiga de venda' — tecnicamente o índice está próximo de suportes, mas o fluxo estrangeiro segue negativo (saída de ~R$ 15,6 bilhões em agosto), o que limita uma recuperação mais rápida. Para o investidor de longo prazo, sequências de quedas são oportunidades de aporte gradual."
+      "explanation": "O Ibovespa, que é como um 'ranking' das maiores empresas da Bolsa brasileira somadas numa única pontuação, fechou quase estável. Depois de ontem ter quebrado uma sequência de 11 quedas seguidas, hoje o índice lutou para manter o terreno positivo. O principal motor foi a Petrobras, que subiu com o petróleo Brent acima de US$ 93 por causa da tensão entre EUA e Irã. Mas o otimismo foi freado pela volta da pressão nos juros americanos, que puxou as bolsas dos EUA para baixo e retirou o apetite por risco. Ações ligadas ao consumo doméstico e ao setor imobiliário sofreram, pois dependem de crédito barato — e os juros seguem elevados.",
+      "na_pratica": "Para quem investe em ações: o mercado segue volátil e sem direção clara. O único setor com força clara hoje foi o de commodities (Petrobras, Vale), puxado pelo petróleo e pelo minério. Ações de varejo, construção civil e empresas endividadas continuam sob pressão enquanto os juros não caírem de forma consistente. Quem tem ações de empresas exportadoras ou ligadas ao petróleo se beneficiou hoje."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "Fechamento (pregão 17/08): 3.654,70 pontos — queda de 0,86%",
-        "Variação em pontos: -31,63 pts em relação ao fechamento anterior (3.686,33)",
-        "Mínima: 3.642,52 pts | Máxima: 3.693,09 pts",
-        "GGRC11: -2,99% (maior em volume, mas forte queda)",
-        "MXRF11: -1,07%",
-        "KIVO11: +1,98% (maior alta do pregão)",
-        "ICRI11 (Itaú Crédito Imobiliário IPCA): +1,79%",
-        "Acumulado 2026: -2,45%"
+        "IFIX em 20/08: referência do dia anterior (19/08) fechou em 3.681,89 pontos (+0,41%)",
+        "Abertura do pregão de hoje (20/08): ~3.846 pontos (dados do Investing.com apontam oscilação entre 3.833 e 3.848)",
+        "Tendência do dia: ligeiramente pressionado pela abertura dos juros longos",
+        "No acumulado de 2026: IFIX registra queda de -2,45%"
       ],
-      "explanation": "O IFIX é o índice que reúne os principais Fundos de Investimento Imobiliário (FIIs) negociados na bolsa — pense nele como o 'Ibovespa dos fundos imobiliários'. FIIs são fundos que investem em imóveis físicos (shoppings, galpões, lajes de escritório) ou em títulos de crédito imobiliário. O IFIX caiu porque os juros longos no Brasil subiram: quando o juro sobe, os FIIs ficam menos atrativos (afinal, você pode ganhar um bom rendimento na renda fixa sem risco). É como se o aluguel dos fundos ficasse menos interessante diante de uma CDB pagando cada vez mais.",
+      "explanation": "O IFIX é o índice que mede como estão se saindo os Fundos Imobiliários (FIIs) — que são fundos que investem em imóveis comerciais, shoppings, galpões logísticos ou em papéis de dívida imobiliária. É como o Ibovespa, mas só para FIIs. Hoje, com a abertura dos juros longos, o setor ficou mais pressionado: quando os juros sobem, os FIIs perdem atratividade relativa, porque o investidor consegue uma renda comparável em renda fixa com menos risco. Quem tem FIIs na carteira pode ver queda no preço das cotas, mesmo que os dividendos mensais (rendimentos) continuem sendo pagos.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B 2027 (curto): ~6,80% a.a. + IPCA — levemente estável",
-        "NTN-B 2030 (médio): ~7,10% a.a. + IPCA — leve alta de ~2 bps",
-        "NTN-B 2035/2040 (longo): ~7,20%+ a.a. + IPCA — abertura de 3-5 bps, seguindo Treasury americano",
-        "LTN 2027 (prefixado curto): ~13,50% a.a. — estável",
-        "LTN 2029 (prefixado médio): ~13,20% a.a. — leve pressão",
-        "LFT (Tesouro Selic): próxima ao CDI de 13,90% — praticamente imune à volatilidade do dia",
-        "Leilão de NTN-B do Tesouro no radar: mede apetite por títulos longos atrelados ao IPCA"
+        "NTN-B curta (2028): taxa abrindo — pressão de curto prazo da incerteza fiscal e juros americanos",
+        "NTN-B média (2030-2032): abertura de ~5 bps acompanhando curva DI",
+        "NTN-B longa (2050-2060): abertura mais pronunciada, refletindo prêmio de risco de prazo",
+        "LTN (prefixados): taxas subiram em linha com os DI futuros (~5 bps)",
+        "LFT (Tesouro Selic): estável — não sofre marcação a mercado relevante"
       ],
-      "explanation": "Três famílias de títulos públicos, três comportamentos diferentes: 1) NTN-B (Tesouro IPCA+): rende IPCA + uma taxa prefixada. Se a inflação subir, você ganha mais. Boa para quem quer proteger o poder de compra no longo prazo — tipo guardar dinheiro para a aposentadoria. Hoje os vértices longos abriram um pouco (taxa maior = preço do título cai momentaneamente). 2) LTN (Tesouro Prefixado): você sabe exatamente quanto vai receber no vencimento. Risco: se os juros subirem, o título cai de preço antes do vencimento. Hoje ficou sob leve pressão. 3) LFT (Tesouro Selic): acompanha o CDI dia a dia, sem oscilar. É o 'colchão de dinheiro' — quase nenhuma volatilidade, o melhor título para reserva de emergência.",
-      "na_pratica": "Prefixado: com taxas longas ainda elevadas, quem trava hoje em LTN 2029 a ~13,20% a.a. pode se beneficiar se os juros caírem mais rápido que o esperado — o título sobe de preço. Tesouro IPCA+: com juro real acima de 7%, raramente visto na história recente, é atrativo para objetivos de 5+ anos. Tesouro Selic: para quem quer segurança e liquidez, é a melhor opção enquanto os juros seguem em 14%."
+      "explanation": "Os três tipos de título público funcionam de formas bem diferentes: A LFT (Tesouro Selic) é o título mais conservador — ela rende exatamente a Selic do dia, sem surpresas. Mesmo com o mercado turbulento, quem tem Tesouro Selic dormiu tranquilo. A LTN (Tesouro Prefixado) combina uma taxa fixa lá na frente — mas se os juros sobem depois da compra, o preço do título cai. Hoje, quem tinha LTN já comprada viu o preço recuar. A NTN-B (Tesouro IPCA+) protege da inflação e paga um juro real por cima — mas também sofre marcação negativa quando os juros sobem, especialmente nos vencimentos longos, que subiram mais hoje.",
+      "na_pratica": "Prefixado (LTN): perda de marcação hoje para quem quer vender antes do vencimento; mas para quem está comprando agora, trava uma taxa maior. Pós-fixado (LFT): zero impacto negativo — continua rendendo CDI/Selic no seu ritmo. Inflação (NTN-B): queda de preço dos títulos mais longos; quem tem horizonte de longo prazo pode ver isso como oportunidade para entrar com taxas mais gordas (IPCA + ~7,5% a 8% nas NTN-Bs longas)."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "Dólar comercial (fechamento 17/08): R$ 5,1998 na venda — queda de 0,41%",
-        "Na manhã de 18/08, dólar subia para R$ 5,21 com aversão ao risco global",
-        "Dólar futuro (set/26): R$ 5,2190 com leve queda",
-        "Banco Central realizou 2 leilões de venda de dólar com recompra (~US$ 1 bilhão) para rolar vencimento de 2 de setembro",
-        "DXY (Índice do Dólar): ~99,58 pts — dólar global fraco, abaixo de 100 pts",
-        "Fluxo estrangeiro: saída de ~R$ 15,6 bilhões em agosto até agora",
-        "EUR/USD: ~1,1578 — euro forte frente ao dólar"
+        "Dólar comercial (fechamento): R$ 5,1937 (+0,31% no dia)",
+        "Variação diária: dólar abriu em R$ 5,1762 e chegou a R$ 5,2035 na máxima",
+        "Dólar no dia anterior (19/08): R$ 5,1777 (havia caído 0,86%)",
+        "DXY (índice do dólar global): 98,76 pontos (-0,07%) — dólar fraco globalmente",
+        "Motivo: retorno da pressão nos yields americanos trouxe algum apetite por dólar, mas o DXY ainda perto de mínimas de 3 meses"
       ],
-      "explanation": "O dólar caiu ontem para R$ 5,19, mas já ensaia alta nesta manhã com o clima de tensão global. O DXY é o 'índice do dólar': mede a força do dólar americano em relação a outras moedas do mundo. Quando o DXY cai (como agora, abaixo de 100), significa que o dólar está fraco globalmente — o que normalmente ajuda as moedas de países emergentes, como o real. Mesmo assim, o real continua pressionado por fatores internos: saída de capital estrangeiro da bolsa, incerteza eleitoral e o pedido de RJ da Casas Bahia. O BC foi ao mercado para 'rolar' contratos que venciam, o que ajuda a dar liquidez ao mercado de câmbio. A PTAX é a taxa oficial de câmbio divulgada pelo Banco Central ao final do dia.",
-      "na_pratica": "Para quem viaja ao exterior: dólar a R$ 5,20 significa que uma viagem aos EUA continua cara. Para produtos importados (eletrônicos, carros importados): cada real a mais no dólar encarece o produto final. Para investimentos internacionais (BDRs, ETFs como IVVB11): quando o dólar sobe, o valor em reais dos seus ativos lá fora sobe junto — funciona como proteção cambial. Quem tem renda em dólar (exportadores, freelancers) se beneficia da alta."
+      "explanation": "O dólar subiu levemente hoje, revertendo parte da queda forte de ontem. Na quarta-feira, o dólar havia caído quase 1% quando o governo americano anunciou que iria recomprar títulos de longo prazo — o que aliviou os juros nos EUA e enfraqueceu o dólar globalmente. Hoje, parte desse efeito se desfez. O DXY é o 'peso' do dólar em relação a outras moedas (euro, iene, libra etc.) — quando ele cai, o real e outras moedas emergentes ganham força relativa.",
+      "na_pratica": "Para quem viaja ao exterior ou compra produtos importados: o dólar a R$ 5,19 está mais barato do que o pico recente de R$ 5,25 (semana passada), mas ainda é caro para padrões históricos recentes. Para quem investe fora: fundos internacionais ou BDRs se beneficiam quando o dólar sobe, pois seus ativos valem mais em reais. Para exportadores (como a Petrobras e a Vale): dólar alto significa mais receita em reais."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500: 7.691,76 pts — queda de 0,69% (fechamento 18/08)",
-        "Nasdaq Composite: queda de 1,33% — tech liderou as perdas; chips e semicondutores pesaram",
-        "Dow Jones: queda de 0,22% — Caterpillar -2,86%, Nvidia -1,90% puxaram para baixo; J&J +2,29% e IBM +1,43% compensaram parcialmente",
-        "Treasury 2 anos: 4,21% (+3 bps) — reage às apostas de que o Fed pode manter juros",
-        "Treasury 10 anos: 4,73% (+1 bp) — próximo da máxima de 19 meses",
-        "Treasury 30 anos: 5,285% — renovou máxima de 19 anos mais cedo na sessão",
-        "Catalisadores: impasse EUA-Irã com expiração do cessar-fogo temporário; Trump ameaça 'bombardear' Omã; petróleo subiu forte; ata do Fed prevista para amanhã",
-        "Probabilidade de Fed manter juros em setembro: ~67% segundo mercado"
+        "S&P 500: 7.641,16 pontos (-0,87% no dia)",
+        "Dow Jones: 52.759 pontos (-1,32% no dia, queda de ~700 pontos)",
+        "Nasdaq Composite: 26.067 pontos (-1,00% no dia)",
+        "Walmart (WMT): -9,15% — reportou resultados com crescimento desacelerando nos EUA",
+        "Treasury 2 anos: ~4,30% (subindo — pressão voltou)",
+        "Treasury 10 anos: ~4,70% — voltou a subir após cair para 4,64% ontem",
+        "Treasury 30 anos: ~5,26% — permanece perto de máximas de 19 anos (pico foi 5,34% na semana)",
+        "Ata do Fed (julho): alguns membros defenderam alta de juros — mercado repercutiu negativamente",
+        "Pedidos de seguro-desemprego semana: 206 mil (abaixo dos 211 mil esperados — mercado de trabalho firme)"
       ],
-      "explanation": "Wall Street caiu hoje por dois motivos principais: 1) As negociações entre EUA e Irã travaram — o cessar-fogo temporário expirou e o Irã sinalizou postura militar mais agressiva. Isso fez o petróleo subir, alimentando o medo de inflação. 2) Os juros dos Treasuries (títulos do governo americano) dispararam para as máximas de quase duas décadas. O Treasury de 30 anos — pense nele como o 'barômetro' do custo do dinheiro no longo prazo — bateu 5,33% mais cedo, nível não visto desde 2007. Juros altos nos EUA penalizam ações de tecnologia (que dependem de capital barato para crescer). Por que isso afeta o Brasil? Quando o juro americano sobe, ele 'compete' com os ativos dos países emergentes e pode atrair dinheiro de volta para os EUA, pressionando o real e o Ibovespa.",
+      "explanation": "Wall Street caiu hoje porque o efeito do anúncio de ontem — em que o Tesouro dos EUA disse que ia recomprar seus próprios títulos para baixar os juros longos — durou apenas um pregão. Os juros americanos voltaram a subir. Imagine que o governo tentou 'segurar o trem', mas o trem voltou a andar. O Walmart, maior varejista do mundo, mostrou que o consumidor americano está comprando menos produtos não-essenciais por causa dos preços altos — especialmente gasolina. Isso assustou investidores que temem que a economia desacelere. Por que isso afeta o Brasil? Juros altos nos EUA atraem dinheiro do mundo todo para lá, tirando recursos de países emergentes como o Brasil, pressionando o câmbio e os juros locais.",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Stoxx 600 (Europa ampla): -0,22% — queda generalizada com juros e energia pesando",
-        "DAX (Alemanha): -0,71%, aos 26.151,69 pts — Bund alemão de 10 anos renovou máxima em 15 anos",
-        "CAC 40 (França): -0,82%, aos 8.509,36 pts — luxo derrubou: Kering -4,36%, LVMH -2,71%",
-        "FTSE 100 (UK): +0,07%, aos 10.728,04 pts — leve alta, defensivos e energia sustentaram",
-        "Nikkei 225 (Japão): -2,54%, aos 67.460,73 pts — iene enfraqueceu, preocupações com inflação global",
-        "Hang Seng (Hong Kong): +0,07%, aos 25.471,15 pts — China sustentou levemente com tech e semicondutores",
-        "Shanghai Composite (China): +0,19%, aos 3.990,30 pts — expectativas de estímulo sustentaram",
-        "KOSPI (Coreia do Sul): abriu em queda com semi-condutores globais sob pressão",
-        "IPSA (Chile): -0,55%, aos 10.887,72 pts — cobre e commodities pressionaram",
-        "IPC México: -0,22%, aos 64.254,98 pts — peso relativamente estável",
-        "Sensex (Índia): ~77.728 pts — leve queda de 0,36%"
+        "Europa — Stoxx 600: leve queda, pressionado pelos yields globais; DAX (Alemanha): -0,14%; CAC 40 (França): -0,09%; FTSE 100 (Reino Unido): +0,14%",
+        "China — Shanghai Composite: +0,24% (3.903 pts); Hang Seng (HK): +0,80% (25.698 pts)",
+        "Japão — Nikkei 225: +1,36% (66.217 pts) — reagiu positivamente ao alívio de ontem nos yields americanos; sessão asiática precede a queda americana",
+        "Coreia do Sul — KOSPI: forte alta de +5,42% — semicondutores lideraram recuperação após forte venda nas sessões anteriores",
+        "Chile — IPSA: -0,55%",
+        "México — IPC: -0,50%",
+        "Índia — Sensex: +0,71% (77.452 pts)"
       ],
-      "explanation": "O mundo operou em modo de cautela. A Europa caiu porque os juros dos títulos públicos europeus também subiram — o Bund alemão (equivalente ao Treasury nos EUA, mas da Alemanha) bateu a maior taxa em 15 anos, o que pressiona empresas que dependem de crédito barato, como as de luxo na França. O Japão caiu mais forte porque o iene fraco torna as importações de petróleo mais caras para o país, que é altamente dependente de energia importada. A China resistiu melhor, apoiada em expectativas de novos estímulos do governo. Mercados emergentes como Chile e México sofreram com o ambiente de aversão ao risco global.",
+      "explanation": "Ásia fechou bem (antes da queda americana do dia), puxada pelo alívio dos yields na véspera. Coreia do Sul se destacou: as fabricantes de chips (como Samsung e SK Hynix) haviam tombado nos dias anteriores com o medo dos juros americanos, e hoje recuperaram forte — o KOSPI subiu mais de 5%. Europa ficou dividida: FTSE britânico em leve alta (ações de commodities ajudaram), mas bolsas continentais recuaram com cautela. América Latina foi pressionada pelo dólar e pelos juros americanos.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Petróleo Brent: US$ 91,02/barril — alta de 0,17% no dia (fecha acima de US$ 90)",
-        "Petróleo WTI: US$ 84,06/barril — alta de 0,38%",
-        "Motivo petróleo: Irã ameaça manter Estreito de Ormuz fechado; Trump ameaça Omã; estoques de petróleo americanos caíram 9 milhões de barris na semana — maior queda desde setembro",
-        "Ouro (Comex, dez/26): US$ 4.420,60/oz — queda de 1,19%",
-        "Motivo ouro: Juros reais altos nos EUA reduzem atratividade do ouro, que não paga juro",
-        "Prata (Comex, set/26): US$ 64,037/oz — queda forte de 3,31%",
-        "Motivo prata: segue o ouro, com uso industrial também pressionado pelo temor de desaceleração global"
+        "Petróleo Brent: US$ 93,01/barril (+1,52% no dia) — perto de máximas recentes; ganho acumulado de +4% na semana",
+        "Ouro (spot): US$ 4.515,78/onça (-0,04% no dia, praticamente estável) — mantém ganhos expressivos do dia anterior (+4,13% ontem)",
+        "Prata (spot): US$ 68,12/onça (+1,84% no dia) — subiu mais de 1% após disparada de +6,39% ontem"
       ],
-      "explanation": "O petróleo disparou e ficou acima de US$ 90 por barril porque a situação com o Irã piorou — o Estreito de Ormuz, por onde passa quase 20% do petróleo mundial, permanece bloqueado. Pense no Ormuz como uma 'torneira de petróleo global': quando ela fecha, o preço do combustível sobe no mundo inteiro. O ouro caiu porque, quando os juros americanos sobem muito, investidores preferem emprestar dinheiro para o governo americano (que paga juros) a segurar ouro (que não paga). A prata acompanhou a queda do ouro.",
-      "na_pratica": "Petróleo caro: para o Brasil, é uma faca de dois gumes — a Petrobras (e suas ações) sobe, mas a gasolina no posto pode ficar mais cara, pressionando a inflação. Isso pode complicar os próximos cortes da Selic. Ouro em queda: quem tem ETFs de ouro (GOLD11, OGLD11) ou BDRs de mineradoras sofreu hoje. A prata cara ou barata impacta setor elétrico/solar (a prata é usada em painéis fotovoltaicos). Ações de commodities como Vale (ferro) e Petrobras (petróleo) se movem junto com esses preços."
+      "explanation": "Petróleo segue em alta por causa da tensão entre EUA e Irã — o Estreito de Ormuz, por onde passa 20% do petróleo mundial, está sob ameaça, e o presidente Trump declarou 'guerra econômica' ao Irã. Preço alto de petróleo é como um imposto invisível: encarece gasolina, frete, plásticos — pressiona a inflação no mundo todo. Ouro praticamente parado após o salto de ontem: o metal virou porto seguro porque os investidores estão com medo de inflação e instabilidade. Prata continuou subindo, beneficiada pela queda nos juros reais e pela forte demanda industrial (painéis solares, eletrônicos).",
+      "na_pratica": "Petróleo alto é positivo para Petrobras e para o câmbio brasileiro (o Brasil é exportador de petróleo), mas negativo para a inflação de combustíveis e fretes — o que pode elevar o IPCA. Para ações: setor de óleo e gás (PETR3, PETR4, PRIO3) sobe; aéreas e transportadoras sofrem. Ouro e Prata: quem tem ETFs de ouro (GOLD11) ou prata se beneficiou — esses ativos funcionam como proteção quando os mercados ficam nervosos. Para multimercados que têm posição comprada em commodities, foi um dia positivo."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "O dia foi dominado por quatro forças: 1) O impasse EUA-Irã: o cessar-fogo temporário entre os dois países expirou, o Irã adotou postura militar mais dura e o Estreito de Ormuz segue fechado — isso fez o petróleo superar US$ 90/barril e acendeu o alerta de inflação no mundo inteiro. 2) Os juros americanos em máximas históricas: o Treasury de 30 anos bateu 5,33%, nível não visto desde 2007, porque o mercado teme que a inflação causada pelo petróleo impeça o Fed (o banco central americano) de cortar juros — o que derrubou as bolsas americanas e europeias. 3) A Casas Bahia pediu recuperação judicial com R$ 17,3 bilhões em dívidas: a notícia veio no domingo e deixou os bancos no vermelho, pois eles são credores da varejista — o evento assustou o mercado de crédito e pressionou o setor financeiro no Ibovespa. 4) O IBC-Br (prévia do PIB) mostrou queda de 0,6% em junho, confirmando que a economia brasileira está desacelerando — o que abre espaço para o Banco Central cortar a Selic em setembro, mas o petróleo caro e o dólar acima de R$ 5,20 complicam esse cenário. No final, o Ibovespa fechou praticamente no zero, com a Petrobras evitando um tombo maior graças ao petróleo em alta."
+      "summary": "O dia de hoje foi dominado por uma única história: o efeito do anúncio de ontem, em que o Tesouro dos EUA prometeu recomprar seus próprios títulos de longo prazo para segurar os juros, durou menos de 24 horas. Os yields americanos voltaram a subir — o título de 30 anos ficou em 5,26%, perto do maior nível em 19 anos — e Wall Street tombou, com Dow Jones caindo 1,32% e S&P 500 recuando 0,87%. A Walmart entrou para a tempestade ao mostrar que o consumidor americano está desacelerando as compras por causa do preço alto do combustível. Aqui no Brasil, o Ibovespa conseguiu segurar uma alta mínima de 0,06% graças à Petrobras, que subiu com o petróleo Brent acima de US$ 93 — sustentado pela tensão entre EUA e Irã, que ameaça o fornecimento global de petróleo. Os juros futuros brasileiros abriram ~5 bps nos vencimentos longos, acompanhando os Treasuries, e o dólar subiu levemente para R$ 5,19. Ouro e prata sustentaram os ganhos do dia anterior, servindo de porto seguro num mercado global cheio de ruído."
     }
   ]
 }
