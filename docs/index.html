@@ -39,7 +39,6 @@
     border: 1px solid var(--border);
     border-radius: 999px;
     padding: 4px;
-    margin-bottom: 28px;
   }
   .tab-btn {
     border: none;
@@ -164,17 +163,49 @@
     color: var(--muted);
     font-size: 12px;
   }
+  .pdf-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .pdf-btn:hover { border-color: var(--accent); color: var(--accent); }
   @media (max-width: 640px) {
     .card-body { grid-template-columns: 1fr; gap: 14px; }
     .explanation { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 12px; }
+  }
+
+  /* Formato de impressão / PDF: fundo claro, sem abas nem botão */
+  @media print {
+    .tabs, .pdf-btn { display: none !important; }
+    body { background: #fff; color: #16283F; }
+    .card { background: #fff; border: 1px solid #ddd; break-inside: avoid; }
+    .idx { color: #B5822F; }
+    .na-pratica { border-top: 1px dashed #ccc; color: #555; }
+    .explanation { border-left: 1px solid #ddd; }
+    .session-bar { display: none; }
+    .session-labels { display: none; }
+    footer { color: #888; }
   }
 </style>
 </head>
 <body>
   <header>
-    <div class="tabs">
-      <button class="tab-btn active" id="tab-diario" onclick="switchTab('diario')">Diário</button>
-      <button class="tab-btn" id="tab-semanal" onclick="switchTab('semanal')">Semanal</button>
+    <div style="display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:28px;">
+      <div class="tabs" style="margin-bottom:0;">
+        <button class="tab-btn active" id="tab-diario" onclick="switchTab('diario')">Diário</button>
+        <button class="tab-btn" id="tab-semanal" onclick="switchTab('semanal')">Semanal</button>
+      </div>
+      <button class="pdf-btn" onclick="window.print()">⭳ Gerar PDF</button>
+      <button class="pdf-btn" onclick="shareWhatsApp()">📤 Compartilhar no WhatsApp</button>
     </div>
 
     <div>
@@ -339,6 +370,19 @@
         container.innerHTML = '<div class="stale">Ainda não há um fechamento gerado para esta aba. Ele será publicado na próxima execução automática.</div>';
         console.error(e);
       }
+    }
+
+    function shareWhatsApp() {
+      const data = cache[currentTab];
+      const headline = data && data.headline ? data.headline : "Fechamento de mercado";
+      const label = currentTab === "diario"
+        ? (document.getElementById("date-label").textContent || "")
+        : (data && data.week_label ? "Semana de " + data.week_label : "");
+      const pageUrl = window.location.href.split("?")[0];
+
+      const text = `📊 Fechamento de mercado — ${label}\n\n${headline}\n\nVeja o relatório completo: ${pageUrl}`;
+      const waUrl = "https://wa.me/?text=" + encodeURIComponent(text);
+      window.open(waUrl, "_blank");
     }
 
     render();
