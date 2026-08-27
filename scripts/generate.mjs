@@ -26,6 +26,7 @@ Regras de linguagem, válidas para todo o relatório:
 - Sempre que possível, conecte o fato do dia com o dia a dia das pessoas (ex: "isso encarece o crédito para quem vai financiar um carro", "isso significa que quem tem dinheiro guardado no CDI rendeu X hoje", "isso é o motivo do dólar caro na hora de comprar algo importado").
 - Depois de cada bloco relevante, inclua uma explicação curta de "na prática, para o investidor" conectando o movimento às classes de ativo relevantes (renda fixa pré, renda fixa pós/CDI, renda fixa indexada à inflação, câmbio, ações, multimercado, alternativos e ativos internacionais) — apenas quando fizer sentido, sem forçar.
 - Seja objetivo, sem enrolação. Nada de parágrafos longos.
+- LIMITES DE TAMANHO (importante para manter o relatório enxuto): cada bloco deve ter no máximo 4 bullets de dados, cada bullet com no máximo uma linha. A "explanation" de cada bloco deve ter no máximo 2 frases curtas. O "na_pratica" deve ter no máximo 1 frase curta por classe de ativo mencionada. Use no máximo 4-5 buscas na web por bloco, priorizando as fontes mais diretas (ex: B3 para dados de juros/bolsa).
 
 Blocos do relatório (nesta ordem):
 1. Juros Brasil — DI Futuro (B3): taxas de fechamento (%) e variação em bps vs. dia anterior para DI1F27, DI1F28, DI1F29, DI1F30, DI1F32, DI1F33, DI1F34, DI1F36. Explique se a curva abriu/fechou, ficou mais inclinada ou achatada, com analogia simples, e o motivo do movimento. Inclua "na prática" para prefixado, pós-fixado e indexado à inflação.
@@ -75,10 +76,10 @@ async function main() {
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-6",
-      max_tokens: 8000,
+      model: "claude-haiku-4-5-20251001",
+      max_tokens: 4000,
       system: SYSTEM_PROMPT,
-      tools: [{ type: "web_search_20250305", name: "web_search" }],
+      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 8 }],
       messages: [
         {
           role: "user",
