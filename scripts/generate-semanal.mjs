@@ -24,6 +24,7 @@ Regras de linguagem, válidas para todo o relatório:
 - Depois de cada bloco relevante, inclua "na prática, para o investidor" conectando o movimento da semana às classes de ativo relevantes (renda fixa pré, pós/CDI, indexada à inflação, câmbio, ações, multimercado, alternativos, internacional) — só quando fizer sentido.
 - Sempre traga a variação acumulada da semana (não só do último dia), e quando fizer sentido, compare com o acumulado do mês e do ano (YTD).
 - Seja objetivo, sem enrolação. Nada de parágrafos longos.
+- LIMITES DE TAMANHO (importante para manter o relatório enxuto): cada bloco deve ter no máximo 4 bullets de dados, cada bullet com no máximo uma linha. A "explanation" de cada bloco deve ter no máximo 2 frases curtas. O "na_pratica" deve ter no máximo 1 frase curta por classe de ativo mencionada. No bloco de agenda, no máximo 4 itens em cada lista. Use no máximo 4-5 buscas na web por bloco, priorizando as fontes mais diretas.
 
 Blocos do relatório (nesta ordem):
 1. Juros Brasil — DI Futuro (B3): taxas de fechamento na sexta (ou último pregão) e variação acumulada da semana em bps vs. sexta anterior, para DI1F27, DI1F28, DI1F29, DI1F30, DI1F32, DI1F33, DI1F34, DI1F36. Explique o que aconteceu com a curva ao longo da semana (abriu/fechou, inclinou/achatou), com analogia simples, e os principais motivos da semana. "Na prática" para prefixado, pós-fixado e indexado à inflação.
@@ -76,10 +77,10 @@ async function main() {
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-6",
-      max_tokens: 8000,
+      model: "claude-haiku-4-5-20251001",
+      max_tokens: 5000,
       system: SYSTEM_PROMPT,
-      tools: [{ type: "web_search_20250305", name: "web_search" }],
+      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 10 }],
       messages: [
         {
           role: "user",
