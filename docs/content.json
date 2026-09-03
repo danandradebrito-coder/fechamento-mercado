@@ -1,119 +1,119 @@
 {
-  "date": "2026-09-02",
-  "headline": "Ibovespa dispara 3% em reação positiva a pesquisa eleitoral; juros caem e dólar recua a R$ 5,10",
+  "date": "2026-09-03",
+  "headline": "Mercado em alta: Ibovespa avança 2,98%, dólar cai e Treasury yields recuam aliviam pressões",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Juros futuros encerraram em queda, pressionados pelo recuo no consumo das famílias no PIB do 2º trimestre",
-        "Curva apresentou achamento (diminuição de inclinação) com taxas menores nos prazos mais longos",
-        "Movimento sinaliza expectativa de cortes de taxa Selic mais adiante",
-        "Volume financeiro manteve-se aquecido pela volatilidade geopolítica internacional"
+        "DI não apresentou dados específicos de fechamento reportados para hoje",
+        "Mercado aguardando decisão do Copom para 16-17 de setembro",
+        "Selic mantida em 14,00% (corte de 0,25pp na última reunião)",
+        "Curva de juros reflete expectativas de continuidade da desinflação"
       ],
-      "explanation": "Os juros futuros caíram porque dados recentes mostram fraqueza no consumo, sinalizando que a economia pode precisar de estímulo. A curva achatada significa que o mercado espera juros menores no futuro.",
-      "na_pratica": "Quem tem dinheiro em prefixado (títulos com taxa fixa) pode se beneficiar se os juros caírem; para pós-fixado (CDI), o rendimento pode diminuir se a Selic cair; para indexado à inflação, o ajuste acompanha o IPCA, não a Selic."
+      "explanation": "Sem novos dados de DI futuro publicados hoje, o mercado mantém-se atento aos sinais de política monetária. A redução recente da Selic sinaliza movimento de desaceleração dos juros.",
+      "na_pratica": "Pré-fixado: títulos com taxa fixa mantêm atratividade moderada. Pós-fixado/CDI: rendimento em 13,90% ao ano continua acima da inflação. Indexado à inflação: IPCA+ com prêmio reduzido aguarda ajustes."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "Taxa DI/CDI fechou em 13,90% a.a. (último dado oficial de 29/08/2026)",
-        "CDI acumulado em 2026 atinge 9,38%",
-        "Selic atual em 14,00% (após corte de 0,25pp na última reunião do Copom em 5/8)",
-        "Próxima reunião do Copom em 15-16 de setembro pode resultar em novo corte"
+        "Taxa DI/CDI: 13,90% ao ano (conforme Banco Central)",
+        "CDI acumulado em 2026: 9,44%",
+        "Próxima decisão Copom: 16-17 de setembro pode afetar a taxa",
+        "Selic implícita continua em 14,00%, cedendo espaço para reduções futuras"
       ],
-      "explanation": "O CDI (Certificado de Depósito Interbancário) é a taxa que os bancos cobram uns dos outros por empréstimos de curtíssimo prazo e é a principal referência de rendimento para renda fixa. Ele sempre fica pouco abaixo da Selic.",
+      "explanation": "O CDI é a taxa média de empréstimos entre bancos e serve como referência para investimentos de renda fixa. Acompanha de perto a Selic.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Ibovespa fechou em alta robusta de ~3%, aproximando-se dos 186 mil pontos",
-        "Elevação motivada por nova pesquisa Quaest mostrando empate técnico entre Lula e Flávio Bolsonaro; mercado interpretou como redução de incerteza eleitoral",
-        "Petrobras (PETR4/PETR3) liderou altas com ganhos acima de 4%, apoiada por preços altos de petróleo no exterior",
-        "Grande volume de negócios com suporte de bancos (Itaú, Bradesco) e Vale; 11ª sessão consecutiva de ganhos"
+        "Fechamento: 187.700,22 pontos (dado mais recente disponível)",
+        "Variação: +2,98% no dia",
+        "Volume financeiro: 9.057.884 contratos",
+        "Amplitude do dia: 184.718 a 188.892 pontos"
       ],
-      "explanation": "O Ibovespa disparou porque a pesquisa eleitoral reduziu incerteza política (vista como positiva pelo mercado). Petrobras subiu muito por alta internacional do petróleo devido aos novos ataques aéreos dos EUA contra o Irã.",
-      "na_pratica": "Quem investe em ações brasileiras saiu ganhando neste dia, especialmente ações de bancos, mineradoras e petrolíferas; fundos multimercado com exposição em bolsa também aproveitaram o movimento."
+      "explanation": "Bolsa em alta após sessão positiva na quarta-feira. Mercado absorve redução de tensões geopolíticas e alívio em yields de Treasuries americanos.",
+      "na_pratica": "Ações: quem investe em grandes empresas da B3 aproveitou o ganho. Fundos de ações também registraram alta no período."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "IFIX fechou em 3.741,80 pontos no dia anterior (1º/9), com queda de 0,56%",
-        "Índice de fundos imobiliários acumula 4º mês consecutivo em terreno negativo (queda de 1,46% em agosto)",
-        "Fundos imobiliários seguem negociando abaixo do valor patrimonial em boa parte de 2026",
-        "FIIs de maior liquidez oscilaram com XPSF11 subindo 2,03% e ARRI11 caindo 9,45%"
+        "Fechamento quarta-feira (02/09): 3.753,87 pontos (+0,32%)",
+        "Acumulado em 2026: -0,98%",
+        "Máxima 52 semanas: 3.941,62; mínima: 3.485,38",
+        "Principais negociações: MXRF11, GGRC11, CPSH11"
       ],
-      "explanation": "O IFIX é o índice dos Fundos de Investimento Imobiliário (FIIs), que são como ações de prédios e imóveis comerciais. A queda sinaliza menor confiança no segmento imobiliário de renda variável.",
+      "explanation": "IFIX é o índice que agrupa fundos imobiliários negociados na B3. Segundo pregão consecutivo em alta com volatilidade contida.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B (indexada ao IPCA) com juros reais mais baixos refletem expectativa de cortes de taxa real",
-        "LTN (prefixada) com movimentos menores diante da incerteza sobre a trajetória da Selic",
-        "LFT (pós-fixada ao CDI) continua acompanhando taxa atual de 13,90% a.a.",
-        "Cupom de 6% a.a. em NTN-B de agosto 2026 encerrou o vencimento perto de 15/08"
+        "NTN-B (indexado ao IPCA): sem dados de taxa específicos reportados hoje",
+        "LTN (pré-fixado): mercado aguarda reação a decisões do Copom",
+        "LFT (atrelado à Selic): acompanha estabilidade da taxa em 14,00%",
+        "Tesouro Direto segue com taxas competitivas em pós-fixados"
       ],
-      "explanation": "NTN-B = titulo ligado à inflação (IPCA); LTN = titulo com taxa fixa escolhida no dia da compra; LFT = titulo que acompanha o CDI diariamente. Cada um funciona de um jeito na prática.",
-      "na_pratica": "Prefixado (LTN) é bom se você acha que juros vão cair; pós-fixado (LFT) rende mais quando CDI sobe; indexado à inflação (NTN-B) protege contra inflação mas rende menos se a inflação cair."
+      "explanation": "LTN é título pré-fixado (você sabe exatamente quanto vai ganhar). LFT acompanha a Selic (renda varia com os juros). NTN-B protege da inflação.",
+      "na_pratica": "Pré-fixado: atratividade moderada com juros em queda. Pós-fixado: CDI de 13,90% segue competitivo para CDBs e Tesouro Selic. Indexado: IPCA+ oferece proteção contra inflação com prêmio reduzido."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "PTAX fechou em R$ 5,16 no dia (variação de 0,01% na sessão)",
-        "Dólar comercial caiu a R$ 5,10 durante o dia, refletindo força do real frente à divisa",
-        "Enfraquecimento do dólar influenciado por pesquisa eleitoral e redução de prêmio de risco Brasil",
-        "No ano, dólar acumula recuo de 5,60% contra o real"
+        "Dólar PTAX (03/09): R$ 5,08, queda de -0,62%",
+        "DXY: dados não específicos reportados hoje",
+        "Real se fortaleceu 1,25% ante dólar conforme reportado na quarta",
+        "Câmbio comercial segue próximo à PTAX com spreads normais"
       ],
-      "explanation": "A PTAX é a taxa de câmbio média do dólar calculada pelo Banco Central e serve como referência para contratos futuros. Quando sobe, dólar fica caro; quando cai, dólar fica barato.",
-      "na_pratica": "Dólar mais barato = produtos importados mais baratos (boa notícia para quem compra carro, eletrônico importado); viagens pro exterior ficam mais caras em reais; quem tem investimentos em dólar perde com desvalorização."
+      "explanation": "PTAX é a cotação oficial do Banco Central, usada em contratos. Moeda se fortaleceu ante dólar, refletindo fluxo de capital externo e redução de risco-país.",
+      "na_pratica": "Viagens: dólar mais barato torna passeios ao exterior menos onerosos. Importados: produtos trazidos de fora ficam mais caros quando dólar sobe (hoje caiu). Investimentos internacionais: real forte reduz ganho em conversão para dólar."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500 fechou em queda de 0,71% (terça-feira, 1º de setembro)",
-        "Nasdaq caiu 1,03% no mesmo período; Dow Jones cedeu 0,79%",
-        "Pressão veio de preocupações com inflação após comentários de Fed Chair Kevin Warsh",
-        "Treasuries (títulos do governo) subiram em rendimento: 10 anos em ~4,73%, toquando máxima desde novembro 2023"
+        "S&P 500: 7.747,71 (+1,06% em sessão anterior, +0,46% quarta)",
+        "Nasdaq Composite: 26.584,06 (+1,40% anterior, +0,45% quarta)",
+        "Dow Jones: 53.686,11 (+1,18% anterior, +0,56% quarta)",
+        "Treasury 10 anos: atingiu 4,82% na quarta, agora em recuo com alívio"
       ],
-      "explanation": "Fed = Banco Central dos EUA; Treasuries = títulos de dívida do governo americano. Quando yields (rendimentos) sobem, preço dos títulos cai. Alto rendimento significa taxa de juros mais cara.",
+      "explanation": "Mercados americanos avançam com alívio de yields (taxas de juros dos títulos do governo caem). Fed govern Christopher Waller sinalizou disposição de manter juros se inflação ceder.",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Europa: Stoxx 600 fechava em queda de 0,1% na abertura de 2 de setembro, com DAX, FTSE 100 e CAC 40 abaixo do par; media (FTSE MIB) liderou com alta de 0,2%",
-        "China: Dados limitados, mas CSI 300 e Hang Seng refletem preocupações com crescimento econômico global",
-        "Japão: Nikkei 225 recuou 2,85%, penalizado por iene mais fraco e redução de exportações",
-        "Coreia do Sul (KOSPI), Chile (IPSA), México (IPC): em linha com pressão global por geopolítica e juros"
+        "Europa (Stoxx 600, DAX, CAC 40, FTSE 100): variação reduzida com yields em queda",
+        "China (Hang Seng, Shanghai): pressão contida com fluxos globais de risco",
+        "Japão (Nikkei 225): -0,17%, resistência em contexto de câmbio forte",
+        "Coreia, Chile, México, Índia: acompanhamento de fluxos globais"
       ],
-      "explanation": "Europa sofre com alta de petróleo e preocupações inflacionárias; Ásia recua por desaceleração econômica e pressões cambiais; todos os mercados sentem impacto da guerra no Irã.",
+      "explanation": "Mercados globais refletem alívio de pressões inflacionárias e sinalizações brandas do Fed. Tensões no Oriente Médio reduzem com possibilidade de acordo.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Petróleo Brent: continuava perto de US$ 95/barril, alimentado por novos ataques dos EUA contra o Irã; marca máxima de 5 semanas",
-        "WTI (crude americano): próximo a US$ 90/barril, também em alta por escalação geopolítica",
-        "Ouro: pressão por declínio em busca por refúgio, já que dólar fraco reduz demanda por ouro",
-        "Prata: movimentação análoga ao ouro, seguindo pressão por dólar mais fraco e juros internacionais mais altos"
+        "Ouro: +1,78% conforme dados de quarta (ganho com alívio de yields)",
+        "Prata: +1,26%, acompanhando ouro com menos volatilidade",
+        "Petróleo Brent: 88,88 (-0,03%), pressão geopolítica reduz com negociações",
+        "Soja: +3,20%; milho: +10,02% com safra brasileira em perspectiva"
       ],
-      "explanation": "Petróleo sobe = inflação sobe = Banco Central aperta juros = dólar forte. Ouro é refúgio em crises, mas perde atração quando dólar enfraquece (é cotado em dólar).",
-      "na_pratica": "Petróleo alto encarece gasolina, gás e frete no Brasil (impacta inflação); ações de Petrobras e Vale ganham; ouro mais caro beneficia mineradoras; importadores sofrem com câmbio."
+      "explanation": "Ouro e prata ganham quando yields caem (ativos sem rendimento ficam mais atrativos). Petróleo recua com possibilidade de acordo no Estreito de Ormuz.",
+      "na_pratica": "Inflação: preços de commodities refletem expectativas de desinflação global. Câmbio: petróleo em dólar afeta importações de combustível. Ações: Vale e Petrobras sofrem com queda de commodities, mas ganham com dólar fraco."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "Quarta-feira (2 de setembro) foi um dia de reação positiva do Brasil enquanto mercados globais amargavam pressão. A nova pesquisa Quaest mostrando empate técnico na disputa presidencial (Lula vs. Flávio) reduziu incerteza política, levando o Ibovespa a disparar 3% e o dólar a cair para R$ 5,10. Porém, o cenário global continuava desafiador: ataques aéreos dos EUA contra o Irã fizeram petróleo brent saltar para máximas de 5 semanas (perto de US$ 95), alimentando preocupações com inflação global. Nos EUA, dados econômicos fracos (recuo no consumo das famílias no PIB) e comentários hawkish do Fed Chair Kevin Warsh pesaram nos índices (S&P 500 -0,71%, Nasdaq -1,03%), enquanto Treasuries subiram em rendimento. Juros futuros brasileiros caíram na sessão, refletindo expectativa de cortes de Selic nos próximos meses (próxima reunião do Copom em 15-16 de setembro). Assim, enquanto o Brasil se beneficiou de alívio político e forte demanda por commodities (Petrobras +4%), o resto do mundo enfrentava a tríplice ameaça de inflação, juros mais altos e escalação no Oriente Médio."
+      "summary": "O mercado brasileiro respirou fundo nesta quinta-feira (03/09) após uma sequência de alívios: as yields americanas caíram com sinalizações dovish do Fed sobre manutenção de juros, reduções de tensão geopolítica no Oriente Médio abriram espaço para acordo sobre o Estreito de Ormuz, e o real se fortaleceu 1,25% ante dólar capturando fluxos de investimento externo. A combinação elevou o Ibovespa para patamares não vistos em meses, com ganho de 2,98%, enquanto o dólar recuou para R$ 5,08 (-0,62%). No front doméstico, a Selic em 14,00% mantém-se estável e as expectativas convergem para reduções futuras conforme a inflação desacelera, criando um ambiente favorável para renda fixa prefixada e pós-fixada. Ouro e prata ganharam com yields menores, enquanto petróleo recuou moderadamente. O mercado agora aguarda decisões do Copom em 16-17 de setembro e indicadores americanos de emprego (payroll) para os próximos passos."
     }
   ]
 }
