@@ -1,119 +1,119 @@
 {
   "date": "2026-09-03",
-  "headline": "Mercado em alta: Ibovespa avança 2,98%, dólar cai e Treasury yields recuam aliviam pressões",
+  "headline": "Payroll nos EUA força revisão de aposta em juros; Ibovespa fecha praticamente estável após 11 altas, dólar sobe",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "DI não apresentou dados específicos de fechamento reportados para hoje",
-        "Mercado aguardando decisão do Copom para 16-17 de setembro",
-        "Selic mantida em 14,00% (corte de 0,25pp na última reunião)",
-        "Curva de juros reflete expectativas de continuidade da desinflação"
+        "Dados completos dos vértices de DI não disponíveis em fontes consultadas",
+        "Mercado operou com juros futuros de forma mista no dia 03",
+        "Expectativas de Selic em 14,00% ao ano (após corte de 0,25 p.p. em agosto)",
+        "Próxima reunião do Copom: 16-17 de setembro (possível novo corte em discussão)"
       ],
-      "explanation": "Sem novos dados de DI futuro publicados hoje, o mercado mantém-se atento aos sinais de política monetária. A redução recente da Selic sinaliza movimento de desaceleração dos juros.",
-      "na_pratica": "Pré-fixado: títulos com taxa fixa mantêm atratividade moderada. Pós-fixado/CDI: rendimento em 13,90% ao ano continua acima da inflação. Indexado à inflação: IPCA+ com prêmio reduzido aguarda ajustes."
+      "explanation": "A curva de juros reflete incerteza sobre o ritmo de cortes da Selic. O payroll forte nos EUA (162 mil vagas vs. 53 mil esperado) reacendeu apostas em alta de juros lá fora, criando pressão externa que neutralizou expectativas locais de mais reduções.",
+      "na_pratica": "Investidor em renda fixa prefixada: juros mais altos favorecem novas compras. Renda fixa pós-fixada/CDI: rendimento segue em 13,90% a.a., mas pode cair se Copom cortar. Indexados à inflação: ganham com pressão de inflação importada do dólar mais forte."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "Taxa DI/CDI: 13,90% ao ano (conforme Banco Central)",
-        "CDI acumulado em 2026: 9,44%",
-        "Próxima decisão Copom: 16-17 de setembro pode afetar a taxa",
-        "Selic implícita continua em 14,00%, cedendo espaço para reduções futuras"
+        "CDI em 13,90% ao ano (dado de 02/09/2026)",
+        "Equivalente a ~0,052% ao dia útil",
+        "Acumulado em 2026: 9,32% até agosto",
+        "Selic em 14,00% (CDI sempre fica ~0,10 p.p. abaixo)"
       ],
-      "explanation": "O CDI é a taxa média de empréstimos entre bancos e serve como referência para investimentos de renda fixa. Acompanha de perto a Selic.",
+      "explanation": "O CDI é a taxa média de empréstimos entre bancos para equilibrar caixa diário — serve de referência para investimentos de renda fixa como CDB, LCI e LCA. Segue a Selic de perto, subindo e descendo conforme decisões do Copom.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechamento: 187.700,22 pontos (dado mais recente disponível)",
-        "Variação: +2,98% no dia",
-        "Volume financeiro: 9.057.884 contratos",
-        "Amplitude do dia: 184.718 a 188.892 pontos"
+        "Fechamento: 185.188 pontos, queda de -0,01% (praticamente estável)",
+        "Interrompeu sequência de 11 altas consecutivas",
+        "Oscilou entre mínima de 184.718 e máxima de 188.891 pontos",
+        "Volume: ~R$ 1 bilhão no dia anterior (01/09)"
       ],
-      "explanation": "Bolsa em alta após sessão positiva na quarta-feira. Mercado absorve redução de tensões geopolíticas e alívio em yields de Treasuries americanos.",
-      "na_pratica": "Ações: quem investe em grandes empresas da B3 aproveitou o ganho. Fundos de ações também registraram alta no período."
+      "explanation": "Mercado fez realização de lucros após forte valorização recente. Vale (-2,9%) e Petrobras (-1,3%) puxaram para baixo, enquanto bancos e exportadores subiram. Sinais indicam consolidação, não reversão da tendência altista.",
+      "na_pratica": "Quem investe em ações grandes (blue chips): companhias como Vale, Petrobras e bancos ainda mantêm estrutura de alta, mas com volatilidade. Momento de cuidado com overcompra."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "Fechamento quarta-feira (02/09): 3.753,87 pontos (+0,32%)",
+        "IFIX em 3.741,80 pontos (dado de 02/09/2026)",
         "Acumulado em 2026: -0,98%",
-        "Máxima 52 semanas: 3.941,62; mínima: 3.485,38",
-        "Principais negociações: MXRF11, GGRC11, CPSH11"
+        "2025: rentabilidade de +21,08%",
+        "Segue sob pressão de juros mais altos"
       ],
-      "explanation": "IFIX é o índice que agrupa fundos imobiliários negociados na B3. Segundo pregão consecutivo em alta com volatilidade contida.",
+      "explanation": "O IFIX mede o desempenho médio dos Fundos de Investimento Imobiliário (FIIs) — basicamente imóveis via bolsa. Está em queda este ano porque FIIs preferem taxas baixas; com juros altos, investidores fogem para renda fixa.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B (indexado ao IPCA): sem dados de taxa específicos reportados hoje",
-        "LTN (pré-fixado): mercado aguarda reação a decisões do Copom",
-        "LFT (atrelado à Selic): acompanha estabilidade da taxa em 14,00%",
-        "Tesouro Direto segue com taxas competitivas em pós-fixados"
+        "Dados de 02/09: NTN-B (indexada à inflação), LTN (prefixada) e LFT (pós-fixada/CDI) em movimento",
+        "NTN-B: pressionada por possível alta de inflação importada (dólar forte)",
+        "LTN: busca interesse com juros mais altos após payroll dos EUA",
+        "LFT: acompanha CDI, estável em 13,90% a.a."
       ],
-      "explanation": "LTN é título pré-fixado (você sabe exatamente quanto vai ganhar). LFT acompanha a Selic (renda varia com os juros). NTN-B protege da inflação.",
-      "na_pratica": "Pré-fixado: atratividade moderada com juros em queda. Pós-fixado: CDI de 13,90% segue competitivo para CDBs e Tesouro Selic. Indexado: IPCA+ oferece proteção contra inflação com prêmio reduzido."
+      "explanation": "LTN você sabe quanto vai ganhar no fim (juros fixos); NTN-B ganha ou perde com inflação; LFT (Letra Financeira do Tesouro) rende exatamente o CDI diário. Prefixado ficou mais atrativo com juros em alta.",
+      "na_pratica": "Prefixado: bom para quem quer garantia de retorno fixo, com juros globais em alta. Pós-fixado (LFT/CDI): ideal se aposta em manutenção de juros altos. Inflacionário (NTN-B): proteção contra inflação, mas sofre se juros subirem."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "Dólar PTAX (03/09): R$ 5,08, queda de -0,62%",
-        "DXY: dados não específicos reportados hoje",
-        "Real se fortaleceu 1,25% ante dólar conforme reportado na quarta",
-        "Câmbio comercial segue próximo à PTAX com spreads normais"
+        "USD/BRL em 5,1074 (abertura) e 5,1396 (fechamento em 04/09, parcial)",
+        "PTAX em ~5,08 (03/09, -0,62%)",
+        "DXY (índice do dólar global) em queda: abaixo de 99 (mínima desde 26/08)",
+        "Dólar forte por payroll acima do esperado e aposta em juros nos EUA"
       ],
-      "explanation": "PTAX é a cotação oficial do Banco Central, usada em contratos. Moeda se fortaleceu ante dólar, refletindo fluxo de capital externo e redução de risco-país.",
-      "na_pratica": "Viagens: dólar mais barato torna passeios ao exterior menos onerosos. Importados: produtos trazidos de fora ficam mais caros quando dólar sobe (hoje caiu). Investimentos internacionais: real forte reduz ganho em conversão para dólar."
+      "explanation": "PTAX é a taxa média de câmbio divulgada pelo BC — serve para corrigir operações financeiras em dólar. DXY mede força do dólar contra moedas globais. Hoje o real sofreu pressão porque emprego forte nos EUA afasta cortes de juros por lá.",
+      "na_pratica": "Viagens/turismo: dólar mais caro significa passagens aéreas, hotéis e compras importadas mais caros. Produtos importados: encarecimento refletido em dias. Investimentos internacionais: quem tem dólares ganhou hoje; quem vai comprar ativo em USD vai gastar mais reais."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500: 7.747,71 (+1,06% em sessão anterior, +0,46% quarta)",
-        "Nasdaq Composite: 26.584,06 (+1,40% anterior, +0,45% quarta)",
-        "Dow Jones: 53.686,11 (+1,18% anterior, +0,56% quarta)",
-        "Treasury 10 anos: atingiu 4,82% na quarta, agora em recuo com alívio"
+        "Payroll: 162 mil vagas em agosto (muito acima dos 53 mil esperado)",
+        "S&P 500: fechou em -0,38% (7.718,60 pontos)",
+        "Nasdaq: -0,29% (26.506,99 pontos)",
+        "Dow Jones: -0,51% (53.414,25 pontos) — todos caíram no dia 04/09"
       ],
-      "explanation": "Mercados americanos avançam com alívio de yields (taxas de juros dos títulos do governo caem). Fed govern Christopher Waller sinalizou disposição de manter juros se inflação ceder.",
+      "explanation": "Emprego forte nos EUA reacendeu temor de inflação persistente e possível alta de juros da Fed (ao invés de corte). Treasuries (títulos americanos) subiram em rendimento, puxando bolsa para baixo. Mercado esperava por relatório fraco.",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Europa (Stoxx 600, DAX, CAC 40, FTSE 100): variação reduzida com yields em queda",
-        "China (Hang Seng, Shanghai): pressão contida com fluxos globais de risco",
-        "Japão (Nikkei 225): -0,17%, resistência em contexto de câmbio forte",
-        "Coreia, Chile, México, Índia: acompanhamento de fluxos globais"
+        "Europa: pressão pela alta de juros nos EUA, reduz atrativos de ativos europeus",
+        "China: Shanghai pouco alterado, apesar de dinâmica defensiva global",
+        "Japão: Nikkei também sofre por iene fraco vs. dólar (ambiente de alta de juros EUA)",
+        "Divisão clara: mercados avessos a risco, busca por segurança (dólar e Treasuries)"
       ],
-      "explanation": "Mercados globais refletem alívio de pressões inflacionárias e sinalizações brandas do Fed. Tensões no Oriente Médio reduzem com possibilidade de acordo.",
+      "explanation": "Quando EUA aumenta juros, capital sai de mercados emergentes e europeus em direção a ativos americanos seguros. Iene cai porque Banco do Japão segue com juros baixos (contraste com Fed mais agressiva).",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Ouro: +1,78% conforme dados de quarta (ganho com alívio de yields)",
-        "Prata: +1,26%, acompanhando ouro com menos volatilidade",
-        "Petróleo Brent: 88,88 (-0,03%), pressão geopolítica reduz com negociações",
-        "Soja: +3,20%; milho: +10,02% com safra brasileira em perspectiva"
+        "Ouro: +1,78% (4.461 USD/onça) — refúgio ante incerteza",
+        "Prata: +1,26% — acompanha ouro",
+        "Petróleo Brent: -0,03% (88,88 USD/bbl), WTI: -0,11% — estável, sem pânico",
+        "Minério de ferro: estável (~161,91) — pouco afetado pela volatilidade macro do dia"
       ],
-      "explanation": "Ouro e prata ganham quando yields caem (ativos sem rendimento ficam mais atrativos). Petróleo recua com possibilidade de acordo no Estreito de Ormuz.",
-      "na_pratica": "Inflação: preços de commodities refletem expectativas de desinflação global. Câmbio: petróleo em dólar afeta importações de combustível. Ações: Vale e Petrobras sofrem com queda de commodities, mas ganham com dólar fraco."
+      "explanation": "Ouro sobe quando há medo de recessão ou alta inflação (hoje ambos). Petróleo estável porque demanda global não desabou com payroll — só muda expectativa de juros. Minério de ferro segue normal, ignorando volatilidade de juros.",
+      "na_pratica": "Inflação: ouro em alta sinaliza preocupação com inflação importada (dólar forte); petróleo estável significa economia real ainda funciona. Câmbio: ações de mineradoras sofrem com dólar forte, mas ouro em alta as protege parcialmente. Ações de energia: petróleo estável afasta perdas maiores."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "O mercado brasileiro respirou fundo nesta quinta-feira (03/09) após uma sequência de alívios: as yields americanas caíram com sinalizações dovish do Fed sobre manutenção de juros, reduções de tensão geopolítica no Oriente Médio abriram espaço para acordo sobre o Estreito de Ormuz, e o real se fortaleceu 1,25% ante dólar capturando fluxos de investimento externo. A combinação elevou o Ibovespa para patamares não vistos em meses, com ganho de 2,98%, enquanto o dólar recuou para R$ 5,08 (-0,62%). No front doméstico, a Selic em 14,00% mantém-se estável e as expectativas convergem para reduções futuras conforme a inflação desacelera, criando um ambiente favorável para renda fixa prefixada e pós-fixada. Ouro e prata ganharam com yields menores, enquanto petróleo recuou moderadamente. O mercado agora aguarda decisões do Copom em 16-17 de setembro e indicadores americanos de emprego (payroll) para os próximos passos."
+      "summary": "O dia foi marcado pelo payroll dos EUA (162 mil vagas criadas em agosto, bem acima dos 53 mil esperados), que reacendeu apostas em alta de juros pela Fed e assustou mercados globais. Isso derrubou bolsas americanas (S&P 500 -0,38%, Nasdaq -0,29%, Dow -0,51%) e criou pressão no Brasil: o dólar subiu (PTAX em alta, USD/BRL perto de 5,14 durante o pregão), Vale e Petrobras caíram (-2,9% e -1,3%), e o Ibovespa fechou praticamente estável (-0,01% aos 185.188 pontos) após realização de lucros de uma sequência de 11 altas. Ouro subiu 1,78% como refúgio, e juros futuros brasileiros operaram mistos, refletindo conflito entre otimismo com Selic local e pessimismo com juros externos. O mercado agora aguarda decisão do Copom (16-17/09) para confirmar novo corte de juros no Brasil ou pausar na Selic de 14%."
     }
   ]
 }
