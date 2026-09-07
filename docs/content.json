@@ -1,119 +1,119 @@
 {
-  "date": "2026-09-03",
-  "headline": "Payroll nos EUA força revisão de aposta em juros; Ibovespa fecha praticamente estável após 11 altas, dólar sobe",
+  "date": "2026-09-04",
+  "headline": "Payroll acima do esperado pressiona juros nos EUA; B3 encerra semana com cautela antes do feriado",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Dados completos dos vértices de DI não disponíveis em fontes consultadas",
-        "Mercado operou com juros futuros de forma mista no dia 03",
-        "Expectativas de Selic em 14,00% ao ano (após corte de 0,25 p.p. em agosto)",
-        "Próxima reunião do Copom: 16-17 de setembro (possível novo corte em discussão)"
+        "Dados não disponíveis para 4 de setembro (B3 encerrou sexta antes de feriado na segunda)",
+        "Selic mantida em 14,00% desde reunião de 5 de agosto",
+        "Mercado aguarda decisão do Copom em 16-17 de setembro",
+        "Curva de juros acompanha movimento de cautela ante payroll forte nos EUA"
       ],
-      "explanation": "A curva de juros reflete incerteza sobre o ritmo de cortes da Selic. O payroll forte nos EUA (162 mil vagas vs. 53 mil esperado) reacendeu apostas em alta de juros lá fora, criando pressão externa que neutralizou expectativas locais de mais reduções.",
-      "na_pratica": "Investidor em renda fixa prefixada: juros mais altos favorecem novas compras. Renda fixa pós-fixada/CDI: rendimento segue em 13,90% a.a., mas pode cair se Copom cortar. Indexados à inflação: ganham com pressão de inflação importada do dólar mais forte."
+      "explanation": "Com o payroll americano mais forte que esperado, aumentam as apostas de aumento de taxa nos EUA, o que pressiona os juros futuros no Brasil por conta da demanda externa.",
+      "na_pratica": "Renda fixa prefixada: expectativa de pressão nas taxas pré-fixadas. Renda fixa pós-fixada (CDI): acompanha redução gradual da Selic. Renda fixa indexada à inflação: NTN-B acompanha movimentação de juros reais."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "CDI em 13,90% ao ano (dado de 02/09/2026)",
-        "Equivalente a ~0,052% ao dia útil",
-        "Acumulado em 2026: 9,32% até agosto",
-        "Selic em 14,00% (CDI sempre fica ~0,10 p.p. abaixo)"
+        "CDI em 13,90% ao ano (última atualização 2 de setembro)",
+        "Equivale a aproximadamente 0,052% ao dia útil",
+        "CDI acompanha a Selic (14,00%), ficando sempre ~0,10 p.p. abaixo",
+        "Acumulado em 2026 (até 2 de setembro): 9,55% no ano"
       ],
-      "explanation": "O CDI é a taxa média de empréstimos entre bancos para equilibrar caixa diário — serve de referência para investimentos de renda fixa como CDB, LCI e LCA. Segue a Selic de perto, subindo e descendo conforme decisões do Copom.",
+      "explanation": "O CDI é a taxa média dos empréstimos de curtíssimo prazo entre bancos — é a principal referência de rentabilidade da renda fixa no Brasil. Quando a Selic cai, o CDI cai junto.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechamento: 185.188 pontos, queda de -0,01% (praticamente estável)",
-        "Interrompeu sequência de 11 altas consecutivas",
-        "Oscilou entre mínima de 184.718 e máxima de 188.891 pontos",
-        "Volume: ~R$ 1 bilhão no dia anterior (01/09)"
+        "Ibovespa encerrou próximo aos 185 mil pontos (nível-chave para a semana)",
+        "Sequência de 11 sessões de alta interrompida na quinta-feira (3), com recuo de 0,01%",
+        "Foco em resultados eleitorais e projeções de Selic: mercado precifica fim do ciclo de cortes",
+        "Volume de negociação reduzido ante feriado de segunda (Independência)"
       ],
-      "explanation": "Mercado fez realização de lucros após forte valorização recente. Vale (-2,9%) e Petrobras (-1,3%) puxaram para baixo, enquanto bancos e exportadores subiram. Sinais indicam consolidação, não reversão da tendência altista.",
-      "na_pratica": "Quem investe em ações grandes (blue chips): companhias como Vale, Petrobras e bancos ainda mantêm estrutura de alta, mas com volatilidade. Momento de cuidado com overcompra."
+      "explanation": "O Ibovespa está em zona neutra, com investidores observando se a Selic para de cair ou continua. Resultados eleitorais também influenciam o humor das bolsas.",
+      "na_pratica": "Renda variável (ações): movimentação limitada por feriado próximo e incerteza sobre policy do BC; bancos e ações sensíveis a juros sob pressão."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "IFIX em 3.741,80 pontos (dado de 02/09/2026)",
-        "Acumulado em 2026: -0,98%",
-        "2025: rentabilidade de +21,08%",
-        "Segue sob pressão de juros mais altos"
+        "IFIX fechou quinta-feira (3) em alta de 0,20%, aos 3.761,48 pontos",
+        "Acumulado em 2026: -0,33% (praticamente neutro no ano)",
+        "Acumulado em 12 meses: +9%",
+        "Fundo TRXF11 retirado de carteiras recomendadas; BTLG11 em foco por aquisição bilionária"
       ],
-      "explanation": "O IFIX mede o desempenho médio dos Fundos de Investimento Imobiliário (FIIs) — basicamente imóveis via bolsa. Está em queda este ano porque FIIs preferem taxas baixas; com juros altos, investidores fogem para renda fixa.",
+      "explanation": "O IFIX é o índice dos Fundos de Investimento Imobiliário (FIIs). Mede o desempenho dos imóveis via bolsa de valores — é como investir em prédios, shoppings e galpões sem comprar o imóvel físico. Apesar de fraco no ano, rendeu bem nos últimos 12 meses.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "Dados de 02/09: NTN-B (indexada à inflação), LTN (prefixada) e LFT (pós-fixada/CDI) em movimento",
-        "NTN-B: pressionada por possível alta de inflação importada (dólar forte)",
-        "LTN: busca interesse com juros mais altos após payroll dos EUA",
-        "LFT: acompanha CDI, estável em 13,90% a.a."
+        "NTN-B (indexado ao IPCA): curtos/médios pressionados por esperança de menores cortes de Selic",
+        "LTN (prefixada): pressão de alta nas taxas ante payroll forte nos EUA",
+        "LFT (pós-fixada, referenciada em juros): estável, acompanha Selic",
+        "Movimento geral: mercado reprifica risco de pausa/reversão nos cortes de taxa"
       ],
-      "explanation": "LTN você sabe quanto vai ganhar no fim (juros fixos); NTN-B ganha ou perde com inflação; LFT (Letra Financeira do Tesouro) rende exatamente o CDI diário. Prefixado ficou mais atrativo com juros em alta.",
-      "na_pratica": "Prefixado: bom para quem quer garantia de retorno fixo, com juros globais em alta. Pós-fixado (LFT/CDI): ideal se aposta em manutenção de juros altos. Inflacionário (NTN-B): proteção contra inflação, mas sofre se juros subirem."
+      "explanation": "NTN-B é título indexado ao IPCA (inflação) — você compra hoje protegido contra a inflação futura. LTN é prefixada — você sabe exatamente quanto ganhará. LFT acompanha a Selic — rende o que a Selic render (já descontado o risco país).",
+      "na_pratica": "Renda fixa prefixada (LTN): pressão para cima nas taxas, tornando mais rentável para novos investimentos. Renda fixa pós-fixada (LFT): continua rentável conforme Selic cai. Renda fixa indexada (NTN-B): incerteza sobre juros reais; volatilidade moderada."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "USD/BRL em 5,1074 (abertura) e 5,1396 (fechamento em 04/09, parcial)",
-        "PTAX em ~5,08 (03/09, -0,62%)",
-        "DXY (índice do dólar global) em queda: abaixo de 99 (mínima desde 26/08)",
-        "Dólar forte por payroll acima do esperado e aposta em juros nos EUA"
+        "PTAX fechamento 4 de setembro: R$ 5,1253 por dólar (quarta queda consecutiva)",
+        "Dólar comercial encerrou quinta (3) em R$ 5,105, queda de 0,07% vs. dia anterior",
+        "Real fortalecido: acompanha redução de Selic no Brasil e abertura para ativos mais arriscados",
+        "Banda de monitoramento: R$ 5,10 a R$ 5,15 (limite de conforto do mercado)"
       ],
-      "explanation": "PTAX é a taxa média de câmbio divulgada pelo BC — serve para corrigir operações financeiras em dólar. DXY mede força do dólar contra moedas globais. Hoje o real sofreu pressão porque emprego forte nos EUA afasta cortes de juros por lá.",
-      "na_pratica": "Viagens/turismo: dólar mais caro significa passagens aéreas, hotéis e compras importadas mais caros. Produtos importados: encarecimento refletido em dias. Investimentos internacionais: quem tem dólares ganhou hoje; quem vai comprar ativo em USD vai gastar mais reais."
+      "explanation": "O PTAX é a taxa média do dólar divulgada pelo Banco Central, usada para contratos futuros. Um dólar mais barato (em reais) facilita importações e encarece exportações. Um real forte (dólar barato) é bom para quem importa, ruim para quem exporta.",
+      "na_pratica": "Câmbio: real em recuperação, favorecendo importadores e turistas. Ativos internacionais: moeda mais forte favorece retorno em reais, mas encarece aquisição de ativos no exterior."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "Payroll: 162 mil vagas em agosto (muito acima dos 53 mil esperado)",
-        "S&P 500: fechou em -0,38% (7.718,60 pontos)",
-        "Nasdaq: -0,29% (26.506,99 pontos)",
-        "Dow Jones: -0,51% (53.414,25 pontos) — todos caíram no dia 04/09"
+        "S&P 500: -0,38% na sexta (4), fechando em 7.718,60",
+        "Nasdaq: -0,29% na sexta, fechando em 26.506,99",
+        "Dow Jones: -0,51% na sexta, perdendo 271,86 pontos para 53.414,25",
+        "Catalyst: payroll de agosto com 162 mil novos empregos (vs. 53 mil esperados) eleva aposta de high rates"
       ],
-      "explanation": "Emprego forte nos EUA reacendeu temor de inflação persistente e possível alta de juros da Fed (ao invés de corte). Treasuries (títulos americanos) subiram em rendimento, puxando bolsa para baixo. Mercado esperava por relatório fraco.",
+      "explanation": "Dados fortes do mercado de trabalho americano acendem alerta sobre inflação e levam o mercado a reprificar chance de aumento de taxa do Fed em setembro — o que é visto como 'bad news' pelas bolsas (aperto monetário freia economia).",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Europa: pressão pela alta de juros nos EUA, reduz atrativos de ativos europeus",
-        "China: Shanghai pouco alterado, apesar de dinâmica defensiva global",
-        "Japão: Nikkei também sofre por iene fraco vs. dólar (ambiente de alta de juros EUA)",
-        "Divisão clara: mercados avessos a risco, busca por segurança (dólar e Treasuries)"
+        "Europa: dados sobre mercados da semana ainda sob impacto de tensões geopolíticas (Irã-EUA)",
+        "China: mercados em cautela ante desaceleração econômica doméstica",
+        "Japão/Coreia: acompanham movimento de moedas (dólar mais fraco favorece exportadores)",
+        "Geral: todos em modo 'risk-off' (aversão ao risco) enquanto esperam por sinais do Fed"
       ],
-      "explanation": "Quando EUA aumenta juros, capital sai de mercados emergentes e europeus em direção a ativos americanos seguros. Iene cai porque Banco do Japão segue com juros baixos (contraste com Fed mais agressiva).",
+      "explanation": "Mercados internacionais seguem Wall Street — quando o Fed sinaliza aperto, todos os emergentes sentem pressão. O Brasil sofre porque dólar sobe (capital foge de ativos arriscados) e juros no Brasil precisam ficar atrativos.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Ouro: +1,78% (4.461 USD/onça) — refúgio ante incerteza",
-        "Prata: +1,26% — acompanha ouro",
-        "Petróleo Brent: -0,03% (88,88 USD/bbl), WTI: -0,11% — estável, sem pânico",
-        "Minério de ferro: estável (~161,91) — pouco afetado pela volatilidade macro do dia"
+        "Ouro: sob pressão pelo fortalecimento do dólar em resposta ao payroll",
+        "Prata: acompanha ouro, com volatilidade moderada",
+        "Petróleo Brent: respira após tensões geopolíticas recentes no Oriente Médio; preço ao redor de US$ 85-90/bbl",
+        "Geral: commodities pressionadas por apreciação do dólar e risco de taxa de juro mais alta nos EUA"
       ],
-      "explanation": "Ouro sobe quando há medo de recessão ou alta inflação (hoje ambos). Petróleo estável porque demanda global não desabou com payroll — só muda expectativa de juros. Minério de ferro segue normal, ignorando volatilidade de juros.",
-      "na_pratica": "Inflação: ouro em alta sinaliza preocupação com inflação importada (dólar forte); petróleo estável significa economia real ainda funciona. Câmbio: ações de mineradoras sofrem com dólar forte, mas ouro em alta as protege parcialmente. Ações de energia: petróleo estável afasta perdas maiores."
+      "explanation": "Commodities são precificadas em dólar — dólar forte as encarece para outras moedas. Além disso, juros mais altos nos EUA desestimulam investimento em ativos sem rendimento, como ouro e prata.",
+      "na_pratica": "Inflação: dólar forte comprime preços em reais (importações) mas pode pressionar internacionalmente se Fed subir taxa. Câmbio: petróleo em dólar, então afeta Petrobras (exportadora). Ações: Petrobras sofre se preço cai; Vale sofre com aversão ao risco."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "O dia foi marcado pelo payroll dos EUA (162 mil vagas criadas em agosto, bem acima dos 53 mil esperados), que reacendeu apostas em alta de juros pela Fed e assustou mercados globais. Isso derrubou bolsas americanas (S&P 500 -0,38%, Nasdaq -0,29%, Dow -0,51%) e criou pressão no Brasil: o dólar subiu (PTAX em alta, USD/BRL perto de 5,14 durante o pregão), Vale e Petrobras caíram (-2,9% e -1,3%), e o Ibovespa fechou praticamente estável (-0,01% aos 185.188 pontos) após realização de lucros de uma sequência de 11 altas. Ouro subiu 1,78% como refúgio, e juros futuros brasileiros operaram mistos, refletindo conflito entre otimismo com Selic local e pessimismo com juros externos. O mercado agora aguarda decisão do Copom (16-17/09) para confirmar novo corte de juros no Brasil ou pausar na Selic de 14%."
+      "summary": "<cite index=\"41-7\">Nonfarm payrolls cresceram 162 mil em agosto, muito acima dos 53 mil esperados</cite>, <cite index=\"41-10,41-11\">elevando os yields dos Treasuries e aumentando expectativas de aumento de taxa do Fed para setembro</cite>. Esse movimento afetou o Brasil de duas formas: (1) pressão nos juros futuros (mercado repreçando risco de Copom ser mais cauteloso), e (2) fortalecimento do dólar, que encareceu as importações. <cite index=\"7-5,7-6\">O Ibovespa interrompeu sequência de 11 altas e recuou 0,01% na quinta-feira, aos 185.188 pontos</cite>, refletindo cautela ante feriado (segunda não há pregão) e incerteza sobre próximos passos do Banco Central. <cite index=\"2-10\">O dólar à vista fechou em baixa de 0,71%, a R$ 5,1320</cite>, favorecido pela retomada da confiança no real, mas o quadro pode virar conforme os mercados internacionais seguem voláteis. Investidores aguardam decisão do Copom em 16-17 de setembro para confirmar se o ciclo de cortes continua ou pausa."
     }
   ]
 }
