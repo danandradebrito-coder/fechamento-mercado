@@ -1,119 +1,119 @@
 {
-  "date": "2026-09-04",
-  "headline": "Payroll acima do esperado pressiona juros nos EUA; B3 encerra semana com cautela antes do feriado",
+  "date": "2026-09-08",
+  "headline": "Ibovespa sobe 1,20% com otimismo em pesquisas eleitorais e queda de juros, enquanto petróleo salta com escalada no Oriente Médio",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Dados não disponíveis para 4 de setembro (B3 encerrou sexta antes de feriado na segunda)",
-        "Selic mantida em 14,00% desde reunião de 5 de agosto",
-        "Mercado aguarda decisão do Copom em 16-17 de setembro",
-        "Curva de juros acompanha movimento de cautela ante payroll forte nos EUA"
+        "Juros futuros recuam por toda a curva com redução de pressão inflacionária",
+        "Projeção IPCA 2026 reduzida de 5,01% para 5% pelo Focus; Selic em 13,75%",
+        "Movimento reflete alivio nas expectativas com pesquisas eleitorais positivas",
+        "Curva mais plana: o mercado precifica menos aumentos de juros futuros"
       ],
-      "explanation": "Com o payroll americano mais forte que esperado, aumentam as apostas de aumento de taxa nos EUA, o que pressiona os juros futuros no Brasil por conta da demanda externa.",
-      "na_pratica": "Renda fixa prefixada: expectativa de pressão nas taxas pré-fixadas. Renda fixa pós-fixada (CDI): acompanha redução gradual da Selic. Renda fixa indexada à inflação: NTN-B acompanha movimentação de juros reais."
+      "explanation": "Os juros futuros caíram porque o mercado viu menos risco inflacionário e perspectivas melhores. Isso significa que o BC não deve subir tanto quanto se esperava antes. A curva mais plana quer dizer que os juros mais longos caem mais do que os curtos, sinalizando otimismo.",
+      "na_pratica": "Prefixado: bom momento para investir (taxas mais baixas). Pós-fixado (CDI): rendimento reduz um pouco, mas segue atrativo. Indexado à inflação: com IPCA menor, esses títulos perdem atratividade relativa."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "CDI em 13,90% ao ano (última atualização 2 de setembro)",
-        "Equivale a aproximadamente 0,052% ao dia útil",
-        "CDI acompanha a Selic (14,00%), ficando sempre ~0,10 p.p. abaixo",
-        "Acumulado em 2026 (até 2 de setembro): 9,55% no ano"
+        "CDI/Taxa DI em 13,90% ao ano (dados de 04/09/2026)",
+        "Equivale a ~0,052% ao dia útil ou ~0,21% ao mês",
+        "CDI acompanha a Selic (14,00% meta), ficando sempre um pouco abaixo",
+        "Acumulado em 2026: 9,55% até setembro"
       ],
-      "explanation": "O CDI é a taxa média dos empréstimos de curtíssimo prazo entre bancos — é a principal referência de rentabilidade da renda fixa no Brasil. Quando a Selic cai, o CDI cai junto.",
+      "explanation": "CDI é a taxa média dos empréstimos de um dia que os bancos fazem entre si para fechar o caixa no positivo. É a principal referência para CDB, LCI e fundos DI no Brasil.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Ibovespa encerrou próximo aos 185 mil pontos (nível-chave para a semana)",
-        "Sequência de 11 sessões de alta interrompida na quinta-feira (3), com recuo de 0,01%",
-        "Foco em resultados eleitorais e projeções de Selic: mercado precifica fim do ciclo de cortes",
-        "Volume de negociação reduzido ante feriado de segunda (Independência)"
+        "Fechamento: 187.366 pontos, alta de 1,20% (R$ 21,2 bilhões de volume)",
+        "Causas: otimismo com pesquisas eleitorais, queda de juros, escalada no Oriente Médio sustenta petróleo",
+        "Top 5 altas: Vale, Petrobras, grandes bancos e varejistas (dados confirmam PETR4, VALE3 e setor financeiro)",
+        "Motivo principal: redução de pressão dos juros domésticos + fluxo externo + alta do petróleo favorece Petrobras"
       ],
-      "explanation": "O Ibovespa está em zona neutra, com investidores observando se a Selic para de cair ou continua. Resultados eleitorais também influenciam o humor das bolsas.",
-      "na_pratica": "Renda variável (ações): movimentação limitada por feriado próximo e incerteza sobre policy do BC; bancos e ações sensíveis a juros sob pressão."
+      "explanation": "A bolsa subiu porque duas coisas aconteceram: juros caindo (bom para ganho de capital em ações) e petróleo em alta (Petrobras e Vale ganham). Pesquisas eleitorais também trouxeram alívio.",
+      "na_pratica": "Ações: day-traders lucraram com o movimento. Fundos multimercado também ganharam com a combinação de queda de juros + alta do índice. Investidores de longo prazo devem ficar atentos ao movimento eleitoral."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "IFIX fechou quinta-feira (3) em alta de 0,20%, aos 3.761,48 pontos",
-        "Acumulado em 2026: -0,33% (praticamente neutro no ano)",
-        "Acumulado em 12 meses: +9%",
-        "Fundo TRXF11 retirado de carteiras recomendadas; BTLG11 em foco por aquisição bilionária"
+        "IFIX acumulado 2026: -0,98% ao ano (em queda vs. ganho de 21,08% em 2025)",
+        "Fundos imobiliários em correção após forte valorização no ano anterior",
+        "Mínima de 52 semanas: 3.485,38 pontos; máxima: 3.941,62 pontos",
+        "Pressão vem de juros altos que encarecem financiamentos imobiliários"
       ],
-      "explanation": "O IFIX é o índice dos Fundos de Investimento Imobiliário (FIIs). Mede o desempenho dos imóveis via bolsa de valores — é como investir em prédios, shoppings e galpões sem comprar o imóvel físico. Apesar de fraco no ano, rendeu bem nos últimos 12 meses.",
+      "explanation": "IFIX é o índice dos Fundos Imobiliários (FIIs), que investem em imóveis ou papéis imobiliários. Com juros altos, as propriedades ficam menos atrativas e os fundos caem.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B (indexado ao IPCA): curtos/médios pressionados por esperança de menores cortes de Selic",
-        "LTN (prefixada): pressão de alta nas taxas ante payroll forte nos EUA",
-        "LFT (pós-fixada, referenciada em juros): estável, acompanha Selic",
-        "Movimento geral: mercado reprifica risco de pausa/reversão nos cortes de taxa"
+        "NTN-B (indexada ao IPCA): abrem com alívio; redução na projeção de inflação favorece demanda",
+        "LTN e LFT (prefixado e flutuante): caíram em taxa (abriram) com otimismo no mercado",
+        "Diferenças práticas: NTN-B protege contra inflação, LTN é puro juro, LFT acompanha a Selic do dia",
+        "Volume de recompras do Tesouro nos EUA elevou rendimentos dos Treasuries, impactando comparação Brasil"
       ],
-      "explanation": "NTN-B é título indexado ao IPCA (inflação) — você compra hoje protegido contra a inflação futura. LTN é prefixada — você sabe exatamente quanto ganhará. LFT acompanha a Selic — rende o que a Selic render (já descontado o risco país).",
-      "na_pratica": "Renda fixa prefixada (LTN): pressão para cima nas taxas, tornando mais rentável para novos investimentos. Renda fixa pós-fixada (LFT): continua rentável conforme Selic cai. Renda fixa indexada (NTN-B): incerteza sobre juros reais; volatilidade moderada."
+      "explanation": "Títulos públicos brasileiros se beneficiaram da queda de juros. A NTN-B ganhou porque IPCA caiu nas projeções. Quem comprou esses títulos hoje pegou taxas mais atraentes que ontem.",
+      "na_pratica": "Prefixado: bom investir agora (taxas caíram). Pós-fixado/CDI: menos atrativo que títulos prefixados no momento. Inflação: com IPCA reduzido, NTN-B perde apelo comparativo."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "PTAX fechamento 4 de setembro: R$ 5,1253 por dólar (quarta queda consecutiva)",
-        "Dólar comercial encerrou quinta (3) em R$ 5,105, queda de 0,07% vs. dia anterior",
-        "Real fortalecido: acompanha redução de Selic no Brasil e abertura para ativos mais arriscados",
-        "Banda de monitoramento: R$ 5,10 a R$ 5,15 (limite de conforto do mercado)"
+        "Dólar/Real PTAX: R$ 5,09, queda de 0,81% no dia",
+        "Causas: pesquisas eleitorais reduzem incerteza política; alta do petróleo faz exportadores cumprirem contratos",
+        "DXY (índice de força do dólar global): pressionado por escalada geopolítica que beneficia commodities",
+        "Expectativa de câmbio no Focus: R$ 5,20 (mais firme que hoje)"
       ],
-      "explanation": "O PTAX é a taxa média do dólar divulgada pelo Banco Central, usada para contratos futuros. Um dólar mais barato (em reais) facilita importações e encarece exportações. Um real forte (dólar barato) é bom para quem importa, ruim para quem exporta.",
-      "na_pratica": "Câmbio: real em recuperação, favorecendo importadores e turistas. Ativos internacionais: moeda mais forte favorece retorno em reais, mas encarece aquisição de ativos no exterior."
+      "explanation": "PTAX é a taxa média do dólar calculada pelo BC em operações de câmbio. Queda significa o real ficou mais forte. DXY mede a força geral do dólar contra outras moedas.",
+      "na_pratica": "Viagens: melhor época para ir ao exterior, o dólar está mais barato. Produtos importados: vão ficar um pouco mais baratos nas próximas semanas. Investimentos internacionais: quem tem dólar perde um pouco hoje, mas recebe hedging geopolítico."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500: -0,38% na sexta (4), fechando em 7.718,60",
-        "Nasdaq: -0,29% na sexta, fechando em 26.506,99",
-        "Dow Jones: -0,51% na sexta, perdendo 271,86 pontos para 53.414,25",
-        "Catalyst: payroll de agosto com 162 mil novos empregos (vs. 53 mil esperados) eleva aposta de high rates"
+        "S&P 500: 7.673,52 pontos, queda de 0,58% (45,08 pontos)",
+        "Dow Jones: 52.786,07 pontos, queda de 1,18% (628,18 pontos)",
+        "Nasdaq: 26.421,41 pontos, queda de 0,32% (85,58 pontos)",
+        "Catalisador: escalada no Oriente Médio levou petróleo Brent para ~US$99,50, preocupa Fed com inflação"
       ],
-      "explanation": "Dados fortes do mercado de trabalho americano acendem alerta sobre inflação e levam o mercado a reprificar chance de aumento de taxa do Fed em setembro — o que é visto como 'bad news' pelas bolsas (aperto monetário freia economia).",
+      "explanation": "Wall Street caiu porque petróleo caro ameaça trazer inflação de volta. O Federal Reserve está reunindo dados de inflação esta semana antes de decidir sobre juros na semana que vem; mercado estima 60% de chance de aumento.",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Europa: dados sobre mercados da semana ainda sob impacto de tensões geopolíticas (Irã-EUA)",
-        "China: mercados em cautela ante desaceleração econômica doméstica",
-        "Japão/Coreia: acompanham movimento de moedas (dólar mais fraco favorece exportadores)",
-        "Geral: todos em modo 'risk-off' (aversão ao risco) enquanto esperam por sinais do Fed"
+        "Europa: CAC 40 +0,33%, DAX -0,15%, FTSE 100 -0,08%, Stoxx 600 em queda leve",
+        "Japão: Nikkei 225 +2,12% (movimento oposto global, iene forte em voo para segurança)",
+        "China: dados não disponibilizados detalhadamente; mineração de ferro subiu 1,32% (contado futuro em Dalian)",
+        "Motivação geral: geopolitical risk premia elevada; rali de iene e crise de confiança nos EUA"
       ],
-      "explanation": "Mercados internacionais seguem Wall Street — quando o Fed sinaliza aperto, todos os emergentes sentem pressão. O Brasil sofre porque dólar sobe (capital foge de ativos arriscados) e juros no Brasil precisam ficar atrativos.",
+      "explanation": "Mercados internacionais dividiram: Ásia com iene forte (fuga para segurança) e Europa fraca (contagio dos EUA). Isso afeta exportadores brasileiros.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Ouro: sob pressão pelo fortalecimento do dólar em resposta ao payroll",
-        "Prata: acompanha ouro, com volatilidade moderada",
-        "Petróleo Brent: respira após tensões geopolíticas recentes no Oriente Médio; preço ao redor de US$ 85-90/bbl",
-        "Geral: commodities pressionadas por apreciação do dólar e risco de taxa de juro mais alta nos EUA"
+        "Petróleo Brent: próximo a US$ 100/barril (máxima de 6 semanas) após ataques houthis na Arábia Saudita",
+        "Ouro: queda de 0,84% a US$ 4.439/onça (pressão de juros americanos altos); prata +0,39% a US$ 67/onça",
+        "Motivação: conflito Irã-EUA escalando; EUA atingiu 3 navios tanque iranianos; ataques a refinarias sauditas",
+        "Expectativa: Goldman vê duração maior da guerra; mercado reprecia risco geopolítico"
       ],
-      "explanation": "Commodities são precificadas em dólar — dólar forte as encarece para outras moedas. Além disso, juros mais altos nos EUA desestimulam investimento em ativos sem rendimento, como ouro e prata.",
-      "na_pratica": "Inflação: dólar forte comprime preços em reais (importações) mas pode pressionar internacionalmente se Fed subir taxa. Câmbio: petróleo em dólar, então afeta Petrobras (exportadora). Ações: Petrobras sofre se preço cai; Vale sofre com aversão ao risco."
+      "explanation": "Petróleo sobe porque o conflito no Oriente Médio ameaça cortes de oferta. Ouro cai porque juros altos americanos (inflação esperada) reduzem atração de ouro como hedging.",
+      "na_pratica": "Inflação: petróleo caro vai pressionar gasolina e frete (cara de vida sobe). Câmbio: petróleo caro favorece exportadores de commodities, real aprecia. Ações de energia e mineração: Petrobras e Vale ganham com commodity prices altos."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "<cite index=\"41-7\">Nonfarm payrolls cresceram 162 mil em agosto, muito acima dos 53 mil esperados</cite>, <cite index=\"41-10,41-11\">elevando os yields dos Treasuries e aumentando expectativas de aumento de taxa do Fed para setembro</cite>. Esse movimento afetou o Brasil de duas formas: (1) pressão nos juros futuros (mercado repreçando risco de Copom ser mais cauteloso), e (2) fortalecimento do dólar, que encareceu as importações. <cite index=\"7-5,7-6\">O Ibovespa interrompeu sequência de 11 altas e recuou 0,01% na quinta-feira, aos 185.188 pontos</cite>, refletindo cautela ante feriado (segunda não há pregão) e incerteza sobre próximos passos do Banco Central. <cite index=\"2-10\">O dólar à vista fechou em baixa de 0,71%, a R$ 5,1320</cite>, favorecido pela retomada da confiança no real, mas o quadro pode virar conforme os mercados internacionais seguem voláteis. Investidores aguardam decisão do Copom em 16-17 de setembro para confirmar se o ciclo de cortes continua ou pausa."
+      "summary": "Terça-feira foi um dia marcado pela confiança renovada nos mercados brasileiros e tensão geopolítica global. No Brasil, o Ibovespa subiu 1,20% impulsionado por três fatores: (1) redução da projeção de inflação (IPCA 2026 caiu de 5,01% para 5%), alimentando esperança de que o Banco Central não apertar os juros tanto quanto se temia, (2) pesquisas eleitorais mostrando disputa mais equilibrada entre Lula e Flávio, reduzindo incerteza política, e (3) escalada no Oriente Médio levando petróleo a quase US$ 100/barril, beneficiando Petrobras e Vale. Nos EUA, Wall Street caiu porque o petróleo caro reavivou temores de inflação justamente quando o Federal Reserve se prepara para decidir se sobe juros na semana que vem (60% de probabilidade). O dólar enfraqueceu no Brasil (R$ 5,09) ajudado pela redução de riscos políticos locais, enquanto ouro recuou pressionado pelos juros americanos elevados. Nos títulos públicos brasileiros, a queda esperada em IPCA trouxe otimismo para os investidores de renda fixa, especialmente em NTN-B. No exterior, a escalada geopolítica beneficiou o iene (fuga para segurança) e pressionou ações de tecnologia e consumo (correlacionadas com juros altos). A história do dia: mercados globais balançando entre esperança de que a inflação americana está controlada e medo de que a guerra no Oriente Médio a traga de volta — enquanto Brasil aproveita o alívio momentâneo."
     }
   ]
 }
