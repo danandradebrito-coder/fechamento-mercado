@@ -1,136 +1,135 @@
 {
-  "date": "2026-09-04",
-  "week_label": "31 de agosto a 4 de setembro de 2026",
-  "headline": "Mercado volátil com payroll americano forte reaviva temores inflacionários e pressiona Ibovespa",
+  "date": "2026-09-11",
+  "week_label": "8 a 11 de setembro de 2026",
+  "headline": "Ibovespa fecha semana em leve alta apesar de tensões políticas, enquanto juros recuam com inflação abaixo do esperado",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "DI1F27 (jan/2027): ~13,96% a.a. no fechamento",
-        "DI1F28 (fev/2028): ~13,88% a.a. | DI1F29 (fev/2029): ~13,75% a.a. | DI1F30 (fev/2030): ~13,68% a.a.",
-        "DI1F32 (fev/2032): ~13,59% a.a. | DI1F33 (fev/2033): ~13,57% a.a. | DI1F34 (fev/2034): ~13,56% a.a.",
-        "Curva fechou praticamente estável na semana; payroll forte nos EUA reavivou apostas de aperto monetário no exterior, contrapondo expectativa de Selic em queda no Brasil"
+        "DI janeiro 2027: 13,585% (queda de 1 pb na semana)",
+        "DI janeiro 2029: 13,835% (queda de aproximadamente 5 pb)",
+        "DI janeiro 2031: 14,040% (alta de 11 pb na semana)",
+        "Curva achatou nos vértices intermediários (2027-2029) e subiu nos longos (2031+) após turbulência política do STF"
       ],
-      "explanation": "A curva de DI operou sem grande pressão durante a semana, oscilando perto dos níveis de final de semana anterior. O payroll de 162 mil vagas nos EUA (vs. 55 mil esperado) acendeu buscas por ativos defensivos e gerou volatilidade.",
-      "na_pratica": "Para renda fixa prefixada, o movimento lateral mantém posições atrativas. Em pós-fixado, investimentos atrelados ao CDI (13,90% a.a. em 02/09) seguem rentáveis. Indexados à inflação beneficiam-se de incerteza sobre juros reais futuros."
+      "explanation": "A curva DI começou a semana ceticista com o IPCA abaixo do esperado (-0,32% em agosto vs. -0,29% previsto), permitindo cortes de juros do Copom. Porém, no final da sexta, a crise do STF (caso Master) provocou fuga ao risco nas últimas horas, revertendo os ganhos.",
+      "na_pratica": "Prefixado: oportunidade em prazos curtos/médios com taxas caindo. Pós-fixado/CDI: mantém atratividade em 13,90% ao ano. Indexado à inflação: deflação de 0,32% tira espaço para novos ganhos."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "<cite index=\"26-2\">CDI em 13,90% ao ano (02/09/2026)</cite>",
-        "<cite index=\"27-1\">Rentabilidade de agosto: 1,04% ao mês</cite>",
-        "<cite index=\"26-14,26-15\">CDI é a taxa média dos empréstimos de um dia entre bancos, servindo como principal referência de rentabilidade da renda fixa (CDB, LCI, LCA)</cite>",
-        "<cite index=\"26-16\">Meta Selic atual: 14,00% ao ano</cite>"
+        "CDI atual: 13,90% ao ano (atualizado até 9/9/2026)",
+        "Acumulado 2026: 9,72% no ano",
+        "Expectativa para 2027: 13,52% a.a. (mercado precifica cortes futuros)",
+        "CDI é a taxa média de empréstimos de um dia entre bancos, referência para CDB, LCI, LCA"
       ],
-      "explanation": "<cite index=\"26-17\">O CDI (13,90% a.a.) fica sempre um pouco abaixo da Selic, acompanhando seus movimentos</cite>. Na semana, manteve-se estável acompanhando a taxa de juros.",
+      "explanation": "O CDI acompanha a Selic (14% ao ano) e permanece ligeiramente abaixo dela. Com IPCA mais fraco, mercado já precifica redução de juros no restante de 2026 e em 2027, refletido na curva DI.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "<cite index=\"16-2,16-4\">Fechamento sexta (04/09): 184.890,48 pontos com recuo de 0,16%</cite>",
-        "<cite index=\"16-8,16-15\">Variação semanal: +4,21% de alta acumulada</cite>",
-        "<cite index=\"16-14\">Volume médio diário: R$ 13,04 bilhões na sexta</cite>",
-        "<cite index=\"10-5,10-6\">Payroll americano: 162 mil vagas criadas (vs. 56 mil esperadas) causou oscilação de 3,3 mil pontos no índice durante o pregão</cite>"
+        "Fechamento sexta: 187.206,89 pontos (-0,56% no dia)",
+        "Variação semanal: +1,11% acumulado (segunda a sexta)",
+        "Variação mês (setembro): +5,52% YTD",
+        "Variação 2026: +16,19% no ano"
       ],
-      "explanation": "<cite index=\"14-2,14-3\">O índice oscilou entre 183.251 e 186.544 pontos na sexta, começando em queda superior a 1% e recuperando ao longo da manhã</cite>. <cite index=\"4-1\">Vale e Petrobras pressionaram, enquanto bancos limitaram perdas</cite>.",
-      "na_pratica": "Quem investe em ações se mantém em posições cautelosas antes de Fed; ações de bancos e defensivas ganham espaço; Vale e Petrobras com volatilidade elevada devido aos movimentos de commodities."
+      "explanation": "A semana foi de recuperação com sexta morna. Quinta foi forte (+1,42%) com rotação para bancos (Bradesco +3,9%, BB +2,8%), mostrando que mercado negocia na \"bolha própria\" eleitoral. Sexta recuou por tensão do STF (caso Master) e pressão em commodities (PETR4, VALE3 oscilaram).",
+      "na_pratica": "Ações: semana bullish apesar do ruído político; bancos lideraram. Volume ainda abaixo da média (R$ 17,3 bi vs R$ 17,8 bi de média), indicando cautela. A alta 1,11% na semana mostra recovery pós-perdas de dias anteriores."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "<cite index=\"45-1,45-2\">Fechamento quinta (03/09): 3.761,48 pontos com alta de 0,20%</cite>",
-        "<cite index=\"44-1,44-4\">IFIX reúne mais de 80 fundos imobiliários com patrimônio de centenas de bilhões de reais</cite>",
-        "<cite index=\"47-2,47-7\">Acumulado de 2026: -0,98%; acumulado 2025: +21,08%</cite>",
-        "<cite index=\"44-6,44-7\">IFIX mede a variação de preço das cotas mais o reinvestimento teórico de dividendos distribuídos</cite>"
+        "Fechamento estimado em torno de 3.745 pontos (dados até 8/9)",
+        "Variação aproximada semana: +0,78% (até 8/9)",
+        "YTD 2026: -0,91% (fraco desempenho)",
+        "12 meses: +6,54% de retorno total (inclui dividendos)"
       ],
-      "explanation": "<cite index=\"44-1\">A composição inclui fundos de tijolo (lajes, shoppings, galpões), fundos de papel (CRI) e fundos de desenvolvimento</cite>. Movimento semanal positivo, mais forte que Ibovespa.",
+      "explanation": "IFIX é o índice dos Fundos Imobiliários (FIIs), incluindo rendimentos distribuídos. Semana positiva mas ano fraco, refletindo pressão de taxas de juros altas que encarecem financiamentos imobiliários.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "<cite index=\"62-3\">NTN-B oferecidas semanalmente em três vencimentos: curtos (3-5 anos), intermediários (7-10 anos) e longos (15-35 anos)</cite>",
-        "<cite index=\"62-2\">NTN-F (pré) com referências de 5, 7 e 10 anos também disponíveis semanalmente junto com LTN</cite>",
-        "Movimento da semana: taxas recuaram em média 15-25 bps em NTN-B pela expectativa de Selic em queda vs. pressão externa",
-        "<cite index=\"62-5\">LFT com prazo de 6 anos oferecida com periodicidade variada</cite>"
+        "LTN (Tesouro Prefixado): taxas caíram na curva inteira durante a semana (ganho de preço para quem já tinha)",
+        "NTN-B (Tesouro IPCA+): vértices curtos/médios em queda; deflação de 0,32% reduz atração no curto prazo",
+        "LFT (Tesouro Selic): acompanha CDI; mais segura mas com rentabilidade travada em 13,90% a.a.",
+        "Treasury 10Y EUA: fechou sexta em ~4,92%, queda em relação aos ~5% vistos na quarta/quinta"
       ],
-      "explanation": "NTN-B indexada a IPCA (inflação) sofreu realização de lucros; LTN pré mantém procura defensiva; LFT (pós-fixada) atrente diante de perspectiva de Selic inferior.",
-      "na_pratica": "NTN-B: proteção contra inflação, movimento de queda de preço (aumento de taxa) afeta quem está comprado. LTN: taxa prefixada, risco de duração em ambiente de queda esperada de juros. LFT: não oscila, rende SELIC + spread, ideal para quem quer estabilidade."
+      "explanation": "Prefixado: ganhos na semana com expectativa de cortes de Selic. IPCA+: atração em prazos longos (proteção inflacionária) mas perdas recentes com deflação. Selic-atrelado: estável mas com Selic projetada em queda.",
+      "na_pratica": "Prefixado (LTN): bom momento para 2-3 anos. Pós-fixado (LFT): segurança cambial, sem ganho de preço. Inflação (NTN-B): buy-and-hold em vértices longos (2029+) para proteger contra surpresa inflacionária futura."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "<cite index=\"16-1,16-3\">Dólar/Real fechamento sexta (04/09): R$ 5,13 com alta de 0,50%</cite>",
-        "<cite index=\"16-6,16-13\">Variação acumulada da semana: queda de 1,27%</cite>",
-        "<cite index=\"81-1,82-1\">DXY (índice do dólar): ~99,150 pontos, alta de 0,24% na sexta, queda semanal de ~0,50%</cite>",
-        "<cite index=\"81-2,81-3\">Payroll forte renovouaposta em alta de juros pelo Fed; ajuste de posições após 4 pregões consecutivos de queda do dólar (1,77% de desvalorização)</cite>"
+        "Dólar/Real fechamento sexta: R$ 5,1254 (+0,44% no dia)",
+        "Variação semanal: -0,11% (dólar recua na semana, real aprecia)",
+        "Variação mês (setembro): -1,06% para o dólar",
+        "DXY (dólar vs. cesta de moedas): +0,07% na sexta, enfraquecido globalmente"
       ],
-      "explanation": "<cite index=\"81-7\">Dollar Index termina a semana com baixa de ~0,50%, sobretudo por ganhos de mais de 2% do iene em expectativa de aperto monetário no Japão</cite>. Real enfrenta pressão de juros externos.",
-      "na_pratica": "Viagens para EUA ficam mais caras (R$ 5,13 vs. R$ 5,05 semana anterior). Produtos importados com pressão de preço. Investimentos internacionais: dólar mais fraco favorece retorno em dólar convertido."
+      "explanation": "Real forte na semana apesar de alta na sexta. Motivos: (1) IPCA mais fraco reduz pressão de cortes de Selic, mantendo juros altos. (2) CPI EUA em linha (ainda elevado) mantém Fed firme, mas Treasuries recuam. (3) Riscos políticos domésticos (STF/Master) voltaram a pesar na sexta, elevando prêmio de risco do real.",
+      "na_pratica": "Viagens: dólar recuou 1,06% em setembro, favorável para quem compra dólares para viajar. Produtos importados: vento de cauda, câmbio desvalorizado reduz pressão inflacionária. Investimentos internacionais: com real forte, retorno em dólar fica menor em R$ equivalentes."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "<cite index=\"43-1\">S&P 500 fechamento sexta: 7.771,60 com queda de 0,38% | Dow Jones: 53.414,25 (-0,51%) | Nasdaq: 26.506,99 (-0,29%)</cite>",
-        "<cite index=\"43-5\">Variação semanal: Dow -0,3% | S&P 500 +0,1% | Nasdaq +0,4%</cite>",
-        "<cite index=\"43-6,43-7,43-8\">Payroll agosto: 162 mil vagas (vs. 55 mil esperadas) renovou preocupações com alta de juros; emprego não-agrícola disparou vs. revisão para cima em julho</cite>",
-        "<cite index=\"43-10,43-11\">Lululemon caiu ~18% por queda de 4% na receita trimestral e redução de previsão para 2026</cite>"
+        "S&P 500: +0,96% sexta; semana em queda ~0,6% (quatro dias de perdas antes da sexta)",
+        "Dow Jones: +0,98% sexta (52.573,29 pontos); semana em queda ~426 pontos",
+        "Nasdaq: +0,88% sexta (26.333,04 pontos); semana em queda ~0,7%",
+        "Treasuries 2Y: ~4,37%; 10Y: ~4,92%; 30Y: ~5,26% (curva normalizou, 10-2 em torno de 55bp)"
       ],
-      "explanation": "<cite index=\"43-6\">Wall Street recuou em meio à renovação de preocupações com perspectivas para taxas de juros após payroll forte</cite>. Tensões geopolíticas no Oriente Médio mantêm pressão no petróleo.",
-      "na_pratica": "Payroll forte em EUA aumenta risco de alta de juros, beneficia títulos de renda fixa americana mas prejudica ações de tech e consumo discricionário. Impacto no Brasil: maior aversão a risco em emergentes, pressão no câmbio e ações de exportadores."
+      "explanation": "Wall Street teve semana fraca mas sexta forte (+0,9% média). CPI август veio em linha (0,4% mês, 3,4% ano), core CPI +0,3% vs. +0,2% esperado, elevando expectativa de alta Fed para 90%. Petróleo recuou ~2,8% na sexta, aliviando pressão inflacionária, permitindo rally tático. Treasuries caíram ligeiramente com menor demanda defensiva.",
+      "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "<cite index=\"75-1,75-3\">Europa sexta (04/09): Stoxx 600 +0,12% para 649,88 | DAX +0,10% para 26.046,40 | CAC 40 -0,09% para 8.278,77 | FTSE 100 estável em 10.831,09</cite>",
-        "<cite index=\"76-11,76-12\">Japão: Nikkei 225 +1,3% para 65.020,94 | Topix +0,06% para 4.103,23 (interrompendo 4 dias de queda)</cite>",
-        "<cite index=\"76-1,76-9\">Hong Kong Hang Seng +1,7% para 25.650,87 interrompendo 4 dias de perdas</cite>",
-        "<cite index=\"72-1,72-3\">Anteriormente: Nikkei -2,85% para 64.325,64 | Kospi Coreia -4% para 6.562,72</cite>"
+        "Europa: Stoxx 600 +0,31% sexta (recuperação); DAX +0,77%, CAC40 +0,78%, FTSE MIB +1,36%, FTSE100 +0,39%",
+        "Japão: Nikkei 225 -1,93% sexta (63.844 pontos); Topix -0,65% (tech/IA em liquidação)",
+        "China: CSI 300 -0,84% sexta (4.510 pontos); Hang Seng -0,65% (pressão por crédito/estímulo fraco)",
+        "Coreia: Kospi +0,2% na quinta; Índia e México sem dados diretos, mas pressão global em tech"
       ],
-      "explanation": "<cite index=\"75-2\">Bolsas europeias fecharam mistas sob peso de temores inflacionários alimentados pelo conflito no Oriente Médio e expectativa de Fed subir juros</cite>. Ásia recupera-se com ganho do iene.",
+      "explanation": "Europa recupera com queda de petróleo e alívio de yields. Japão e China sofrem: tecnologia penalizada por expectativa de juros altos globais, e China enfrenta desempenho econômico fraco. Nikkei acumula queda semanal forte; CSI 300 e Hang Seng seguem pressionados.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "<cite index=\"55-1,55-4\">Ouro: queda de 1,90% na terça (01/09) para US$ 4.396,4/onça; recuperação quarta com alta de 0,41% para US$ 4.414,6/onça</cite>",
-        "<cite index=\"55-5\">Prata: queda de 2,43% na terça para US$ 65,36/onça | recuperação de 0,15% na quarta para US$ 65,46/onça</cite>",
-        "<cite index=\"57-4,57-8\">Petróleo Brent: acima de US$ 94 o barril | escalada de tensões no Oriente Médio impulsionou alta superior a 4% na terça</cite>",
-        "Variação semanal: Brent ~estável, ouro pressionado por dólar forte e Treasuries em alta, prata acompanha ouro"
+        "Ouro: +0,03% sexta (US$ 4.408,90 por onça); semana em queda de -1,5% (pressure de juros Treasuries altos)",
+        "Prata: +0,40% sexta (US$ 65,18 por onça); semana em queda de -2,3%",
+        "Brent: -2,81% sexta (US$ 104,61 por barril); semana em alta de +8,65% (tensão Iran/Oriente Médio alimentou rally)",
+        "WTI: -2,3% sexta (US$ 100,05 por barril); semana em alta de +9,37%"
       ],
-      "explanation": "<cite index=\"55-3\">Alta do petróleo e reflexos para a política do Fed (Federal Reserve) seguem observados, assim como repercussões para dólar e rendimentos dos Treasuries</cite>. <cite index=\"57-5\">Ouro prejudicado porque metal não rende juros</cite>.",
-      "na_pratica": "Ouro e prata: pressão de juros nominais mais altos reduz demanda por ativos sem renda. Petróleo em alta: pressiona inflação de combustíveis, impactando preços de transportes e produtos importados; beneficia Petrobras em reais mas prejudica margens de refinarias domésticas e consumidores finais."
+      "explanation": "Ouro e prata sob pressão: Treasuries em 5% recuam rentabilidade do metal sem taxa. Petróleo: semana explosiva (+8-9%) por ataques EUA-Israel no Irã, depois recuo técnico na sexta (alívio de escassez via AIE). Brent acima de US$ 100 toda semana, volatilidade extrema.",
+      "na_pratica": "Inflação: petróleo alto ainda pressiona inflação via energia; AIE previu queda de demanda 2,5 milhão bpd em 2026 (risco desinflacionário). Câmbio: ouro/prata pressionados reforça apreciação do dólar em contexto de juros altos. Ações relacionadas: petroleiras (Petrobras) beneficiam de preços altos, mas energia encarece insumos de outros setores."
     },
     {
       "id": 10,
       "title": "Agenda: Semana que Passou x Próxima Semana",
       "agenda_passada": [
-        "<cite index=\"12-2\">Payroll EUA (04/09): 162 mil vagas criadas em agosto — principal gatilho de volatilidade</cite>",
-        "<cite index=\"81-5\">Pesquisa Datafolha (03/09 à noite): Lula vs. Flávio Bolsonaro em empate técnico para 2º turno (46% vs. 44%)</cite>",
-        "<cite index=\"6-5,6-11\">Brava Energia: produção agosto 81,6 mil boe/d (-1,09% vs. julho) — redução esperada</cite>",
-        "<cite index=\"6-3,6-4\">BrasilAgro Q4 2025/26: prejuízo de R$ 13,9 mi (vs. lucro de R$ 61,3 mi anterior) — receita caiu 20%</cite>"
+        "Segunda-feira 8/9: PPI EUA agosto +0,4% (acima do esperado +0,2%), reignitou expectativa de alta Fed",
+        "Quinta-feira 10/9: Ibovespa salta +1,42%, Nikkei cai -2%, petróleo acima de US$ 107 (pico da semana)",
+        "Sexta-feira 11/9: IPCA agosto -0,32% (mais fraco que -0,29% esperado), CPI EUA em linha +0,4% mês e +3,4% ano; STF crise Master (Edson Fachin abre sigilo parcialmente, sessão plenária marcada para terça 15/9)"
       ],
       "agenda_futura": [
-        "FOMC (Federal Reserve) reunião em setembro — expectativa de sinalização sobre ciclo de cortes de juros (mercado precifica alta em 0,50% como risco)",
-        "Dados de inflação EUA (CPI) próximas semanas — crucial para decisão do Fed sobre ritmo de aperto",
-        "Selic Brasil (16/09): Copom pode manter 14% ou iniciar cortes (marcado para 18/09 resultado oficial)",
-        "Resultados corporativos (earnings) de empresas brasileiras em agosto/setembro — importante para múltiplos de ações"
+        "Terça-feira 15/9: STF sessão plenária (Master/Moraes) — potencial redefinidor de eleição; Datafolha novo levantamento",
+        "Quarta-feira 16/9: FOMC Federal Reserve (reunião 16-17/9) — alta de 25bp precificada em ~90% (decisão crítica)",
+        "Quinta-feira 17/9: Fechamento FOMC; PMI manufatura EUA (segunda-feira 15/9 também há PMI composto)",
+        "Semana seguinte: Atenção em indicadores de demanda EUA, produtor agrícola Brasil (safra 2026/27 inicia), desdobramentos eleição outubro"
       ]
     },
     {
       "id": 11,
       "title": "Resumo da Semana",
-      "summary": "A semana foi marcada pela volatilidade provocada pelo payroll americano forte (162 mil vagas em agosto, triplo da expectativa), que reavivou temores inflacionários e apostas de aperto adicional do Federal Reserve. No Brasil, o Ibovespa aproveitou o mês com avanço de 4,21%, interrompido apenas na sexta por realização de lucros. O dólar operou em queda durante a semana (-1,27%) impulsionado por especulação eleitoral favorável, mas rebotou na sexta (+0,50%) em reação ao payroll. As taxas de juros futuros no Brasil mantiveram-se praticamente estáveis, refletindo o balanço entre a expectativa de Selic em queda no médio prazo versus a pressão externa de juros mais altos. Commodities como ouro e prata sofreram com Treasuries em alta, enquanto petróleo mantém pressão de geopolítica. A agenda segue carregada com decisões do Fed e dados de inflação americana, que definirão os próximos movimentos dos mercados emergentes."
+      "summary": "A semana de 8 a 11 de setembro foi marcada pela tensão entre esperança de cortes de juros no Brasil e aperto monetário global. Na segunda, PPI EUA forte reignitou expectativa de alta Fed, derrubando mercados. Na quinta, IPCA agosto mais fraco que o esperado (-0,32%) abriu espaço para alívio da curva DI e rotação para risco (Ibovespa +1,42%), com bancos liderando e real apreciando. Na sexta, CPI EUA em linha (0,4% mês, 3,4% ano) confirmou cenário de aumento de juros à frente (90% de probabilidade), levando Treasuries a cair levemente e petróleo a recuar ~2,8%. Porém, internamente, crise política do STF (caso Master com sigilo parcialmente aberto) provocou fuga ao risco nas últimas horas do pregão, reduzindo ganhos do Ibovespa para -0,56% (semana +1,11%). O real apreciou levemente (-0,11% semana, agora em R$ 5,12), refletindo carry trade ainda atrativo apesar de riscos. Dólar e Treasuries globais permanecem elevados (10Y em ~4,92%, Brent acima de US$ 104), sinaliza esperança de estabilização após picos, mas próxima semana FOMC (16-17/9) e plenário STF (15/9) serão definidores para novo rumo."
     }
   ]
 }
