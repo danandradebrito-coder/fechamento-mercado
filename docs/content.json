@@ -1,117 +1,107 @@
 {
-  "date": "2026-09-15",
-  "headline": "Petróleo dispara por tensões no Oriente Médio; Ibovespa recua e mercados globais sofrem com juros mais altos",
+  "date": "2026-09-16",
+  "headline": "Fed eleva juros pela primeira vez em 3 anos e sinaliza nova alta; Ibovespa fecha em queda após decisão americana",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Curva de juros pressionada para cima por alta do petróleo e expectativa de Fed apertado na quarta",
-        "Vencimentos mais curtos (DI27, DI28) operam com taxas elevadas refletindo Selic de 10,5%",
-        "Mercado precifica 86% de chance de aumento de taxa do Federal Reserve esta semana",
-        "Curva apresenta steepening (inclinação maior entre prazos curtos e longos) com tensão inflacionária"
+        "Taxas de DI caíram firmes antes da decisão do Fed, acompanhando queda dos Treasuries americanos",
+        "Mercado aguardava Fed e Copom; volatilidade elevada no fechamento após anúncio de aumento de juros nos EUA",
+        "Curva de juros operou com viés de compressão (achatamento) pela manhã; inverteu após decisão hawkish do Fed"
       ],
-      "explanation": "A alta do petróleo pressiona a inflação, forçando bancos centrais a considerar apertos monetários. Isso eleva as taxas de juros em todos os prazos, com maior pressão nos vencimentos mais curtos.",
-      "na_pratica": "Prefixado sofre com juros em alta; pós-fixado (CDI) e indexado à inflação (NTN-B) ficam mais competitivos como proteção"
+      "explanation": "As taxas dos DIs caíram antes da decisão do Fed porque o mercado esperava um alívio da inflação. Quando o Fed elevou juros e sinalizou mais uma alta ainda em 2026, as taxas subiram novamente no fechamento.",
+      "na_pratica": "Renda fixa prefixada: investidores que fixaram taxas no meio do dia ganharam; taxas subiram no fechamento. Pós-fixado/CDI: rendimento hoje menor, mas expectativa de Selic mais alta à frente. Inflação: títulos indexados ao IPCA ficam mais atraentes com Fed hawkish."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "Taxa DI acumulada reflete Selic de 10,5% a.a.",
-        "CDI diário está em linha com as taxas futuras elevadas do mercado",
-        "Projeção de Selic (taxa média de juros do BC) continua em patamar elevado para 2026"
+        "CDI segue expectativas de mercado; taxa DI acumulada reflete pressão de juros mais altos nos EUA"
       ],
-      "explanation": "CDI (Certificado de Depósito Interbancário) é a taxa que mede o custo de empréstimos entre bancos; ele segue a Selic e serve de referência para fundos de renda fixa.",
+      "explanation": "O CDI (a taxa média cobrada nos empréstimos de um dia entre bancos) é o referencial para investimentos pós-fixados como fundos de renda fixa e aplicações em bancos. Com a decisão do Fed, a expectativa é de Selic mais alta no Brasil também.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechamento 14/set: 185.500 pontos, queda de -0,91%",
-        "Volume: R$ 0,85 bilhões; amplitude de 186.208 (mín) a 188.586 (máx)",
-        "Destaques: Petrobras com pressão (-0,22% PN), Vale com morosidade, bancos (Itaú +0,9%, Bradesco +0,6%)",
-        "Fatores: petróleo em recuperação anima energia; juros altos e redução de projeção de déficit externo freiam dinamismo"
+        "Fechou em queda de 0,59%, aos 185.394,66 pontos; volume financeiro de R$ 26,5 bilhões; máxima em 186.738,25 e mínima em 184.753,98",
+        "Petrobras (PETR3 -2,15%, PETR4 -1,88%) foi a maior pressão, acompanhando queda do petróleo",
+        "Vale (VALE3) praticamente estável (-0,20%); bancos em baixa após decisão do Fed sinalizar juros mais altos",
+        "Setor varejista ofereceu algum suporte; expectativa de decisão do Copom (após fechamento) limitou ganhos"
       ],
-      "explanation": "Bolsa brasileira sofre com juros altos que reduzem rentabilidade de ações, mas recebe suporte de setores cíclicos como petróleo e commodities. Sinal misto entre pessimismo macro e oportunidades em setores defensivos.",
-      "na_pratica": "Ações: setor financeiro mais resiliente; Renda variável em geral sofre com juros elevados; câmbio forte prejudica exportadores"
+      "explanation": "O Ibovespa recuou porque o Fed elevou juros e sinalizou mais altas, afastando capital de ações (mais riskier) para títulos americanos com rendimento maior. Petrobras caiu pela queda do petróleo (reflexo de alívio de pressão inflacionária nos EUA).",
+      "na_pratica": "Ações: profissional desceu, especialmente blue chips de maior peso. Multimercado: estratégias neutras sofreram com alta de juros e queda de ações. Ativos internacionais: correção nos EUA deve trazer volatilidade para Brasil."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "IFIX acumula -0,80% em 2026, refletindo pressão de juros altos nos fundos imobiliários",
-        "Mínima de 3.547 pontos; máxima recente de 3.941 pontos",
-        "Setor imobiliário sofre com custo de financiamento elevado"
+        "Fechou em alta de 0,36%; índice que mede desempenho de fundos imobiliários da B3"
       ],
-      "explanation": "IFIX é um índice de fundos imobiliários (FIIs) que distribuem renda. Juros altos reduzem valor das propriedades e afastam compradores.",
+      "explanation": "O IFIX (Índice de Fundos de Investimentos Imobiliários) reuniu fundos que focam em imóveis via bolsa. A pequena alta reflete que investidores em imóveis viram neles uma alternativa segura ante turbulência de ações.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B (indexada a IPCA/inflação): curva aberta; prazos curtos-médios (2026-2027) com taxa real de ~7,5% a.a., atrativo",
-        "LTN (prefixada): mercado precifica Selic elevada; vencimentos 2027-2030 com taxas de 10-11% a.a.",
-        "LFT (pós-fixada, segue Selic): oferece proteção contra novos apertos; ideal em cenário de transição",
-        "Movimento: curva mais íngreme com pressão nos longos pelo aumento do petróleo"
+        "NTN-B (títulos prefixados + inflação): taxas subiram após decisão do Fed; curtos (2-3 anos) pressionados, longos (10+) com maior recuperação",
+        "LTN (títulos 100% prefixados): rendimentos subiram à tarde; yield de 10 anos próximo a 5% (maior desde 2007)",
+        "LFT (títulos atrelados ao CDI): operando com expectativa de Selic mais alta; movimento menor que prefixado"
       ],
-      "explanation": "NTN-B protege de inflação; LTN rende taxa fixa mas sofre com juros altos; LFT segue Selic. Escolha depende da aposta em inflação e trajetória de juros.",
-      "na_pratica": "Prefixado: LTN penalizada por juros em alta; Pós-fixado: LFT atrativa com Selic elevada; Inflação: NTN-B oferece proteção estrutural"
+      "explanation": "NTN-B protege contra inflação (ótima com Fed hawkish). LTN oferece rendimento fixo em reais (atrativa agora com juros em alta). LFT acompanha CDI (menos volátil, mas renda menor).",
+      "na_pratica": "Prefixado: comprador de LTN ganha com juros altos; quem já tinha títulos antigos perdeu valor no mercado secundário. Pós-fixado/CDI: LFT deve render mais em breve. Inflação: NTN-B mantém poder de compra."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "Dólar PTAX (14/set): R$ 5,16, variação de +0,57%; comercial em torno de R$ 5,18",
-        "Dólar fortalecido por juros elevados nos EUA e petróleo em dólar; demanda por moeda forte geopolítica",
-        "DXY (Dólar Index) em 99,60, refletindo força da moeda americana contra emergentes",
-        "Câmbio pressiona importações; viagens internacionais mais caras"
+        "Dólar PTAX fechou a R$ 5,1543, com variação de +0,14% no dia (praticamente estável)",
+        "Dólar comercial em torno de R$ 5,1573 durante o pregão; pressão menor que o esperado ante alta de juros nos EUA"
       ],
-      "explanation": "PTAX é a taxa média oficial de câmbio do BC. Dólar caro encarece produtos importados, passagens aéreas e piora competitividade de exportadores.",
-      "na_pratica": "Viagens/importações: mais caras com dólar a R$ 5,16; Investimentos internacionais: retornos reduzidos ao converter; Exportadores: melhoram margem mas sofrem com juros altos"
+      "explanation": "O PTAX é a taxa oficial do Banco Central (média do dia) usada em contratos. Com Fed hawkish, dólar subiu menos porque juros altos no Brasil também atraem moeda estrangeira. DXY (índice de força do dólar global) subiu, mas pressão no real foi contida.",
+      "na_pratica": "Viagens/turismo: quem planeja viajar internacionalmente vê dólar caro, mas estável. Produtos importados: dólar perto de R$ 5,15 encarece compras lá fora. Investimentos internacionais: dólar em alta facilita retorno de ganhos do exterior para o Brasil."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500 (14/set): 7.619,98 pontos, queda de -0,48%; Nasdaq: -0,56%; Dow Jones: -0,29%",
-        "Treasuries: 10Y em alta (rendimentos próximos a máximas de 15+ anos), 2Y e 30Y também pressionados",
-        "Catalisador: Fed esperado subir juros na quarta; petróleo disparou com fechamento de oleoduto saudita no Oriente Médio",
-        "Contexto: inflação elevada (3,4% em agosto) reforça aperto monetário; tech sofre com juros mais altos"
+        "S&P 500: -0,20% (7.570,18 pontos); Dow Jones: -0,75% (51.700,79 pontos); Nasdaq: +0,21% (26.036,31 pontos)",
+        "Fed elevou juros em 25 pontos base (0,25%) para faixa de 3,75%-4%; sinalizou pelo menos mais 1 aumento em 2026",
+        "10-year Treasury yield acima de 5% (maior desde 2007); Treasuries em venda (yield sobe quando preço cai)",
+        "Reação foi hawkish: Dow caiu 1,6% durante press conference do Fed Chair Kevin Warsh; mercado interpretou como inflação ainda preocupante"
       ],
-      "explanation": "Federal Reserve (BC dos EUA) é o principal catalisador. Juros mais altos nos EUA atraem capital do Brasil, depreciando o real e pressionando ações brasileiras ligadas a importações.",
+      "explanation": "Fed interrompeu ciclo de cortes de juros (durou desde 2023) para combater inflação. Decisão foi unânime (12 a 0), sinalizando forte consenso. Mercado vendeu ações (menos atrativas com juros altos) e comprou Treasuries (rendimento maior).",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Europa (Stoxx 600): sob pressão; DAX, CAC 40, FTSE 100 abertos com queda por alta do petróleo e juros",
-        "Nikkei 225 (Japão, 14/set): em torno de 63.493, queda de -0,81%; Banco do Japão também deve apertar",
-        "China (CSI 300/Hang Seng): queda de ~0,59-0,85%, afetada por petróleo caro e riscos geopolíticos",
-        "KOSPI (Coreia do Sul): sob pressão semelhante; economia global sofre com commodities caras"
+        "China: Shanghai e Hong Kong fecharam em alta impulsionadas por tecnologia, mas ganhos limitados ante decisão do Fed",
+        "Europa: Stoxx 600 e principais índices operaram com cautela durante espera pela decisão americana; tendência baixista no fechamento",
+        "Japão/Coreia: KOSPI e Nikkei pressionados por alta de juros global; iene se fortaleceu ante dólar"
       ],
-      "explanation": "Mercados globais sofrem com risco geopolítico no Oriente Médio, petróleo caro e expectativa de apertos monetários sincronizados (Fed, BoJ, BCE).",
+      "explanation": "Mercados globais tiveram reflexo da decisão americana: Fed hawkish puxa capital para títulos americanos de alto rendimento, reduzindo apetite por ações em economias emergentes e desenvolvidas.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Petróleo Brent: ~US$ 105,68/bbl (14/set), alta de +2,30% no dia; WTI em US$ 102,16",
-        "Motivo: Arábia Saudita fechou oleoduto East-West após ataque de drones iranianos no Golfo Pérsico",
-        "Ouro: ~US$ 4.306/oz, variação de +0,2%; prata em US$ 63,42 (+0,3%), mantendo demanda defensiva",
-        "Impacto: petróleo caro pressiona inflação, forçando bancos centrais a apertar; câmbio sobe; ações de energia ganham mas bolsa geral sofre"
+        "Petróleo Brent: -0,78%, fechando a US$ 107,65/barril (queda moderada apesar de Saudi East-West pipeline ainda fechado)",
+        "Ouro: +1,26%, fechando a US$ 4.387,5/onça-troy em dezembro; prata: +1,66%, a US$ 64,91/onça",
+        "Petróleo: queda por sinais de alívio inflacionário nos EUA (menor risco de recessão); mantém acima de US$ 100 por preocupações com Oriente Médio"
       ],
-      "explanation": "Commodities são preços de matérias-primas globais. Petróleo caro aumenta custo de transporte e energia, inflacionário; ouro sobe em pânico, mas aqui é ofuscado pelos juros altos.",
-      "na_pratica": "Inflação: petróleo caro encarece gasolina, energia, frete; Câmbio: dólar forte (petróleo em dólar); Ações: Petrobras sai ganhando, mas bolsa geral sofre com inflação"
+      "explanation": "Brent caiu porque mercado viu Fed agir (inflação sob controle); ouro e prata subiram após queda anterior, encontrando piso ante sinais de juros altos (metais não pagam cupom, então juros altos os prejudicam, mas mercado buscou proteção após reação do Fed).",
+      "na_pratica": "Inflação: petróleo mais baixo reduz pressão nos preços das bombas e energia; gold é hedge ante instabilidade (subiu). Câmbio: Brent em dólar alto afeta Petrobras em reais. Ações: mineradoras de ouro se beneficiam; petrolíferas sofrem."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "O mercado de hoje foi dominado pela crise no Oriente Médio: Arábia Saudita fechou seu oleoduto East-West após ataque de drones iranianos, levando petróleo Brent a disparar para US$ 105+/bbl. Esse movimento inflacionário reforçou expectativas de que o Federal Reserve apertará juros na quarta-feira (probabilidade de 86%), pressionando bolsas globais. No Brasil, o Ibovespa caiu 0,91% para 185.500 pontos, com dólar subindo para R$ 5,16 (+0,57%), enquanto juros futuros operaram com steepening (curva mais inclinada). A combinação de petróleo caro + juros altos prejudicou ações cíclicas e setor imobiliário (IFIX em queda), mas ofereceu suporte a defensivas (bancos) e títulos indexados à inflação. Cenário de transição para apertamento global mantém mercados em cautela e afasta compradores de ativos de risco."
+      "summary": "O principal evento do dia foi a decisão do Fed de elevar juros pela primeira vez em 3 anos (25 bps para 3,75%-4%) e sinalizar nova alta ainda em 2026. A reação foi hawkish: o Dow caiu 1,6% durante a press conference de Kevin Warsh, interpretado como sinal de inflação ainda elevada. O Ibovespa acompanhou a queda global (-0,59%), pressionado por Petrobras (-2,15%) que caiu com o petróleo (que recuou 0,78% apesar de tensões no Oriente Médio). No Brasil, taxas de DI caíram durante o dia (esperança de alívio) mas reverteram no fechamento ante hawkish do Fed; o dólar praticamente estagnou em R$ 5,15 porque juros altos no Brasil também atraem moeda. Investidores aguardavam também a decisão do Copom (após o fechamento), gerando volatilidade limitada. Ouro e prata subiram (+1,26% e +1,66% respectivamente) como hedge ante incerteza global e oferta limitada de ativos de baixo risco."
     }
   ]
 }
