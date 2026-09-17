@@ -1,107 +1,119 @@
 {
-  "date": "2026-09-16",
-  "headline": "Fed eleva juros pela primeira vez em 3 anos e sinaliza nova alta; Ibovespa fecha em queda após decisão americana",
+  "date": "2026-09-17",
+  "headline": "Bolsa cai após alta fiscal de Bolsa Família, dólar se recupera com Fed mais firme em juros",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Taxas de DI caíram firmes antes da decisão do Fed, acompanhando queda dos Treasuries americanos",
-        "Mercado aguardava Fed e Copom; volatilidade elevada no fechamento após anúncio de aumento de juros nos EUA",
-        "Curva de juros operou com viés de compressão (achatamento) pela manhã; inverteu após decisão hawkish do Fed"
+        "Curva de juros se abriu após decisão do Copom de cortar Selic para 13,75% (quinta redução consecutiva)",
+        "DI janeiro 2029: 13,995% (máxima intradia); DI janeiro 2036: 14,325% (acima do dia anterior)",
+        "Abertura e fechamento volatilizados: mercado precificava impacto fiscal do reajuste de 15% no Bolsa Família (R$ 5,8 bi em 2026)",
+        "Curva mantém inclinação positiva: preocupação com ajuste fiscal limita queda dos juros longos"
       ],
-      "explanation": "As taxas dos DIs caíram antes da decisão do Fed porque o mercado esperava um alívio da inflação. Quando o Fed elevou juros e sinalizou mais uma alta ainda em 2026, as taxas subiram novamente no fechamento.",
-      "na_pratica": "Renda fixa prefixada: investidores que fixaram taxas no meio do dia ganharam; taxas subiram no fechamento. Pós-fixado/CDI: rendimento hoje menor, mas expectativa de Selic mais alta à frente. Inflação: títulos indexados ao IPCA ficam mais atraentes com Fed hawkish."
+      "explanation": "Os juros abriram em queda pela decisão do Copom, mas reverteram ao longo do dia com preocupações fiscais. O movimento mostra que o mercado teme mais inflação futura apesar do corte de Selic.",
+      "na_pratica": "Prefixados: continuam oferecendo boas taxas, mas podem recuar mais se Selic continuar caindo; Pós-fixados/CDI: com Selic em 13,75%, quem investe em CDB a 100% do CDI ainda rende bem acima da inflação; Indexado a inflação (NTN-B): pode sofrer se inflação acelerar por causa do Bolsa Família."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "CDI segue expectativas de mercado; taxa DI acumulada reflete pressão de juros mais altos nos EUA"
+        "CDI atual: 13,90% a.a. (dado de 14/09/2026, antes da nova Selic de 13,75%)",
+        "Selic reduzida para 13,75% - quinta corte seguido, sinalizando ciclo de flexibilização",
+        "CDI/Taxa DI: é a taxa média dos empréstimos entre bancos (muito similar à Selic, sempre próxima)",
+        "Com CDI em 13,90%, quem investe 100% do CDI (CDBs, LCIs, LCAs, fundos DI) rende essa taxa menos IR"
       ],
-      "explanation": "O CDI (a taxa média cobrada nos empréstimos de um dia entre bancos) é o referencial para investimentos pós-fixados como fundos de renda fixa e aplicações em bancos. Com a decisão do Fed, a expectativa é de Selic mais alta no Brasil também.",
+      "explanation": "O CDI acompanha a Selic de perto. Com novos cortes anunciados, a tendência é queda do CDI, o que reduz rentabilidade futura dos investimentos de renda fixa pós-fixada.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechou em queda de 0,59%, aos 185.394,66 pontos; volume financeiro de R$ 26,5 bilhões; máxima em 186.738,25 e mínima em 184.753,98",
-        "Petrobras (PETR3 -2,15%, PETR4 -1,88%) foi a maior pressão, acompanhando queda do petróleo",
-        "Vale (VALE3) praticamente estável (-0,20%); bancos em baixa após decisão do Fed sinalizar juros mais altos",
-        "Setor varejista ofereceu algum suporte; expectativa de decisão do Copom (após fechamento) limitou ganhos"
+        "Fechamento: 185.992,03 pontos, +0,24% (após volatilidade extrema: queda para 183.242 pela manhã)",
+        "Volume: R$ 18,6 bilhões; acumulado no mês: +4,83%; no ano: +15,4%",
+        "Maiores quedas: Petrobras (-3,5% a -4,3%) após aumento do preço do diesel, Vale pressionada por queda do petróleo",
+        "Recuperação no fechamento: 'trade eleitoral' e apetite por renda fixa americana melhoraram sentimento no final do pregão"
       ],
-      "explanation": "O Ibovespa recuou porque o Fed elevou juros e sinalizou mais altas, afastando capital de ações (mais riskier) para títulos americanos com rendimento maior. Petrobras caiu pela queda do petróleo (reflexo de alívio de pressão inflacionária nos EUA).",
-      "na_pratica": "Ações: profissional desceu, especialmente blue chips de maior peso. Multimercado: estratégias neutras sofreram com alta de juros e queda de ações. Ativos internacionais: correção nos EUA deve trazer volatilidade para Brasil."
+      "explanation": "O Ibovespa viveu sessão de montanha-russa. Abriu em queda por medo fiscal (reajuste do Bolsa Família = mais gasto público = mais risco de inflação), mas Wall Street em alta e queda do petróleo ajudaram a recuperação.",
+      "na_pratica": "Ações: dia volátil não indica tendência; quem tem posições em energia (Petrobras, Vale) sofreu; setores defensivos e consumo podem se beneficiar do aumento do Bolsa Família a curto prazo."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "Fechou em alta de 0,36%; índice que mede desempenho de fundos imobiliários da B3"
+        "Fechamento: 3.742,57 pontos, -0,06% (queda mínima de 2,32 pontos vs. dia anterior)",
+        "Sessão de pouca variação entre fundos imobiliários",
+        "IFIX: índice que acompanha desempenho dos fundos de investimento imobiliário (FIIs) na B3",
+        "Estabilidade reflete cautela antes do fim de semana e ante incerteza fiscal"
       ],
-      "explanation": "O IFIX (Índice de Fundos de Investimentos Imobiliários) reuniu fundos que focam em imóveis via bolsa. A pequena alta reflete que investidores em imóveis viram neles uma alternativa segura ante turbulência de ações.",
+      "explanation": "Fundos imobiliários praticamente não se mexeram: mercado esperando para ver qual será o impacto real do reajuste do Bolsa Família na economia.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B (títulos prefixados + inflação): taxas subiram após decisão do Fed; curtos (2-3 anos) pressionados, longos (10+) com maior recuperação",
-        "LTN (títulos 100% prefixados): rendimentos subiram à tarde; yield de 10 anos próximo a 5% (maior desde 2007)",
-        "LFT (títulos atrelados ao CDI): operando com expectativa de Selic mais alta; movimento menor que prefixado"
+        "Tesouro Direto suspendeu negociações temporariamente pela manhã por volatilidade extrema",
+        "NTN-B (indexada a inflação/IPCA): abriu em alta, depois reverteu - preocupação fiscal pode aumentar inflação",
+        "LTN (prefixado): juros subiram em vértices longos; títulos mais curtos caíram menos",
+        "LFT (pós-fixado/Selic): menos afetado - acompanha apenas a taxa básica que está caindo"
       ],
-      "explanation": "NTN-B protege contra inflação (ótima com Fed hawkish). LTN oferece rendimento fixo em reais (atrativa agora com juros em alta). LFT acompanha CDI (menos volátil, mas renda menor).",
-      "na_pratica": "Prefixado: comprador de LTN ganha com juros altos; quem já tinha títulos antigos perdeu valor no mercado secundário. Pós-fixado/CDI: LFT deve render mais em breve. Inflação: NTN-B mantém poder de compra."
+      "explanation": "O dia começou positivo para renda fixa (Selic caiu), mas o reajuste do Bolsa Família assustou investidores - sinalizaria inflação à frente, prejudicando títulos prefixados e indexados à inflação.",
+      "na_pratica": "Prefixados (LTN): taxas subiram no longo prazo; quem já tem pode ganhar, mas novos investimentos enfrentam juros maiores; Pós-fixado (LFT): seguro, rende Selic que está em queda; Inflação (NTN-B): risco de inflação acelerada encareceu o título."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "Dólar PTAX fechou a R$ 5,1543, com variação de +0,14% no dia (praticamente estável)",
-        "Dólar comercial em torno de R$ 5,1573 durante o pregão; pressão menor que o esperado ante alta de juros nos EUA"
+        "Dólar comercial: R$ 5,139 (fechamento), -0,24% no dia (segundo pregão consecutivo de desvalorização)",
+        "DXY (Índice do Dólar): +0,73% para 100,34 pontos - dólar se fortaleceu globalmente com Fed subindo taxa para 3,75-4,00%",
+        "Dólar caro no exterior (vs. outras moedas) mas caiu vs. real no Brasil por apetite a ativos brasileiros",
+        "PTAX: referência official da taxa do dia para contabilidade e contratos"
       ],
-      "explanation": "O PTAX é a taxa oficial do Banco Central (média do dia) usada em contratos. Com Fed hawkish, dólar subiu menos porque juros altos no Brasil também atraem moeda estrangeira. DXY (índice de força do dólar global) subiu, mas pressão no real foi contida.",
-      "na_pratica": "Viagens/turismo: quem planeja viajar internacionalmente vê dólar caro, mas estável. Produtos importados: dólar perto de R$ 5,15 encarece compras lá fora. Investimentos internacionais: dólar em alta facilita retorno de ganhos do exterior para o Brasil."
+      "explanation": "Paradoxo: dólar subiu globalmente (Fed subiu juros), mas caiu vs. real porque o corte de Selic no Brasil mantém juros reais atrativos. Brasileiros buscam deixar dinheiro aqui.",
+      "na_pratica": "Viagens: ficou mais barato viajar pra fora; Produtos importados: ainda caros, mas dólar mais baixo reduz pressão; Investimentos internacionais: menos vantajoso entrar em dólares agora."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500: -0,20% (7.570,18 pontos); Dow Jones: -0,75% (51.700,79 pontos); Nasdaq: +0,21% (26.036,31 pontos)",
-        "Fed elevou juros em 25 pontos base (0,25%) para faixa de 3,75%-4%; sinalizou pelo menos mais 1 aumento em 2026",
-        "10-year Treasury yield acima de 5% (maior desde 2007); Treasuries em venda (yield sobe quando preço cai)",
-        "Reação foi hawkish: Dow caiu 1,6% durante press conference do Fed Chair Kevin Warsh; mercado interpretou como inflação ainda preocupante"
+        "S&P 500: +0,59% (7.596 pontos); Dow Jones: +0,62% (51.778 pontos); Nasdaq: +1,69% (26.418 pontos)",
+        "Treasuries: 10 anos em 5,01% - rendimento sobe após Fed subir taxa para 3,75-4,00%",
+        "Fed: elevou juros em 25 bps como esperado, sinalizando possível nova alta antes do final de 2026",
+        "Catalisador: Fed mais 'hawkish' (firme) que mercado esperava; tech stocks lideraram ganhos (AI, semicondutores)"
       ],
-      "explanation": "Fed interrompeu ciclo de cortes de juros (durou desde 2023) para combater inflação. Decisão foi unânime (12 a 0), sinalizando forte consenso. Mercado vendeu ações (menos atrativas com juros altos) e comprou Treasuries (rendimento maior).",
+      "explanation": "A surpresa não foi o corte de juros do Fed, mas o tom de possível aperto futuro. Isso derrubou preços de bonds mas animou ações (menos dinheiro em renda fixa), principalmente tech.",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "China: Shanghai e Hong Kong fecharam em alta impulsionadas por tecnologia, mas ganhos limitados ante decisão do Fed",
-        "Europa: Stoxx 600 e principais índices operaram com cautela durante espera pela decisão americana; tendência baixista no fechamento",
-        "Japão/Coreia: KOSPI e Nikkei pressionados por alta de juros global; iene se fortaleceu ante dólar"
+        "Europa: DAX +0,53% (25.538), CAC 40 +0,62% (8.141), FTSE 100 +0,28% (10.688), Stoxx 600 +0,86% (642,60)",
+        "Ásia: Nikkei 225 fechou +0,69% (63.923); KOSPI recuperado por resilência em tech; Hang Seng/Shanghai pressionados (HKMA subiu juros como Fed)",
+        "China: Shanghai mantém cautela; PBoC injeta liquidez para amortecer queda e evitar crise de confiança",
+        "Motivo geral: Fed mais firme bate moedas emergentes, beneficia USD, mas grandes ações resistem com queda do petróleo"
       ],
-      "explanation": "Mercados globais tiveram reflexo da decisão americana: Fed hawkish puxa capital para títulos americanos de alto rendimento, reduzindo apetite por ações em economias emergentes e desenvolvidas.",
+      "explanation": "Mercados globais reagiram de forma mista: EUA/Europa em alta (taxa alta atrai capital), mas Ásia sofreu porque suas moedas se depreciam contra dólar forte e juros locais sobem.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Petróleo Brent: -0,78%, fechando a US$ 107,65/barril (queda moderada apesar de Saudi East-West pipeline ainda fechado)",
-        "Ouro: +1,26%, fechando a US$ 4.387,5/onça-troy em dezembro; prata: +1,66%, a US$ 64,91/onça",
-        "Petróleo: queda por sinais de alívio inflacionário nos EUA (menor risco de recessão); mantém acima de US$ 100 por preocupações com Oriente Médio"
+        "Petróleo Brent: queda significativa - Arábia Saudita começou recuperação do oleoduto danificado pelos houthis",
+        "Ouro: +0,10% (R$ 4.391,80) - dólar forte limita ganhos; demanda por segurança perde força ante Fed firme",
+        "Prata: oscilou com ouro; metais preciosos pressionados por dólar apreciado globalmente",
+        "Soja: +1,75% para US$ 13,205/bushel - bom cenário para produtores brasileiros (exportação rende mais)"
       ],
-      "explanation": "Brent caiu porque mercado viu Fed agir (inflação sob controle); ouro e prata subiram após queda anterior, encontrando piso ante sinais de juros altos (metais não pagam cupom, então juros altos os prejudicam, mas mercado buscou proteção após reação do Fed).",
-      "na_pratica": "Inflação: petróleo mais baixo reduz pressão nos preços das bombas e energia; gold é hedge ante instabilidade (subiu). Câmbio: Brent em dólar alto afeta Petrobras em reais. Ações: mineradoras de ouro se beneficiam; petrolíferas sofrem."
+      "explanation": "Queda do petróleo é boa para inflação global (menos pressão nos preços). Dólar forte reduz atração por ouro (ativo de proteção em moeda estrangeira). Soja em alta beneficia Brasil.",
+      "na_pratica": "Inflação: queda do petróleo ajuda a conter inflação, bom para ativos locais a prazo; Câmbio: dólar forte prejudica exportadores não-agrícolas; Ações de energia: Petrobras sofreu com queda do preço e ajuste de diesel."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "O principal evento do dia foi a decisão do Fed de elevar juros pela primeira vez em 3 anos (25 bps para 3,75%-4%) e sinalizar nova alta ainda em 2026. A reação foi hawkish: o Dow caiu 1,6% durante a press conference de Kevin Warsh, interpretado como sinal de inflação ainda elevada. O Ibovespa acompanhou a queda global (-0,59%), pressionado por Petrobras (-2,15%) que caiu com o petróleo (que recuou 0,78% apesar de tensões no Oriente Médio). No Brasil, taxas de DI caíram durante o dia (esperança de alívio) mas reverteram no fechamento ante hawkish do Fed; o dólar praticamente estagnou em R$ 5,15 porque juros altos no Brasil também atraem moeda. Investidores aguardavam também a decisão do Copom (após o fechamento), gerando volatilidade limitada. Ouro e prata subiram (+1,26% e +1,66% respectivamente) como hedge ante incerteza global e oferta limitada de ativos de baixo risco."
+      "summary": "O dia foi marcado por volatilidade extrema e reversão de ganhos. Pela manhã, o anúncio de um reajuste de 15% no Bolsa Família (impacto de R$ 5,8 bi em 2026) assustou o mercado, que temeu inflação futura apesar da quinta redução consecutiva da Selic para 13,75%. O Ibovespa caiu quase 1,3% (chegando a 183.242 pontos) e o dólar subiu, enquanto juros futuros longos também explodiram. Contudo, à medida que Wall Street abriu em alta (Fed subiu juros para 3,75-4%, mas mantém perspectiva de flexibilização), os ganhos da bolsa americana (Nasdaq +1,69%) e a queda do petróleo (Arábia Saudita recupera oleoduto) reverteram o pessimismo. O Ibovespa terminou em alta de 0,24%, dólar recuou para R$ 5,139 (-0,24%) e mercado de renda fixa fechou com moderação. O 'trade eleitoral' (otimismo com maior gasto em Bolsa Família perto das eleições) aparentemente venceu a apreensão fiscal ao fechar o dia."
     }
   ]
 }
