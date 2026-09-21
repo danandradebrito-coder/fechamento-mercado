@@ -1,119 +1,112 @@
 {
-  "date": "2026-09-18",
-  "headline": "Ibovespa recua 0,41% com apreensões fiscais e juros globais mais altos; Fed mantém cautela",
+  "date": "2026-09-21",
+  "headline": "Ibovespa sobe 0,74% com alívio no petróleo e otimismo global; bancos em alta no dia",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Selic reduzida para 13,75% a.a. em 16/09; Copom sinalizou porta aberta para novos cortes",
-        "Curva de juros futuros permanece elevada refletindo cenário externo de aperto monetário global",
-        "Mercado precifica possíveis novas reduções para próximas reuniões do Copom",
-        "Incerteza eleitoral e reajustes fiscais pesaram sobre projeções de médio prazo"
+        "Juros futuros recuaram por toda a curva, refletindo redução da projeção de Selic para 13,50% ao fim de 2026",
+        "Mercado precifica cenário de maior estabilidade inflacionária e potencial para continuidade de cortes",
+        "Curva apresenta movimento de fechamento (flattening): vértices curtos cederam mais que os longos",
+        "Volume financeiro relevante em toda a estrutura de prazos"
       ],
-      "explanation": "A curva de juros abriu mais achatada após o corte de Selic, mas mantém níveis elevados por pressões internacionais. Sinais de redução gradual criam oportunidade para quem quer fixar ganhos em prefixados antes de maiores quedas.",
-      "na_pratica": "Prefixado: aproveite antes dos cortes acelerarem; Pós-fixado/CDI: ainda rende bem próximo ao CDI de 13,90%; Indexado à inflação: procure por vértices mais longos para capturar proteção contra desancoragem."
+      "explanation": "A curva se fechou (ficou mais achatada) porque os juros pertos caíram mais que os juros longe, sinalizando que o mercado espera uma Selic mais baixa no futuro. Isso significa que quem tinha expectativa de juros altos se aliviar.",
+      "na_pratica": "Renda fixa prefixada se beneficia com a queda de juros (preços das NTN-F sobem). CDI e pós-fixado recebem menos rendimento conforme a Selic desce. Inflação (NTN-B) fica estável com a revisão leve para cima no Focus."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "Taxa DI/CDI em 13,90% a.a. (dados de 14/09/2026)",
-        "Alguns indicadores mostram 14,63% a.a. em medições mais recentes",
-        "CDI segue Selic de perto; redução de 25 bps já refletida parcialmente",
-        "Acumulado de 2026 em torno de 10,00% até meados de setembro"
+        "DI/CDI do dia: taxa implícita refletindo expectativa de Selic a 13,50% para dezembro/2026",
+        "Redução de 25 bps na projeção anterior (de 13,75% para 13,50%) sinaliza confiança em estabilização",
+        "Operações estruturadas mantêm liquidez normal ao longo do pregão"
       ],
-      "explanation": "O CDI é a taxa média dos empréstimos entre bancos e é o principal indexador da renda fixa brasileira. Quando alguém investe em um fundo DI ou CDB a '100% do CDI', recebe exatamente essa taxa; em 'CDB a 110% do CDI', recebe 10% a mais. Acompanha a Selic de perto.",
+      "explanation": "O CDI é a taxa média de juros que os bancos cobram uns dos outros para emprestar dinheiro por um dia. Ela acompanha a Selic, que é a taxa básica do Banco Central. Quem tem dinheiro no CDI (tipo em fundos ou contas especiais) está recebendo menos juros porque a expectativa é de Selic mais baixa.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechamento: 185.229,17 pontos, -0,41% (ou 185.992 pontos, +0,24% em fonte alternativa)",
-        "Oscilação: entre 184.460,91 e 195.991,47 pontos; volume R$ 26,8 bilhões",
-        "Top 5 altas: Yduqs (+3,07%), Santander Brasil (+2,52%), Vale (+2,07%), mineração forte",
-        "Top 5 baixas: CSN Mineração (-5,59%), Cury (-5,15%), Marcopolo (-5,08%)"
+        "Fechamento: 186.595,60 pontos, +0,74% | Amplitude: 185.246,81 (mín.) a 187.434,25 (máx.)",
+        "Volume financeiro: R$ 19,4 bilhões | YTD: +15,81% | Mês: +5,17%",
+        "Top 5 altas: BTG Pactual (BPAC11) +3,42%, Itaú (ITUB4) +1,77%, Santander (SANB11) +1,53%, Bradesco (BBDC4) +0,94%, Votorantim (VOTO11) +2,10%",
+        "Top 5 baixas: Vale (VALE3) -1,12%, Banco do Brasil (BBAS3) -0,91%, Petrobras ON/PN (PETR4/PETR3) -1,50%/-1,20%, CSN Mineração (CMIN3) -2,15%, Gerdau (GGBR4) -1,08%"
       ],
-      "explanation": "Ibovespa teve dia de realização de lucros e ajuste de posições antes do fim de semana. Eleições a 2 semanas causaram volatilidade em reação a anúncios de gastos (Bolsa Família). Petróleo recuou e pesou sobre Petrobras. Mercado internacional (Fed, Banco do Japão) também limitou ganhos.",
-      "na_pratica": "Ações: dia de cautela; grandes bancos e mineradoras oscilaram; mercado aguarda pós-eleição para maior clareza sobre fiscal."
+      "explanation": "A bolsa subiu porque o mercado global ficou mais otimista: o petróleo caiu bastante (reduzindo receios de inflação), as ações de tecnologia subiram nos EUA (impulsionando apetite por risco), e os juros internacionais cederam um pouco. Bancos subiram porque quando há mais apetite por risco, as pessoas querem investir mais em ações. Vale caiu porque o minério de ferro recuou, e Petrobras acompanhou a queda do óleo.",
+      "na_pratica": "Ações de bancos ficam mais atrativas em dia de otimismo (você quer cobrar mais risco). Vale e Petrobras sofrem com commodities em queda (encarecimento para quem quer exportar). Ações defensivas (utilities, saneamento) tendem a sofrer em dias de alta (investidor prefere risco). Setores ligados a consumo interno (retail) ganham com Selic caindo."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "Fechamento: 3.750,27 pontos, +0,07%",
-        "Oscilação intradiária: mínima 3.735,10, máxima 3.751,11 pontos",
-        "Acumulado no ano 2026: em torno de -0,80% até setembro",
-        "TRBL11 liderou altas (+4,44%); RECR11 subiu 1,58%"
+        "Fechamento em 18/09: 3.750,27 pontos, +0,07% | Variação semanal: +0,04% | YTD: -0,76%",
+        "Acumulado semanal relativo (vs. 11/09): +1,64 ponto | Volume normal em FIIs de infra e logística",
+        "Destaques: TEPP11 -4,65% (maior volume), MXRF11 +0,33%, TRXF11 +1,46%"
       ],
-      "explanation": "IFIX é o índice de fundos imobiliários. Movimento muito moderado reflete mercado segmentado com alguns nomes se destacando. Queda de Selic torna o CDI menos atrativo, podendo beneficiar imóveis via valorização de parcelas do negócio.",
+      "explanation": "O IFIX é um índice que acompanha fundos imobiliários (FIIs), que são como ações de propriedades (escritórios, shoppings, logística). Quando sobe a Selic, esses fundos ficam menos atrativos porque renda fixa fica mais rentável. O índice está praticamente estável neste ano.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B (indexada a IPCA): vértices curtos em alta; cupom de 6% a.a. mantido",
-        "LTN (prefixada): mantém taxas elevadas acima de 14% em prazos de 12 meses",
-        "LFT (pós-fixada ao CDI): acompanha redução de Selic, menos atrativa em relação a outros ativos",
-        "Mercado aguarda próximas reuniões do Copom para novas trajetórias"
+        "NTN-B (inflação): vértices curtos e médios cederam em linha com a queda de juros reais; longa mantém suporte",
+        "LTN (prefixado puro): taxas recuaram 15-25 bps ao longo da curva, beneficiadas pela revisão de Selic para baixo",
+        "LFT (pós-fixada pura): menos volátil, acompanha dinamicamente a Selic esperada; sem movimento significativo"
       ],
-      "explanation": "NTN-B protege de inflação (IPCA); LTN garante taxa fixa hoje mas perde se juros caírem muito; LFT rende próximo ao CDI, segue Selic. Com Selic em queda, LTN começa a ficar mais interessante para quem quer travar ganho.",
-      "na_pratica": "NTN-B: aproveite juro real elevado se acredita em inflação; LTN: boa para quem quer prefixado antes de mais cortes; LFT: menos atrativa agora que Selic cai, melhor em ciclos de alta."
+      "explanation": "NTN-B rende acima da inflação (IPCA), então é um título bom se você quer proteger seu dinheiro da inflação — as taxas caíram um pouco hoje. LTN é um título que paga uma taxa fixa definida no dia que você compra — as taxas caíram porque o mercado espera juros mais baixos. LFT segue a Selic: não oferece surpresa porque acompanha os juros do dia a dia.",
+      "na_pratica": "NTN-B: ideal para proteção contra inflação em longo prazo; ficou mais cara hoje (yield caiu). LTN: bom para quem quer garantir juros altos; também ficou mais cara. LFT: simples e previsível, segue a Selic; ideal para quem quer segurança máxima."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "Dólar/Real: R$ 5,1289, -0,48% (dólar mais fraco, real mais forte)",
-        "DXY (índice do dólar global): recuou com queda de Treasuries",
-        "Banco Central vendeu US$ 1 bi em leilão de linha para 02/04/2027",
-        "Semana marcada por juros globais em retração após Fed e Banco do Japão"
+        "Dólar (PTAX/fechamento comercial): R$ 5,10-5,13, queda de ~0,6% no dia | DXY (índice do dólar): -0,4% (dólar se enfraqueceu)",
+        "Motivo: alivio global com petróleo caindo (reduz pressão no Brasil), Federal Reserve considerado menos agressivo",
+        "Volume normal no mercado spot com demanda de importadores"
       ],
-      "explanation": "PTAX é a taxa oficial divulgada pelo BC, usada em contratos. DXY mede força do dólar contra moedas principais. Real fortalecido hoje com recuo do dólar global. BC interveio vendendo dólares para manter estabilidade.",
-      "na_pratica": "Viagens/importados: dólar mais baixo significa produtos estrangeiros menos caros hoje; Investimentos no exterior: retorno menor em reais, mas moeda favorável para quem quer sair; CDI vs. Dólar: em real, aplicações renderam bem, em dólar, ganho menor por desvalorização."
+      "explanation": "O PTAX é a cotação oficial do dólar publicada pelo Banco Central. O DXY mede a força do dólar contra uma cesta de moedas (euro, libra, etc.). Dólar caiu porque o exterior ficou mais otimista e menos precisa de dólares como 'moeda de fuga'. Para o Brasil, dólar mais barato é bom para quem importa (tecnologia, matérias-primas) e ruim para quem exporta.",
+      "na_pratica": "Viagens internacionais: dólar mais barato é melhor (você gasta menos reais para viajar). Importados: notebook, celular, roupas ficam mais baratos. Exportação: mais difícil vender para o exterior porque o real ficou mais forte. Investimentos internacionais: menos rendimento em reais quando você traz dólares de volta."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500: +0,19% em encerramento (recuperação após queda pós-Fed)",
-        "Nasdaq 100: -0,17% (tecnologia cedeu); Dow Jones: +0,66%",
-        "Treasuries: 2 anos, 10 anos e 30 anos recuaram; yields passaram a estabilizar acima de 5%",
-        "Fed mantém juros em 3,75%-4,00%; sinalizou mais um aumento em 2026"
+        "S&P 500: 7.764,70 pontos, +1,49% | Dow Jones: 52.048,83 pontos, +0,71% | Nasdaq: 27.122,09 pontos, +2,26%",
+        "Treasuries: 10 anos caiu abaixo de 5%, queda de ~15-20 bps | Volatilidade (VIX): em queda (mercado mais confortável)",
+        "Catalisador principal: quedão do petróleo reduz preocupações com inflação e custos; chip stocks (IA) em alta; Fed visto como menos agressivo"
       ],
-      "explanation": "Após aumento de 25 bps de terça, mercado rebaixou expectativas de mais altas. Yields começaram a ceder, favorecendo renda variável. Tecnologia sofreu mais, financeiros se mantiveram. Inflação ainda é foco, petróleo acima de US$ 100 segura pressão.",
-      "na_pratica": "Ações internacionais: dia de consolidação pós-Fed, viés cautela; Multimercado com dólar: beneficiados pela estabilização do câmbio."
+      "explanation": "Wall Street subiu porque o mercado ficou menos assustado com inflação (petróleo caiu muito) e menos preocupado com mais aumentos de juros pelo Federal Reserve. Nasdaq (tech) subiu mais porque ações de tecnologia e IA atraem investidores otimistas. Treasury yields caíram (preço dos títulos subiu) porque juros vão ficar mais baixos.",
+      "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Japão (Nikkei): Banco do Japão elevou juros para 1,25% (máximo em 31 anos)",
-        "Europa (Stoxx 600, DAX, CAC 40, FTSE): impactadas pelo aumento global de juros",
-        "China (Shanghai/Hang Seng): pressão por crescimento lento e política monetária apertada global",
-        "Coreia, Chile, México, Índia: efeito contágio de ciclo de aperto monetário do G10"
+        "Europa (Stoxx 600): +1,0% ao longo do dia, impulsionado por tecnologia e finanças após 3 semanas de queda",
+        "Ásia: Kospi (Coreia) +1,6%, Nikkei 225 (Japão) +1,1%, CSI 300 (China) +0,7%, Hang Seng (HK) +1,2%",
+        "Motivo geral: alívio no petróleo, apetite por risco com tech em alta, perspectiva de desescalação EUA-Irã"
       ],
-      "explanation": "Setembro de 2026 marca entrada de vários bancos centrais em ciclos de aperto. Japão surpreendeu ao acelerar aumentos. Mercados desenvolvidos sofrem com pressão de inflação e geopolítica (Oriente Médio). Mercados emergentes enfrentam saída de capital.",
-      "na_pratica": "Ativos internacionais: cautela com mercados desenvolvidos por juros altos; emergentes sofrem rotação para EUA."
+      "explanation": "Mercados globais subiram juntos porque a queda do petróleo reduz receios de inflação em todos os países. Tecnologia está em alta porque investidores acreditam em IA e crescimento futuro. Ásia também ganhou com perspectiva de negociações diplomáticas reduzindo tensão no Oriente Médio.",
+      "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Petróleo Brent: US$ 103,87, -0,91% (pressão por crescimento fraco e yields altos)",
-        "WTI: US$ 101,28, em queda similar",
-        "Ouro: retração moderada no intradia com dólar mais fraco no final do dia",
-        "Geopolítica: Oriente Médio mantém risco; preços acima de US$ 100 alimentam temores de inflação"
+        "Petróleo Brent (nov): US$ 100,34/barril, -3,40% | WTI (out): US$ 95,78/barril, -4,51% | Queda de 4 pregões seguidos",
+        "Ouro: US$ 4.380/onça, -0,7% na semana | Prata: sem cotação específica, acompanhando ouro com maior volatilidade",
+        "Motivo: otimismo com acordo diplomático EUA-Irã, fluxos normalizados de petróleo da Arábia Saudita pelo Golfo"
       ],
-      "explanation": "Petróleo e ouro refletem equilíbrio entre risco geopolítico e atração por juros mais altos globais. Yields acima de 5% enfraquecem demanda por ativos 'refúgio'. Inflation-linked beneficiados. Ações de petrolíferas sob pressão.",
-      "na_pratica": "Inflação: petróleo elevado pressiona inflação, favorece NTN-B e metais preciosos; Ações de energia: Petrobras sofre com queda de Brent; Câmbio: petróleo em dólar forte afeta países importadores como Brasil."
+      "explanation": "Petróleo caiu bastante porque o mercado acredita que a guerra no Oriente Médio não vai piorar e porque a Arábia Saudita conseguiu escoar mais óleo (reduz preocupação de falta). Ouro caiu porque quando a bolsa sobe e as pessoas ficam otimistas, ouro fica menos procurado (ouro é 'refúgio em crise'). Mais barato para investidor que quer hedge, mais caro para joalheria.",
+      "na_pratica": "Inflação: petróleo barato reduz preço na bomba e de produtos transportados. Bolsa Brasil: Petrobras sofre (receita cai), mas ações em geral ganham. Câmbio: petróleo barato reduz pressão inflacionária, reais ganham valor. Ouro: bom para quem quer comprar ouro físico (ficou mais barato em dólares), ruim para quem tem ouro como investimento."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "Sexta-feira 18/09 foi marcada por ajuste de posições em ambiente de incerteza eleitoral e juros globais elevados. Selic já havia caído para 13,75% na quarta (16/09), sinalizando porta aberta para novos cortes, o que beneficia prefixados. Porém, Fed e Banco do Japão reforçaram ciclos de aperto monetário global, limitando ganhos. Anúncio de reajuste de 15% no Bolsa Família causou volatilidade (mercado temeu risco fiscal, depois interpretou como posicionamento eleitoral). Petróleo caiu 0,91% pesando sobre Petrobras, e dólar se fortaleceu globalmente mas fraquejou ante real por queda de yields americanos. Ibovespa recuou 0,41% em dia de realização, volume normal de R$ 26,8 bi. Resultado: cautela antes do fim de semana, com foco em eleições de outubro e próximas decisões de política monetária brasileira."
+      "summary": "O mercado brasileiro fechou em alta nesta segunda-feira (21) impulsionado por um dia de otimismo global e alívio de preocupações inflacionárias. O petróleo Brent desabou mais de 3% para pouco acima de US$ 100/barril — fechando o 4º dia de queda — depois que investidores ganharam confiança em negociações diplomáticas entre EUA e Irã e constataram normalização de fluxos de petróleo saindo da Arábia Saudita. Com a inflação menos assustadora, Wall Street acelerou: S&P 500 subiu 1,49% e Nasdaq saltou 2,26%, puxados por ações de tecnologia e IA. No Brasil, o Ibovespa cresceu 0,74% com bancos liderando (BTG +3,42%, Itaú +1,77%), enquanto o dólar caiu para R$ 5,10 em reflexo da força global do real. O Banco Central revisou a projeção de Selic para 2026 de 13,75% para 13,50%, sinalizando continuidade dos cortes de juros, o que fez toda a curva de juros futuros recuar. Vale sofreu -1,12% acompanhando o minério de ferro, mas o tom geral foi de apetite por risco e alívio das pressões externas que vinham preocupando o mercado nas semanas anteriores."
     }
   ]
 }
