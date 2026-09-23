@@ -1,119 +1,118 @@
 {
-  "date": "2026-09-22",
-  "headline": "Ibovespa encerra com alta de 0,44% e Nasdaq bate novo recorde; dólar se recupera com ata do Copom",
+  "date": "2026-09-23",
+  "headline": "Bolsas caem em sintonia com exterior; Fed mantém mercado sob pressão e yield de 10 anos volta a máximas de 2007",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Curva de juros fechou mais inclinada (subiu nas pontas curtas mais que nas longas)",
-        "Mercado reagiu à ata do Copom que confirmou desaceleração econômica maior que esperado",
-        "Aumento nas expectativas de inflação pressionou juros nos vértices curtos e médios",
-        "Taxas avançaram por toda a curva conforme detalhes do comunicado do Copom ecoaram no mercado"
+        "Informações de taxa DI não totalmente disponíveis para todos os vencimentos solicitados do pregão de 23/09",
+        "Contexto: Selic em 13,75% a.a. (redução de 0,25 pp em 17/09)",
+        "Ata do Copom manteve tom prudente, sinalizando continuidade da política contracionista",
+        "Curva segue sob pressão com yields dos Treasuries em alta e PMI acima do esperado"
       ],
-      "explanation": "A curva ficou mais inclinada quando os juros curtos sobem mais que os longos — é como se o mercado esperasse que as taxas futuros sejam ainda mais altas logo à frente. A ata mostrou que o BC reconhece uma desaceleração econômica, o que historicamente leva a menor pressão por quedas de taxa nas pontas mais longas.",
-      "na_pratica": "Renda fixa prefixada: quem tem títulos com prazo curto sofre menos; mas espera-se alta de taxas, então novas compras de prefixado longo viram mais atrativas. Renda fixa pós/CDI: rendimento já acompanhando o CDI que está em 13,65%, ótimo para quem quer renda de curto prazo. Renda fixa indexada à inflação (NTN-B): inflação elevada segue pressão, mas taxas reais (juros menos inflação) passam a oferecer renda melhor."
+      "explanation": "A curva de DI está pressionada pelo aumento dos Treasuries americanos, que saltaram acima de 5% no 10-year. Isso reflete expectativas de que o Federal Reserve pode precisar apertar juros novamente.",
+      "na_pratica": "Investidores em renda fixa prefixada ganham com juros altos, mas pré-fixados de curto prazo ficam menos atraentes; pós-fixados (CDI) mantêm rentabilidade elevada em 13,65%; NTN-B sofre com expectativa de aperto global, reduzindo demanda por títulos indexados à inflação."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "Taxa DI/CDI: 13,65% ao ano (22/09/2026)",
-        "Equivale a aproximadamente 0,051% ao dia útil",
-        "Acompanha a Selic em 13,75% ao ano (última redução em 16/09 para 13,75%)",
-        "Investimentos em CDBs, LCIs e fundos DI rendem um percentual deste CDI"
+        "Taxa DI/CDI: 13,65% a.a. (atualizada em 22/09/2026)",
+        "Equivalente a ~0,051% ao dia útil",
+        "R$ 10 mil rendem aproximadamente R$ 91/mês líquido neste patamar",
+        "CDI acompanha Selic de 13,75% a.a., ficando 0,10 p.p. abaixo"
       ],
-      "explanation": "CDI é simplesmente a taxa média que os bancos cobram uns dos outros em empréstimos de curtíssimo prazo — é a referência para quase toda renda fixa do Brasil. Como a Selic está em 13,75%, o CDI fica bem próximo (13,65%).",
+      "explanation": "O CDI é a taxa média dos empréstimos de curtíssimo prazo (um dia) entre bancos e reflete o custo do dinheiro na economia. Serve como referência para CDBs, fundos DI e outros investimentos de renda fixa.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechamento: 187.422,92 pontos (+0,44%)",
-        "Oscilou entre 184.976,81 (mínima) e 187.671,74 (máxima)",
-        "Bancos lideraram altas (Itaú Unibanco, Santander Brasil); Vale e Petrobras tiveram quedas leves",
-        "Volume negociado moderado; sentimento influenciado por ata do Copom, discurso de Lula na ONU e queda no petróleo"
+        "Fechamento: 185.814,09 pontos (-0,86% vs. dia anterior)",
+        "Máxima do dia: 188.772 pontos (+0,72%); Mínima: 185.676 pontos (-0,93%)",
+        "Volume financeiro: R$ 0,9 bilhões",
+        "Variação em 2026: +15,32%; Variação no mês: +4,73%"
       ],
-      "explanation": "O Ibovespa começou o dia em queda (impactado pela ata do Copom e economias desacelerando), mas se recuperou durante o pregão com suporte de ações financeiras e fatores externos positivos (queda do petróleo, possibilidade de acordo EUA-Irã). O fechamento positivo revela cautela — ganho pequeno mas significativo.",
-      "na_pratica": "Quem investe em ações: o sinal misto do dia (bancos fortes, commodities fracas) mostra que o mercado está dividido. Espere volatilidade conforme o BC indica próximos passos de política monetária. Ações defensivas (bancos, varejo) seguem oferta melhor que commodities no curto prazo."
+      "explanation": "Ibovespa caiu acompanhando queda dos mercados globais, afetado pelo aumento agudo nos yields dos Treasuries (10-year em 5,11%, maior desde 2007) e PMI mais quente que o esperado sinalizando inflação persistente. Ata do Copom mantendo tom contracionista no BC também pesou nos bancos.",
+      "na_pratica": "Quem investe em ações viu desvalorização do portfólio; setores defensivos (utilities, saúde) tendem a sofrer menos em cenários de juros crescentes; commodities e setores cíclicos pressionados; multimercado que aposta em juros em alta sai ganhando."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "Fechamento: 3.746,30 pontos (-0,41%)",
-        "Oscilou entre 3.742,85 (mínima) e 3.762,35 (máxima)",
-        "No acumulado de 2026: -0,76%; no acumulado desde início de setembro: -0,03%",
-        "Fundos como HSLG11, BLMG11 e MCRE11 lideraram altas no pregão anterior"
+        "Dados específicos de fechamento e variação para 23/09 não disponíveis no período pesquisado",
+        "IFIX (Índice de Fundos Imobiliários) segue tendência geral de queda do mercado",
+        "Pressão de juros altos afeta valuation de fundos imobiliários"
       ],
-      "explanation": "O IFIX (índice que acompanha fundos imobiliários) caiu levemente, refletindo o ambiente de juros mais altos que desestimula a compra de imóveis. A queda pequena sugere que o mercado imobiliário ainda digere as novas perspectivas de taxa.",
+      "explanation": "O IFIX agrupa os principais fundos de investimento imobiliários negociados no Brasil. Costuma sofrer quando juros sobem, pois aumenta a taxa de desconto utilizada para avaliar os imóveis e os aluguéis futuros.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "NTN-B (tesouro IPCA+): taxas subiram conforme inflação segue em foco; vértices curtos e médios pressionados",
-        "LTN (tesouro prefixado): juros subiram em sintonia com DI futuro; novas emissões oferecem rendimento melhor",
-        "LFT (tesouro Selic): acompanha a Selic em 13,75% ao ano; segue como alternativa segura e de renda pós-fixada",
-        "Movimento reflete expectativas do mercado sobre próximas reuniões do Copom em novembro e dezembro"
+        "NTN-B (indexada ao IPCA): pressionada pela alta dos yields globais; investidores reduzem demanda por proteção inflacionária",
+        "LTN (prefixada): segue alta dos Treasuries; curva de juros brasileira tende a acompanhar global",
+        "LFT (pós-fixada/Selic): acompanha CDI em 13,65% a.a., mantendo atratividade em cenário de juros altos",
+        "Motivo: PMI acima do esperado + aumento nos Treasuries sinalizando risco de aperto do Fed; ata do Copom reforça restrição monetária"
       ],
-      "explanation": "Os três tipos de título públicos funcionam assim: LTN é prefixado (você já sabe quanto vai ganhar no final, mas perde se juros subirem antes do vencimento); NTN-B acompanha inflação + juros (protege seu dinheiro da inflação, ideal em cenário de incerteza de preços); LFT acompanha Selic diária (renda segura mas pode cair se Selic cair). Hoje, LTN e NTN-B subiram em taxa porque o mercado espera mais pressão inflacionária.",
-      "na_pratica": "Renda fixa prefixada (LTN): subida de taxa = queda de preço para quem comprou antes, mas novas compras ficam atrativas. Renda fixa indexada à inflação (NTN-B): proteção contra alta de preços, ideal se você acha inflação vai persistir. Renda fixa pós-fixada (LFT + CDI): seguro, rendimento acompanha taxa de juros, perfeito para quem quer segurança."
+      "explanation": "LTN são títulos com rentabilidade definida no momento da compra (prefixada); NTN-B combinam inflação (IPCA) com juros reais; LFT acompanham a Selic diariamente. Em dias de pressão de juros globais, prefixados sofrem porque as taxas oferecidas ficam abaixo do esperado.",
+      "na_pratica": "Renda fixa pré sofre com yields maiores (preços caem); pós-fixada (LFT) se beneficia de juros altos; indexada à inflação (NTN-B) perde espaço quando há expectativa de aperto global que reduz inflação."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "Dólar comercial/PTAX: R$ 5,10 (+0,31%, recuperação após queda no dia anterior)",
-        "Dólar futuro outubro: R$ 5,133 (+0,21%)",
-        "Movimento refletiu expectativas de acordo EUA-Irã mas pressão interna da ata do Copom",
-        "No dia anterior (21/09) tinha caído 0,72% a R$ 5,1080"
+        "Dólar comercial (PTAX 22/09): R$ 5,1161 (dado mais recente da série oficial)",
+        "Dólar à vista (spot) em 23/09: aproximadamente R$ 5,14 (+0,64% no dia 23)",
+        "DXY (Índice do dólar vs. moedas globais): forte em contexto de Treasuries em alta e esperança de aperto do Fed",
+        "Motivo: aumento dos yields dos Treasuries americanos torna dólar mais atrativo; tensões EUA-Irã mantêm volatilidade"
       ],
-      "explanation": "O dólar é a PTAX — é a média oficial do Banco Central de todas as operações de câmbio do dia. Serve como referência para contratos e liquidações. Hoje subiu um pouco porque investidores internacionais veem perspectivas mistas: otimismo com paz no Oriente Médio versus incerteza sobre economia brasileira.",
-      "na_pratica": "Viagens: dólar em R$ 5,10 continua caro comparado a 2023-2024; cada dólar custa mais 40-50% que há dois anos. Produtos importados: preço mais alto na loja porque dólar caro encarece a importação; isso pressionou inflação brasileira. Investimentos internacionais: quem investe em ativos do exterior perde com dólar caro no Brasil (a moeda brasileira enfraquecida reduz ganho em real)."
+      "explanation": "A PTAX é a taxa de câmbio oficial calculada pelo Banco Central; DXY é um índice que mede a força do dólar contra uma cesta de moedas (euro, iene, libra, etc.). Quando Treasuries sobem, investidores preferem dólar, apreciando a moeda.",
+      "na_pratica": "Dólar caro encarece importações e produtos estrangeiros; viajantes pagam mais caro no exterior; quem tem dívida em dólar sente pressão; mas exportadores se beneficiam e empresas com receita internacional ganham."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500: praticamente flat (0,00%); fechou perto da estabilidade",
-        "Nasdaq: +0,4-0,5% (novo recorde histórico); ações de IA sustentaram ganho",
-        "Dow Jones: -0,36% (-185 pontos); bancos caíram forte (JPMorgan -3,35%, Bank of America -3%)",
-        "Treasuries (EUA): yields cederam com esperança de paz no Oriente Médio (EUA-Irã); petróleo em queda ajudou"
+        "S&P 500: -0,75% a 7.706,03 pontos",
+        "Nasdaq: -1,13% a 26.936,04 pontos",
+        "Dow Jones: -0,68% a 51.511,59 pontos",
+        "Treasury 10Y: 5,11% (máxima desde julho 2007); 2Y: 4,947% (máxima desde maio 2024); PMI industrial e serviços acima do esperado"
       ],
-      "explanation": "Wall Street mostrou força seletiva: Nasdaq bateu recorde com ações de IA (Meta, Nvidia, AMD lideraram) enquanto Dow caiu por venda de bancos. A queda do petróleo (menos risco geopolítico) ajudou a ceder pressão nos juros do Tesouro americano. Isso explica por que o Brasil teve ganho: ambiente global menos tenso + possibilidade de acordo diplomático.",
-      "na_pratica": "Para investidor em ativos internacionais: Nasdaq forte em IA é sinal de que mercado continua apostando em tecnologia mesmo com incerteza macro; S&P 500 plano reflete cautela sobre economia real. Yields menores no Tesouro americano deixam menos atrativa a renda fixa externa, incentivando busca por renda fixa brasileira (CDI em 13,65% fica competitivo)."
+      "explanation": "A queda nos EUA foi impulsionada pela escalada nos Treasuries após PMI mais quente que o esperado, alimentando preocupações de inflação persistente e possível aperto do Fed. Sectores de utility e consumer discretionary foram os maiores perdedores.",
+      "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Europa (Stoxx 600): dados não disponíveis em tempo real, mas esperado movimento misto conforme noticiário sobre juros ECB",
-        "China (Shanghai/Hang Seng): dados não disponíveis; Pequim acompanha tensões EUA-Irã e seus efeitos em commodities",
-        "Japão (Nikkei 225): dados não disponíveis; iene pode sofrer pressão com dólar mais forte",
-        "Geral: mercados globais pendularam entre otimismo de paz no Oriente Médio versus preocupações com desaceleração econômica"
+        "Europa: Stoxx 600 e pares europeus caíram com Wall Street; pressão de yields e incerteza sobre China (Xi chegando com delegação menor)",
+        "China: Preocupações com negociações comerciais EUA-China e desempenho econômico em discussão",
+        "Japão e demais: dados não disponíveis para 23/09, mas contexto global aponta para aversão ao risco",
+        "Motivo geral: Treasuries em máximas de 2007 pressiona equities globais; geopolítica EUA-Irã ainda volátil"
       ],
-      "explanation": "Mercados internacionais responderam principalmente à notícia de possível acordo entre EUA e Irã (reduz risco geopolítico) e à queda do petróleo. Moedas emergentes como o real ganharam com menos risco global, mas isso foi limitado pela preocupação interna com economia brasileira.",
+      "explanation": "Quando juros americanos sobem, investidores migram para renda fixa (Treasuries) e saem de ações globais. Isso afeta Brasil porque aumenta expectativa de aperto global e reduz fluxo de capital para mercados emergentes.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Petróleo Brent: ~US$ 98/barril (-2,3%); queda por esperança de acordo EUA-Irã e redução de prêmio de risco geopolítico",
-        "Ouro: dados não disponíveis em tempo real (esperado: impactado por dólar mais forte e yields menores)",
-        "Prata: dados não disponíveis em tempo real",
-        "Motivo principal: redução de tensão no Oriente Médio aliviou pressão nos preços"
+        "Ouro: -2,45% a US$ 4.050,2 por onça-troy (queda devido à alta dos Treasuries e dólar forte)",
+        "Brent: próximo de US$ 100/barril, com volatilidade por tensões EUA-Irã e deficits de oferta",
+        "Petróleo bruto (WTI): caiu nos últimos dias, mas mantém suporte geopolítico",
+        "Motivo: yield alto em Treasuries reduz demanda por ouro (ativo sem rendimento); petróleo volátil entre oferta global e risco regional"
       ],
-      "explanation": "Petróleo cai quando risco geopolítico diminui (menos razão para prêmio de segurança). Queda no petróleo pressiona inflação para baixo (combustível mais barato), o que pode dar ao BC mais espaço para cortar juros no futuro. Ouro, por sua vez, segue dólar (dólar forte reduz apetite por ouro, que compete por capital).",
-      "na_pratica": "Inflação: queda no petróleo (que entra em preço de gasolina, diesel, transportes) deve aliviar inflação nos próximos meses — bom para renda fixa pós-inflação. Câmbio: petróleo barato prejudica reputação de economia importadora-exportadora de petróleo como Brasil, mantendo pressão no dólar. Ações: Petrobras (PETR) sofre com petróleo em queda, afetando ganhos do Ibovespa mesmo com bancos em alta."
+      "explanation": "Ouro é um ativo refúgio que sofre quando Treasuries rendem mais (investidores preferem renda); petróleo sobe com geopolítica tensa (risco de oferta) mas cai com expectativa de crescimento menor (menos consumo).",
+      "na_pratica": "Ouro em queda reduz pressão inflacionária percebida; petróleo próximo de US$ 100 mantém risco de gasolina cara e inflação de energia (isso encarece combustível, alimentos e transportes); ações de mineradoras sofrem com ouro fraco; empresas de petróleo ganham com preço ainda elevado."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "<cite index=\"5-4\">No pregão de 22 de setembro de 2026, o Ibovespa recuou inicialmente na casa dos 185 mil pontos enquanto as taxas avançavam por toda a curva</cite>, impactado pela <cite index=\"16-3,16-4\">ata da 281ª reunião do Copom, que trouxe poucas mudanças em relação ao comunicado anterior e reafirmou que os próximos passos dependerão da evolução da inflação, da atividade econômica e das expectativas de mercado</cite>. O índice se recuperou ao longo do dia, fechando <cite index=\"10-1\">em alta de 0,44%, aos 187.422,92 pontos</cite>, sustentado pelo desempenho de ações de bancos e pela queda nos mercados internacionais de petróleo, refletindo esperança de <cite index=\"31-1\">acordo entre EUA e Irã para encerrar a guerra no Oriente Médio</cite>. Externamente, <cite index=\"40-1\">o Nasdaq ganhou 0,5% a fechar em novo recorde histórico</cite> com força em ações de inteligência artificial, enquanto <cite index=\"31-1\">o dólar fechou a terça-feira próximo da estabilidade ante o real, a R$ 5,10</cite>. A <cite index=\"22-1\">taxa DI/CDI permaneceu em 13,65%</cite>, mantendo investimentos em renda fixa pós-fixada como alternativa robusta em cenário de incerteza econômica interna."
+      "summary": "O mercado brasileiro acompanhou queda global após Treasuries americanos explodirem (10-year em 5,11%, maior desde 2007) em reação a PMI acima do esperado, sinalizando inflação persistente que pode forçar novo aperto do Fed. Simultaneamente, a ata do Copom manteve tom contracionista, frustrando esperança de corte de juros nas próximas reuniões, o que afastou compras de ações e pressionou bancos. Na ponta do câmbio, o dólar se apreciou com Treasuries altos e incerteza sobre negociações EUA-Irã. Ouro caiu 2,45% com yields em alta, enquanto petróleo permaneceu volátil perto de US$ 100/barril. Investidores migraram para renda fixa global, deixando ações, emergentes e commodities defensivas sob pressão, configurando um dia típico de \"flight to quality\" em favor de Treasuries americanos."
     }
   ]
 }
