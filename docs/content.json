@@ -1,118 +1,118 @@
 {
-  "date": "2026-09-24",
-  "headline": "Ibovespa cai com preocupações econômicas do BC, enquanto tensões no Oriente Médio elevam petróleo e juros americanos",
+  "date": "2026-09-25",
+  "headline": "Mercado em pressão: Ibovespa cai pela terceira sessão, dólar em R$ 5,19 e títulos públicos desafiam alta de juros nos EUA",
   "sections": [
     {
       "id": 1,
       "title": "Juros Brasil — DI Futuro (B3)",
       "bullets": [
-        "Dados não encontrados em tempo real para fechamento específico dos contratos DI1F27 a DI1F36 de 24/09",
-        "Selic em 13,75% a.a. (reduzida no dia 16 de setembro conforme BC)",
-        "Curva de juros sob pressão com expectativas de manutenção de taxas elevadas",
-        "Projeção de inflação do BC acima da meta até pelo menos Q1 2029"
+        "Dados de vértices de DI futuro não totalmente disponíveis para todas as datas de vencimento solicitadas",
+        "Mercado acompanhou pressão de Treasuries americanos (10 anos em 5,18%)",
+        "Expectativa de manutenção da Selic em 13,75% ao ano mantém pressão nos juros domésticos",
+        "Volatilidade reflete incertezas sobre política monetária global e conflitos geopolíticos"
       ],
-      "explanation": "O BC reduziu a projeção de crescimento de 2026 para 1,8%, sinalizando cautela mesmo com Selic elevada, o que mantém a curva de juros apertada e ofertas de renda fixa atrativas.",
-      "na_pratica": "Títulos prefixados (LTN) permanecem com taxas altas e rentáveis; títulos pós-fixados (LFT/Tesouro Selic) mantêm rendimento próximo aos 13,75% anuais; indexados à inflação (NTN-B) se beneficiam da expectativa de inflação persistente."
+      "explanation": "A curva de juros brasileira acompanha o movimento de alta dos Treasuries americanos, com mercado refletindo tensões inflacionárias globais e possíveis aumentos de taxa do Fed.",
+      "na_pratica": "Renda fixa prefixada pressiona com juros mais altos; pós-fixado (CDI) mantém benefício de taxas elevadas; indexado à inflação (IPCA) sofre com expectativas de aumento de juros reais nos EUA."
     },
     {
       "id": 2,
       "title": "CDI",
       "bullets": [
-        "Taxa CDI: 13,65% a.a. (dado de 23/09/2026)",
-        "CDI acumulado em 2026: 10,23%",
-        "Equivalente a aproximadamente 0,051% ao dia útil",
-        "CDI acompanha a taxa Selic de perto, ambos refletem política monetária restritiva"
+        "Taxa DI em 13,65% ao ano (atualizada em 24/09/2026)",
+        "CDI acumulado no ano de 2026: 10,28%",
+        "Selic em 13,75% ao ano — manutenção mantida há sete reuniões seguidas",
+        "CDI é a taxa média de empréstimos entre bancos, que usa a Selic como referência"
       ],
-      "explanation": "O CDI (Certificado de Depósito Interbancário) é a taxa média de empréstimos entre bancos com prazo de 24 horas, funcionando como referência para investimentos de renda fixa. Permanece elevado pela manutenção de juros altos.",
+      "explanation": "O CDI acompanha a Selic e reflete o custo de dinheiro entre instituições. Com Selic estável, o CDI permanece próximo a esse patamar, servindo como referência para investimentos de renda fixa.",
       "na_pratica": ""
     },
     {
       "id": 3,
       "title": "Ibovespa",
       "bullets": [
-        "Fechamento: 183.965,91 pontos, variação de -0,99% (ou -1,86 conforme outra fonte)",
-        "Mínima: 183.835 pontos | Máxima: 186.211 pontos",
-        "Volume financeiro: R$ 0,86 bilhões",
-        "YTD 2026: +14,18% | Mês (setembro): +3,69%"
+        "Fechamento: 183.476,86 pontos, queda de -0,27% (terceira sessão consecutiva em baixa)",
+        "Amplitude: máxima de 184.214 pontos, mínima de 182.151 pontos",
+        "Volume: R$ 15,5 bilhões no dia",
+        "Acumulado 2026: +13,87% | Mês: +3,41% | Semana: -0,95%"
       ],
-      "explanation": "Queda generalizada provocada por relatório do BC mostrando crescimento reduzido e inflação persistente, além de pressão dos mercados internacionais. Confiança do consumidor caiu ao menor nível em 4 anos.",
-      "na_pratica": "Acionistas sofrem com redução de perspectivas de crescimento; dividendos de alguns setores (utilidades, bancos) continuam atrativos mesmo em ambiente de juros altos."
+      "explanation": "Bolsa descolou de Wall Street (que fechou em alta) sob pressão de dados domésticos (IPCA-15 de setembro) e cenário eleitoral. Busca-venda de posições de risco dominou o pregão.",
+      "na_pratica": "Acionistas veem crise de confiança no curto prazo; Vale (mineração) e Petrobras enfrentam pressão; bancos sofrem com juros mais altos; multimercado protege com posições defensivas."
     },
     {
       "id": 4,
       "title": "IFIX",
       "bullets": [
-        "Fechamento: 3.730,69 pontos",
-        "Variação acumulada em 2026: -0,86% (negativo no ano)",
-        "Desempenho em 2025: +21,08%",
-        "Máxima de 52 semanas: 3.941,62 | Mínima: 3.564,40"
+        "Fechamento: 3.741,57 pontos, alta de +0,48%",
+        "Ganho de 17,99 pontos versus fechamento anterior (3.723,58)",
+        "Amplitude: mínima 3.718,32, máxima 3.743,19",
+        "Acumulado 2026: -1,46% | Desempenho 2025: +21,08%"
       ],
-      "explanation": "O IFIX (Índice de Fundos de Investimento Imobiliário) mede o desempenho dos FIIs mais negociados da B3. O recuo reflete pressão de juros elevados que desestimula investimentos em imóveis.",
+      "explanation": "FIIs recuperaram-se parcialmente na sexta-feira após queda na quinta. Índice imobiliário permanece pressionado por juros altos e desconfiança no mercado imobiliário brasileiro.",
       "na_pratica": ""
     },
     {
       "id": 5,
       "title": "Renda Fixa — Títulos Públicos",
       "bullets": [
-        "LTN (prefixadas): rentabilidade definida no ato da compra, vencimentos de 2027 a 2032",
-        "NTN-B (indexadas a inflação/IPCA): protegem contra inflação, prazos até agosto de 2060",
-        "LFT (pós-fixadas/Tesouro Selic): rentabilidade acompanha Selic (13,75% a.a.), sem risco de taxa",
-        "Pressão de juros americanos em 5,1% (10Y) reduz atratividade relativa de títulos brasileiros"
+        "NTN-B (indexada à inflação) sofre pressão: juros reais sobem com expectativa de aperto do Fed",
+        "LTN (prefixado): taxas fechadas elevadas refletem expectativa de Selic mantida em 13,75%",
+        "LFT (pós-fixado): acompanha Selic e permanece atrativa em patamares atuais",
+        "Mercado internacional dominou dinâmica: 10-year Treasury em máxima desde crise de 2008 (5,18%)"
       ],
-      "explanation": "Diferenças práticas: LTN garante retorno fixo (útil se acredita em queda de juros), NTN-B protege se a inflação acelerar, LFT acompanha o Selic (melhor para quem quer segurança de taxa). Tensões geopolíticas no Oriente Médio pressionam juros mundiais.",
-      "na_pratica": "Prefixados (LTN) oferecem 12-14% a.a. com risco se taxa cair; pós-fixados (LFT) garantem 13,75% mas perdem se Selic cair; indexados à inflação (NTN-B) rendem IPCA + 3-5% a.a., ideais para proteger poupança."
+      "explanation": "NTN-B é um título que protege contra inflação (IPCA), mas sofre quando juros reais sobem; LTN é prefixado (taxa fixa agora) e LFT acompanha a Selic diariamente. Todos sob pressão de juros globais altos.",
+      "na_pratica": "Renda fixa prefixada: LTN menos atrativa com taxas fixadas; pós-fixado: LFT permanece atrativa no curto prazo; indexada: NTN-B recua com juros reais altos."
     },
     {
       "id": 6,
       "title": "Câmbio",
       "bullets": [
-        "Dólar PTAX: R$ 5,14-5,18 (fechamento 23/09 em R$ 5,14)",
-        "Variação: +0,64% no pregão anterior",
-        "Dólar mais forte impulsionado por juros americanos em alta (10Y em 5,1%)",
-        "Tensões EUA-Irã elevam prêmio de risco no câmbio"
+        "PTAX fechamento: R$ 5,19 (+0,01% versus 24/09)",
+        "Dólar comercial estável, permanecendo acima de R$ 5,18 após oscilações",
+        "DXY (índice do dólar global): forte, refletindo expectativas de aperto do Fed",
+        "Pressão em moedas emergentes: Brasil acompanha desvalorização regional"
       ],
-      "explanation": "O PTAX é a taxa de câmbio oficial do Banco Central, calculada como média das operações interbancárias. Dólar sobe com juros americanos altos e incerteza geopolítica.",
-      "na_pratica": "Viagens: turismo nos EUA fica 0,64% mais caro; produtos importados: encarecimento em cadeia produtiva (ex: computadores, máquinas); investimentos internacionais: retornos em dólar ganham rendimento adicional em reais, mas risco cambial é maior."
+      "explanation": "Dólar permanece elevado porque o Fed pode aumentar juros (tornando dólar mais atrativo); Treasuries altos incentivam fuga de capital para EUA; Brasil sofre com risco geopolítico e desconfiança.",
+      "na_pratica": "Viagens: dólar caro encarecendo turismo (turismo acima de R$ 5,30); importados: produtos importados ficam mais caros, pressionando inflação; investimentos internacionais: mais atrativo trazer dólar para Brasil."
     },
     {
       "id": 7,
       "title": "Mercados EUA",
       "bullets": [
-        "S&P 500: 7.704,13 pts, -0,02% | Dow Jones: 51.349,98 pts, -0,31% | Nasdaq: 26.939,37 pts, +0,01%",
-        "Treasuries 10Y: 5,10-5,15% (máxima desde 2007) | 30Y: máxima desde 2004",
-        "Brent: US$ 105,69/barril (+2,5%) | WTI: ~US$ 95/barril",
-        "Catalisa: tensões EUA-Irã sobre Estreito de Ormuz; negociações diplomáticas easing"
+        "S&P 500: +0,51%; Nasdaq: +0,48%; Dow Jones: +0,93% (fechamento 25/09)",
+        "10-year Treasury yield: 5,18% (máxima desde crise de 2008); 2-year em 5,10%, 30-year em 5,35%",
+        "Catalisador principal: negociações EUA-Irã para solução diplomática, queda de petróleo de US$ 88-92/barril",
+        "Expectativa de aperto do Fed mantém pressão fundamental, apesar da recuperação da semana"
       ],
-      "explanation": "EUA fecharam misto com tensão entre inflação (combustíveis em alta) e possível deal diplomático. Juros americanos elevados pesam sobre ações cíclicas mas suportam tech.",
+      "explanation": "Bolsas americanas subiram quando petróleo caiu (sinalizando trégua Irã-EUA), reduzindo pressão inflacionária. Mas Treasuries permaneceram altos, criando conflito entre esperança (preços de ações) e cautela (juros).",
       "na_pratica": ""
     },
     {
       "id": 8,
       "title": "Mercados Internacionais",
       "bullets": [
-        "Europa: pressão de juros altos e incerteza energética por tensões no Oriente Médio",
-        "China: monitorada em contexto de possível summit Trump-Xi em Washington",
-        "Japão/Coreia: sensíveis a movimentos de energia e tech global",
-        "México/Chile: expostos a volatilidade de commodities e câmbio"
+        "Europa: Stoxx 600, DAX, CAC 40, FTSE 100 acompanhando pressão de Treasuries; risco geopolítico de Irã afeta economia europeia",
+        "China: Shanghai Composite, CSI 300, Hang Seng em pressão por demanda global fraca e tensões EUA-Irã",
+        "Japão: Nikkei 225 reflete volatilidade global; Iene forte em cenário de juros altos no exterior",
+        "Coreia, Chile, México, Índia: emergentes sob pressão de dólar forte e aversão ao risco"
       ],
-      "explanation": "Geopolítica domina cenários: negociações EUA-Irã podem easing preços de energia, ou divergências podem aceleração. Juros americanos altos atraem capital global, pressionando emergentes.",
+      "explanation": "Mercados globais oscilam entre esperança (acordo Irã-EUA) e cautela (Treasuries elevados). Moedas fortes ganham, emergentes perdem. Brasil acompanha o padrão de dificuldade regional.",
       "na_pratica": ""
     },
     {
       "id": 9,
       "title": "Commodities",
       "bullets": [
-        "Ouro: US$ 4.363,50/oz troy (+0,47% em 22/09), -6,20% no mês mas +15,92% YoY",
-        "Prata: US$ 65,71/oz (-1,23% em trading early)",
-        "Petróleo Brent: US$ 105,69/barril (+2,5% no dia 23/09), em torno de US$ 106-107 no dia 24"
+        "Ouro: +0,54% (US$ 4.321/oz), recuperando perdas; semana em -2,34%",
+        "Prata: +1,25% (US$ 67,14/oz); semana em -3,48%",
+        "Petróleo Brent: -0,03% (US$ 88,88/barril); WTI: -0,11% (US$ 83,11/barril) — queda com perspectiva de acordo Irã-EUA"
       ],
-      "explanation": "Ouro se beneficia de incerteza, mas prata sofre com risco de demanda industrial. Petróleo sobe com tensões geopolíticas no Golfo Pérsico, mas negocia com negociações diplomáticas em background.",
-      "na_pratica": "Inflação: petróleo alto pressionará preços de combustível, energia e transporte em breve (encarecendo alimentos); câmbio: importações de petróleo custam mais caro em reais; ações: Vale e Petrobras ganham com preços de commodities altos."
+      "explanation": "Ouro e prata sofrem com dólar forte e juros reais altos (Treasuries em máximas), mas recuperam-se quando petróleo cai (reduz temor de inflação). Petróleo caiu por expectativa de acordo que aumenta oferta global.",
+      "na_pratica": "Inflação: petróleo mais barato reduz pressão (combustível, transporte); câmbio: ouro em dólar forte prejudica dólar futuro brasileiro; ações: Vale e Petrobras sofrem com commodities pressionadas."
     },
     {
       "id": 10,
       "title": "Resumo dos Fatos que Moveram o Mercado",
-      "summary": "Quinta-feira foi marcada pelo Relatório de Política Monetária do BC reduzindo projeção de crescimento de 2026 de 2,0% para 1,8%, mantendo expectativa de inflação acima da meta até 2029, o que pressionou ações e reforçou cautela mesmo com Selic elevada. Confiança do consumidor caiu ao menor nível em 4 anos, sinalizando demanda fraca. No exterior, tensões EUA-Irã sobre o Estreito de Ormuz elevaram petróleo e juros americanos (10Y acima de 5,1%, máxima desde 2007), reduzindo atratividade relativa de ativos brasileiros. Dólar subiu 0,64% refletindo juros americanos mais altos. Negociações diplomáticas entre EUA e Irã criaram esperança de acordo, easing pressões ao final do pregão, mas incerteza persiste. Resultado: Ibovespa caiu 0,99%, Dow recuou 0,31%, S&P 500 praticamente estável, enquanto Brent subiu 2,5% em contexto de aversão ao risco global."
+      "summary": "O mercado brasileiro foi pressionado nesta sexta-feira por uma tríade de fatores negativos: (1) alta dos Treasuries americanos a máximas desde 2008 (10 anos em 5,18%), sinalizando aperto continuado do Fed e afastando investidores de ativos emergentes; (2) dados domésticos sensíveis (IPCA-15 de setembro e pesquisa eleitoral) alimentando incerteza sobre política doméstica; (3) oscilação no Oriente Médio, com negociações EUA-Irã iniciadas reduzindo petróleo, mas insuficiente para reverter aversão ao risco. Resultado: Ibovespa recuou pelo terceiro dia seguido (-0,27%), dólar manteve-se em R$ 5,19, e renda fixa internacional dominou os movimentos globais. FIIs tiveram leve recuperação (+0,48%), mas mercado acionário segue sob pressão. EUA terminaram em alta (Dow +0,93%, S&P +0,51%, Nasdaq +0,48%), apesar dos Treasuries altos, porque a esperança de paz no Golfo Pérsico (reduzindo petróleo) compensou brevemente os temores de inflação. Brasil, contudo, descolou negativamente, refletindo vulnerabilidade a choques externos em cenário de juros elevados e desconfiança política doméstica."
     }
   ]
 }
